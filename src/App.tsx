@@ -12,6 +12,7 @@ import {
   Menu,
   X,
   Plane,
+  Play,
   Compass,
   Heart,
   Shield,
@@ -485,6 +486,18 @@ const hotels = [
 
 // ─── Hooks ───────────────────────────────────────────────────────────────────
 
+const weddingGallery = [
+  '/images/weddings/photo1.jpeg',
+  '/images/weddings/photo2.jpeg',
+  '/images/weddings/photo3.jpeg',
+  '/images/weddings/photo4.jpeg',
+  '/images/weddings/photo5.jpeg',
+  '/images/weddings/photo6.jpeg',
+  '/images/weddings/photo7.jpeg',
+  '/images/weddings/photo8.jpeg',
+  '/images/weddings/photo9.jpeg',
+];
+
 function useIntersectionObserver(threshold = 0.15) {
   const ref = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
@@ -683,7 +696,10 @@ export default function App() {
   const [heroIndex, setHeroIndex] = useState(0);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [formErrors, setFormErrors] = useState<Record<string, string>>({});
   const [activeSection, setActiveSection] = useState('home');
+  const [modalOpen, setModalOpen] = useState(false);
+  const [activeVideo, setActiveVideo] = useState<string | null>(null);
   const [formData, setFormData] = useState({
     name: '', email: '', phone: '', destination: '', travelDate: '', travelers: '1', message: '',
   });
@@ -732,24 +748,86 @@ export default function App() {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
   }, []);
 
+  useEffect(() => {
+    // lock body scroll when modal is open and allow ESC to close
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setModalOpen(false);
+        setActiveVideo(null);
+      }
+    };
+
+    if (modalOpen) {
+      document.body.style.overflow = 'hidden';
+      document.addEventListener('keydown', handleKey);
+    } else {
+      document.body.style.overflow = '';
+    }
+
+    return () => {
+      document.body.style.overflow = '';
+      document.removeEventListener('keydown', handleKey);
+    };
+  }, [modalOpen]);
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
+  const validateForm = () => {
+    const errors: Record<string, string> = {};
+    if (!formData.name.trim()) errors.name = 'Full name is required.';
+    if (!formData.phone.trim()) errors.phone = 'Phone number is required.';
+    if (!formData.email.trim()) errors.email = 'Email address is required.';
+    if (!formData.destination.trim()) errors.destination = 'Please select a destination.';
+    if (!formData.travelDate.trim()) errors.travelDate = 'Please choose a travel date.';
+    return errors;
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
+    setFormErrors({});
+
+    const errors = validateForm();
+    if (Object.keys(errors).length > 0) {
+      setFormErrors(errors);
+      // focus first invalid field optionally
+      const firstKey = Object.keys(errors)[0];
+      const el = document.querySelector(`[name="${firstKey}"]`) as HTMLElement | null;
+      el?.focus();
+      return;
+    }
+
+    // Build the WhatsApp message exactly as required
+    const message = `🌍 New Tour Inquiry\n\n👤 Full Name: ${formData.name}\n📞 Phone: ${formData.phone}\n📧 Email: ${formData.email}\n📍 Destination: ${formData.destination}\n📅 Travel Date: ${formData.travelDate}\n👥 Travelers: ${formData.travelers}\n📝 Special Requirements: ${formData.message || 'N/A'}`;
+
+    const waUrl = waLink(message);
+
     try {
+      setIsSubmitting(true);
+      // small delay so the UI shows the redirecting state
+      await new Promise(r => setTimeout(r, 250));
+      // open WhatsApp in a new tab
+      window.open(waUrl, '_blank');
+
+      // also preserve existing behaviour: send to GOOGLE_SCRIPT_URL if configured
       if (GOOGLE_SCRIPT_URL) {
-        await fetch(GOOGLE_SCRIPT_URL, {
-          method: 'POST',
-          mode: 'no-cors',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ ...formData, timestamp: new Date().toISOString() }),
-        });
+        try {
+          await fetch(GOOGLE_SCRIPT_URL, {
+            method: 'POST',
+            mode: 'no-cors',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ ...formData, timestamp: new Date().toISOString(), channel: 'whatsapp' }),
+          });
+        } catch (err) {
+          // non-blocking
+          console.error('Google script submit failed', err);
+        }
       } else {
-        await new Promise(r => setTimeout(r, 1500));
+        // simulate network latency for better UX
+        await new Promise(r => setTimeout(r, 800));
       }
+
       setIsSubmitted(true);
       setFormData({ name: '', email: '', phone: '', destination: '', travelDate: '', travelers: '1', message: '' });
     } catch (err) {
@@ -896,7 +974,7 @@ export default function App() {
           </h1>
 
           <p className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10">
-            21 handpicked destinations across the Himalayas and India — personalised itineraries, expert guides, memories forever.
+            23 handpicked destinations across the Himalayas and India — personalised itineraries, expert guides, memories forever.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -1251,6 +1329,82 @@ export default function App() {
             </div>
           </AnimatedSection>
 
+          {/* ─── Our Wedding Gallery ───────────────────────────────────────── */}
+          {/* Wedding Highlights (Videos) */}
+          <section className="py-12 bg-white">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <AnimatedSection>
+                <div className="text-center mb-6">
+                  <h3 className="font-display text-2xl md:text-3xl font-bold text-gray-900">Wedding Highlights</h3>
+                  <p className="text-gray-500 max-w-2xl mx-auto mt-2">Short highlight reels capturing unforgettable moments.</p>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {['/images/weddings/video1.mp4','/images/weddings/video2.mp4','/images/weddings/video3.mp4','/images/weddings/video4.mp4','/images/weddings/video5.mp4'].map((v, idx) => (
+                    <div key={idx} className="relative rounded-2xl overflow-hidden shadow-lg bg-gray-50 group">
+                      <video
+                        src={v}
+                        playsInline
+                        muted
+                        autoPlay
+                        loop
+                        className="w-full h-64 object-cover block"
+                        aria-hidden
+                      />
+                      <button
+                        onClick={() => { setActiveVideo(v); setModalOpen(true); }}
+                        className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-colors flex items-center justify-center"
+                        aria-label={`Play highlight ${idx + 1}`}
+                      >
+                        <div className="opacity-0 group-hover:opacity-100 transition-opacity">
+                          <div className="w-14 h-14 bg-white/90 rounded-full flex items-center justify-center shadow-lg">
+                            <Play className="w-6 h-6 text-primary-700" />
+                          </div>
+                        </div>
+                      </button>
+                    </div>
+                  ))}
+                </div>
+              </AnimatedSection>
+            </div>
+          </section>
+
+          <section className="py-20 bg-white">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <AnimatedSection>
+                <div className="text-center mb-8">
+                  <h3 className="font-display text-3xl md:text-4xl font-bold text-gray-900">Our Wedding Gallery</h3>
+                  <p className="text-gray-500 max-w-2xl mx-auto mt-3">Capturing unforgettable moments at India's most beautiful destination wedding venues.</p>
+                </div>
+
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                  {weddingGallery.map((u, i) => {
+                    const isVideo = /\.(mp4|webm|ogg)$/i.test(u);
+                    return (
+                      <div key={i} className="overflow-hidden rounded-xl shadow-lg bg-gray-50">
+                        <div className="w-full h-56 bg-gray-100">
+                          {isVideo ? (
+                            <video
+                              src={u}
+                              controls
+                              playsInline
+                              muted
+                              autoPlay
+                              loop
+                              className="w-full h-full object-cover block"
+                            />
+                          ) : (
+                            <img src={u} alt={`Wedding ${i + 1}`} className="w-full h-full object-cover transition-transform duration-500 ease-out hover:scale-105" />
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </AnimatedSection>
+            </div>
+          </section>
+
           <AnimatedSection>
             <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
@@ -1300,18 +1454,7 @@ export default function App() {
                 </ul>
               </div>
 
-              <div className="grid grid-cols-3 gap-2">
-                {[
-                  'https://images.pexels.com/photos/1450354/pexels-photo-1450354.jpeg',
-                  'https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg',
-                  'https://images.pexels.com/photos/1002348/pexels-photo-1002348.jpeg',
-                  'https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg',
-                  'https://images.pexels.com/photos/3581364/pexels-photo-3581364.jpeg',
-                  'https://images.pexels.com/photos/145939/pexels-photo-145939.jpeg',
-                ].map((u, i) => (
-                  <div key={i} className="h-28 bg-cover bg-center rounded-xl shadow-sm" style={{ backgroundImage: `url('${u}?auto=compress&cs=tinysrgb&w=800')` }} />
-                ))}
-              </div>
+              {/* ...existing code continues (gallery moved above) ... */}
             </div>
           </AnimatedSection>
 
@@ -1405,20 +1548,24 @@ export default function App() {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-4">
+
                     <div className="grid sm:grid-cols-2 gap-4">
                       <div>
                         <label className="block text-xs font-bold text-gray-600 uppercase tracking-wide mb-2">Full Name *</label>
                         <input type="text" name="name" value={formData.name} onChange={handleInputChange} required placeholder="Rahul Sharma" className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none bg-white text-sm transition-all" />
+                        {formErrors.name && <p className="text-rose-600 text-sm mt-1">{formErrors.name}</p>}
                       </div>
                       <div>
                         <label className="block text-xs font-bold text-gray-600 uppercase tracking-wide mb-2">Phone *</label>
                         <input type="tel" name="phone" value={formData.phone} onChange={handleInputChange} required placeholder="+91 98171 53799" className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none bg-white text-sm transition-all" />
+                        {formErrors.phone && <p className="text-rose-600 text-sm mt-1">{formErrors.phone}</p>}
                       </div>
                     </div>
 
                     <div>
                       <label className="block text-xs font-bold text-gray-600 uppercase tracking-wide mb-2">Email *</label>
                       <input type="email" name="email" value={formData.email} onChange={handleInputChange} required placeholder="you@email.com" className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none bg-white text-sm transition-all" />
+                      {formErrors.email && <p className="text-rose-600 text-sm mt-1">{formErrors.email}</p>}
                     </div>
 
                     <div className="grid sm:grid-cols-2 gap-4">
@@ -1428,6 +1575,7 @@ export default function App() {
                           <option value="">Select destination</option>
                           {destinations.map(d => <option key={d.id} value={d.name}>{d.name}</option>)}
                         </select>
+                        {formErrors.destination && <p className="text-rose-600 text-sm mt-1">{formErrors.destination}</p>}
                       </div>
                       <div>
                         <label className="block text-xs font-bold text-gray-600 uppercase tracking-wide mb-2">Travel Date *</label>
@@ -1448,17 +1596,19 @@ export default function App() {
                       <textarea name="message" value={formData.message} onChange={handleInputChange} rows={3} placeholder="Budget, dietary needs, mobility requirements..." className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none bg-white text-sm resize-none transition-all" />
                     </div>
 
-                    <button
-                      type="submit"
-                      disabled={isSubmitting}
-                      className="w-full bg-gradient-to-r from-accent-500 to-accent-600 text-white py-4 rounded-xl font-bold text-base hover:shadow-xl hover:shadow-accent-500/30 transition-all duration-300 disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center gap-2 hover:-translate-y-0.5"
-                    >
-                      {isSubmitting ? (
-                        <><div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />Sending...</>
-                      ) : (
-                        <><Send className="w-5 h-5" />Send Inquiry</>
-                      )}
-                    </button>
+                    <div>
+                      <button
+                        type="submit"
+                        disabled={isSubmitting}
+                        className="w-full bg-gradient-to-r from-accent-500 to-accent-600 text-white py-4 rounded-xl font-bold text-base hover:shadow-xl hover:shadow-accent-500/30 transition-all duration-300 disabled:opacity-60 disabled:cursor-not-allowed flex items-center justify-center gap-2 hover:-translate-y-0.5"
+                      >
+                        {isSubmitting ? (
+                          <><div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />Redirecting to WhatsApp...</>
+                        ) : (
+                          <><Send className="w-5 h-5" />Send Inquiry</>
+                        )}
+                      </button>
+                    </div>
 
                     <p className="text-xs text-gray-400 text-center">
                       We reply within 2 hours. Your data is safe with us.
@@ -1472,6 +1622,31 @@ export default function App() {
       </section>
 
       {/* ─── Footer ─────────────────────────────────────────────────────────── */}
+      {/* Modal / Lightbox for video playback */}
+      {modalOpen && activeVideo && (
+        <div className="fixed inset-0 z-60 flex items-center justify-center bg-black/70 p-4">
+          <div className="relative max-w-4xl w-full rounded-2xl overflow-hidden shadow-2xl bg-black">
+            <button
+              onClick={() => { setModalOpen(false); setActiveVideo(null); }}
+              className="absolute top-4 right-4 z-50 bg-black/40 hover:bg-black/60 text-white p-2 rounded-full"
+              aria-label="Close video"
+            >
+              <X className="w-5 h-5" />
+            </button>
+
+            <div className="w-full bg-black">
+              <video
+                src={activeVideo}
+                controls
+                autoPlay
+                playsInline
+                className="w-full h-[60vh] object-contain bg-black"
+              />
+            </div>
+          </div>
+        </div>
+      )}
+
       <footer className="bg-gray-950 text-white pt-16 pb-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
