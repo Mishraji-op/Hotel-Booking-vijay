@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
+import { getSlug } from '../data/destinationData';
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -66,64 +68,66 @@ function ShowcaseCard({
   }, []);
 
   return (
-    <div
-      ref={ref}
-      className="sc-card"
-      style={{
-        opacity: visible ? 1 : 0,
-        transform: visible
-          ? hovered ? 'translateY(-10px)' : 'translateY(0)'
-          : 'translateY(40px)',
-        transitionDelay: visible ? '0ms' : `${(index % 6) * 80}ms`,
-      }}
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
-    >
-      {/* Background image */}
-      <div className="sc-card__img-wrap">
-        <img
-          src={dest.image.replace('w=800', 'w=1200')}
-          alt={dest.name}
-          loading="lazy"
-          className="sc-card__img"
-          style={{ transform: hovered ? 'scale(1.08)' : 'scale(1)' }}
-        />
-      </div>
-
-      {/* Gradient overlay */}
+    <Link to={`/destinations/${getSlug(dest.name)}`} style={{ textDecoration: 'none' }}>
       <div
-        className="sc-card__overlay"
+        ref={ref}
+        className="sc-card"
         style={{
-          background: hovered
-            ? 'linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.30) 45%, rgba(0,0,0,0.10) 100%)'
-            : 'linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.12) 50%, rgba(0,0,0,0.04) 100%)',
+          opacity: visible ? 1 : 0,
+          transform: visible
+            ? hovered ? 'translateY(-10px)' : 'translateY(0)'
+            : 'translateY(40px)',
+          transitionDelay: visible ? '0ms' : `${(index % 6) * 80}ms`,
         }}
-      />
-
-      {/* Top-left content */}
-      <div className="sc-card__top">
-        <span className="sc-card__tagline">{dest.subtitle}</span>
-        <h3 className="sc-card__title">{dest.name}</h3>
-      </div>
-
-      {/* Bottom content */}
-      <div className="sc-card__bottom">
-        <div className="sc-card__price-block">
-          <span className="sc-card__price-label">Starting From</span>
-          <span className="sc-card__price">{formatPrice(dest.price)}</span>
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+      >
+        {/* Background image */}
+        <div className="sc-card__img-wrap">
+          <img
+            src={dest.image.replace('w=800', 'w=1200')}
+            alt={dest.name}
+            loading="lazy"
+            className="sc-card__img"
+            style={{ transform: hovered ? 'scale(1.08)' : 'scale(1)' }}
+          />
         </div>
 
-        <button
-          className="sc-card__btn"
-          aria-label={`Explore ${dest.name}`}
-        >
-          <ArrowRight
-            className="sc-card__arrow"
-            style={{ transform: hovered ? 'rotate(-45deg)' : 'rotate(0deg)' }}
-          />
-        </button>
+        {/* Gradient overlay */}
+        <div
+          className="sc-card__overlay"
+          style={{
+            background: hovered
+              ? 'linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.30) 45%, rgba(0,0,0,0.10) 100%)'
+              : 'linear-gradient(to top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.12) 50%, rgba(0,0,0,0.04) 100%)',
+          }}
+        />
+
+        {/* Top-left content */}
+        <div className="sc-card__top">
+          <span className="sc-card__tagline">{dest.subtitle}</span>
+          <h3 className="sc-card__title">{dest.name}</h3>
+        </div>
+
+        {/* Bottom content */}
+        <div className="sc-card__bottom">
+          <div className="sc-card__price-block">
+            <span className="sc-card__price-label">Starting From</span>
+            <span className="sc-card__price">{formatPrice(dest.price)}</span>
+          </div>
+
+          <div
+            className="sc-card__btn"
+            aria-label={`Explore ${dest.name}`}
+          >
+            <ArrowRight
+              className="sc-card__arrow"
+              style={{ transform: hovered ? 'rotate(-45deg)' : 'rotate(0deg)' }}
+            />
+          </div>
+        </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

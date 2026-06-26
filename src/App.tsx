@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import TrendingShowcase from './components/TrendingShowcase';
+import DestinationPage from './components/DestinationPage';
 import {
   MapPin,
   Phone,
@@ -705,9 +707,20 @@ function HotelCard({ hotel, onEnquire }: { hotel: typeof hotels[0]; onEnquire: (
   );
 }
 
-// ─── Main App ─────────────────────────────────────────────────────────────────
+// ─── Main App (Router) ───────────────────────────────────────────────────────
 
 export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/destinations/:slug" element={<DestinationPage />} />
+    </Routes>
+  );
+}
+
+// ─── Homepage ─────────────────────────────────────────────────────────────────
+
+function HomePage() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeCategory, setActiveCategory] = useState('All');
