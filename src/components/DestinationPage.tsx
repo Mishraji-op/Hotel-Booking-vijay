@@ -227,7 +227,7 @@ export default function DestinationPage() {
         </div>
 
         <div className="absolute bottom-0 left-0 right-0">
-          <svg viewBox="0 0 1440 80" fill="none" className="w-full"><path d="M0 40L60 35C120 30 240 20 360 25C480 30 600 50 720 55C840 60 960 50 1080 40C1200 30 1320 20 1380 15L1440 10V80H0V40Z" fill="white"/></svg>
+          <svg viewBox="0 0 1440 80" fill="none" className="w-full"><path d="M0 40L60 35C120 30 240 20 360 25C480 30 600 50 720 55C840 60 960 50 1080 40C1200 30 1320 20 1380 15L1440 10V80H0V40Z" fill="white" /></svg>
         </div>
       </section>
 
@@ -557,7 +557,7 @@ export default function DestinationPage() {
                       <label className="block text-xs font-bold text-white/70 uppercase tracking-wide mb-2">Travelers *</label>
                       <select name="travelers" value={formData.travelers} onChange={handleInputChange} required
                         className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl focus:ring-2 focus:ring-accent-500 outline-none text-white text-sm">
-                        {[1,2,3,4,5,6,7,8,9,10].map(n => <option key={n} value={n} className="text-gray-900">{n} {n === 1 ? 'Person' : 'People'}</option>)}
+                        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(n => <option key={n} value={n} className="text-gray-900">{n} {n === 1 ? 'Person' : 'People'}</option>)}
                         <option value="10+" className="text-gray-900">10+ People</option>
                       </select>
                     </div>
