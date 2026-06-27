@@ -211,9 +211,7 @@ export default function LehLadakhPage() {
       <nav className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${isScrolled ? 'bg-white/95 backdrop-blur-md shadow-md py-2' : 'bg-transparent py-4'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-11 h-11 bg-gradient-to-br from-primary-500 to-primary-800 rounded-xl flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
-              <Mountain className="w-6 h-6 text-white" />
-            </div>
+            <img src="/images/weddings/Logo.png" alt="Him Yatra Logo" className="w-11 h-11 rounded-xl object-contain shadow-lg group-hover:scale-105 transition-transform" />
             <div className="text-left">
               <p className={`font-display text-lg font-bold leading-none ${isScrolled ? 'text-gray-900' : 'text-white'}`}>Him Yatra</p>
               <p className={`text-xs font-medium leading-none mt-0.5 ${isScrolled ? 'text-primary-600' : 'text-white/70'}`}>Holidays</p>
@@ -855,9 +853,7 @@ export default function LehLadakhPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
             <div>
               <Link to="/" className="flex items-center gap-3 mb-5 group">
-                <div className="w-11 h-11 bg-gradient-to-br from-primary-500 to-primary-700 rounded-xl flex items-center justify-center">
-                  <Mountain className="w-6 h-6 text-white" />
-                </div>
+                <img src="/images/weddings/Logo.png" alt="Him Yatra Logo" className="w-11 h-11 rounded-xl object-contain" />
                 <div>
                   <p className="font-display text-xl font-bold">Him Yatra</p>
                   <p className="text-gray-400 text-xs">Holidays</p>
