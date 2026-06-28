@@ -672,6 +672,726 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { q: 'What is included in pilgrimage packages?', a: 'Hotel stays, meals, transfers, darshan assistance, and local guide. VIP darshan and helicopter options available on request.' },
     ],
   },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // MADHYA PRADESH
+  // ═══════════════════════════════════════════════════════════════════════════
+  'madhya-pradesh': {
+    slug: 'madhya-pradesh',
+    name: 'Madhya Pradesh',
+    heroImage: 'https://images.pexels.com/photos/5007839/pexels-photo-5007839.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Madhya Pradesh Tour Packages 2026 | Heart of Incredible India',
+    heroDescription: 'Explore the cultural heartland of India — ancient temples of Khajuraho, tiger trails of Bandhavgarh & Kanha, the holy city of Ujjain, the hill station of Pachmarhi, and the historic grandeur of Orchha & Sanchi.',
+    packages: [
+      { name: 'Ancient Temples to Tiger Trails', duration: '6D / 5N', price: 35125, highlights: ['Khajuraho', 'Bandhavgarh Safari', 'Orchha'] },
+      { name: 'Wild Soul of India', duration: '8D / 7N', price: 37606, highlights: ['Kanha Safari', 'Bandhavgarh', 'Pench', 'Tigers'] },
+      { name: 'Pachmarhi Weekend Getaway', duration: '3D / 2N', price: 11025, highlights: ['Bee Falls', 'Pandav Caves', 'Dhoopgarh'] },
+      { name: 'Malwa', duration: '5D / 4N', price: 16538, highlights: ['Mandu', 'Indore', 'Omkareshwar', 'Maheshwar'] },
+      { name: 'Mahakal Pilgrimage Weekend', duration: '2D / 1N', price: 5678, highlights: ['Mahakaleshwar', 'Ram Ghat', 'Ujjain Darshan'] },
+      { name: 'Leisure and Wild', duration: '6D / 5N', price: 26116, highlights: ['Kanha', 'Pachmarhi', 'Nature Walks'] },
+      { name: 'Heritage of Madhya Pradesh', duration: '5D / 4N', price: 21058, highlights: ['Sanchi Stupa', 'Bhimbetka', 'Bhopal', 'Orchha'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/5007839/pexels-photo-5007839.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Khajuraho Temples — UNESCO World Heritage' },
+    aboutHeading: 'Madhya Pradesh — Heart of India',
+    aboutParagraphs: [
+      'Madhya Pradesh, the heart of India, is a treasure trove of history, wildlife, and spirituality. Home to three UNESCO World Heritage Sites — Khajuraho, Sanchi, and Bhimbetka — the state offers a cultural depth unmatched by any other.',
+      'Wildlife enthusiasts flock to Bandhavgarh, Kanha, and Pench for tiger safaris, while pilgrims visit Ujjain\'s Mahakaleshwar Jyotirlinga. The hill station of Pachmarhi and the historic fort city of Orchha add diversity to every itinerary.',
+    ],
+    whyVisit: [
+      { emoji: '🛕', text: 'Khajuraho & Sanchi Temples' },
+      { emoji: '🐅', text: 'Tiger Safari in Bandhavgarh & Kanha' },
+      { emoji: '🙏', text: 'Mahakaleshwar Jyotirlinga' },
+      { emoji: '🏔️', text: 'Pachmarhi Hill Station' },
+      { emoji: '🏰', text: 'Orchha & Mandu Forts' },
+      { emoji: '🎨', text: 'Bhimbetka Rock Shelters' },
+    ],
+    placesToVisit: [
+      { name: 'Khajuraho', description: 'UNESCO World Heritage Site famous for its stunning medieval temples adorned with intricate erotic sculptures. A masterpiece of Indian art and architecture dating back to the Chandela dynasty.', image: 'https://images.pexels.com/photos/5007839/pexels-photo-5007839.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Bandhavgarh National Park', description: 'One of India\'s best tiger reserves with the highest density of Bengal tigers. The park also features the ancient Bandhavgarh Fort and diverse wildlife including leopards, deer, and birds.', image: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Ujjain', description: 'One of India\'s seven sacred cities, home to the Mahakaleshwar Jyotirlinga. The city hosts the grand Kumbh Mela and offers a deeply spiritual experience on the banks of the Shipra River.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Pachmarhi', description: 'The only hill station in MP, known as "Satpura ki Rani." Surrounded by forests, waterfalls, caves, and viewpoints. Bee Falls, Pandav Caves, and Dhoopgarh sunset are must-visits.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Orchha', description: 'A hidden gem on the banks of the Betwa River with magnificent Bundela-era palaces and cenotaphs. The Jehangir Mahal, Raja Mahal, and Ram Raja Temple are architectural marvels.', image: 'https://images.pexels.com/photos/3581364/pexels-photo-3581364.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Madhya Pradesh Tour Packages',
+    aboutPackagesParagraphs: [
+      'Our Madhya Pradesh packages range from weekend getaways to Pachmarhi and Ujjain, to week-long wildlife and heritage circuits covering Khajuraho, Bandhavgarh, Kanha, and Orchha.',
+      'All packages include comfortable accommodation, meals, transfers, safari permits (where applicable), and experienced local guides.',
+    ],
+    bestTime: [
+      { period: 'October – March', description: 'Pleasant weather ideal for sightseeing and wildlife safaris. Tiger spotting is best in the dry months of March–May.', type: 'sun', recommended: true },
+      { period: 'April – June', description: 'Hot summers but excellent for tiger safaris as animals come to water holes. Best time for wildlife photography.', type: 'leaf' },
+      { period: 'July – September', description: 'Monsoon brings lush greenery. Pachmarhi is beautiful but national parks are closed for the season.', type: 'rain' },
+    ],
+    inclusions: ['Hotel Accommodation', 'Daily Breakfast', 'Daily Dinner', 'Transfers', 'Safari Permits', 'Sightseeing', 'Local Guide', 'Driver Allowance'],
+    faq: [
+      { q: 'What is the best time for tiger safari?', a: 'October to June when national parks are open. March to May offers the best tiger sighting probability as vegetation is thin and animals gather at water sources.' },
+      { q: 'How to reach Madhya Pradesh?', a: 'Major airports in Bhopal, Indore, and Jabalpur. Well-connected by trains from Delhi, Mumbai, and other cities.' },
+      { q: 'Is Khajuraho worth visiting?', a: 'Absolutely! The Khajuraho temples are a UNESCO World Heritage Site and one of India\'s most remarkable architectural achievements. Allow at least half a day.' },
+      { q: 'Can I combine wildlife and heritage?', a: 'Yes! Our "Ancient Temples to Tiger Trails" package perfectly combines Khajuraho temples with Bandhavgarh tiger safari.' },
+      { q: 'What is the Mahakal temple?', a: 'Mahakaleshwar in Ujjain is one of the 12 Jyotirlingas of Lord Shiva. The Bhasma Aarti at dawn is a unique spiritual experience.' },
+    ],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // UTTARAKHAND CHARDHAM
+  // ═══════════════════════════════════════════════════════════════════════════
+  'chardham': {
+    slug: 'chardham',
+    name: 'Chardham Yatra',
+    heroImage: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Uttarakhand Chardham Yatra Packages 2026 | Sacred Pilgrimage',
+    heroDescription: 'Embark on the holiest pilgrimage in Hinduism — the Char Dham Yatra covering Yamunotri, Gangotri, Kedarnath, and Badrinath. We also offer Do Dham, Ek Dham, and Uttarakhand adventure packages for every type of traveler.',
+    packages: [
+      { name: 'Uttarakhand Rishikesh', duration: '5D / 4N', price: 17999, highlights: ['Rafting', 'Lakshman Jhula', 'Ganga Aarti', 'Yoga'] },
+      { name: 'Uttrakhand Do Dham', duration: '8D / 7N', price: 37999, highlights: ['Kedarnath', 'Badrinath', 'Rishikesh', 'Haridwar'] },
+      { name: 'Uttrakhand Char Dham', duration: '12D / 11N', price: 54999, highlights: ['Yamunotri', 'Gangotri', 'Kedarnath', 'Badrinath'] },
+      { name: 'Ek Dham Badrinath', duration: '6D / 5N', price: 26999, highlights: ['Badrinath Temple', 'Mana Village', 'Vasudhara Falls'] },
+      { name: 'Haridwar', duration: '6D / 5N', price: 21999, highlights: ['Ganga Aarti', 'Har Ki Pauri', 'Mansa Devi', 'Chandi Devi'] },
+      { name: 'Ek Dham Kedarnath', duration: '6D / 5N', price: 25999, highlights: ['Kedarnath Temple', 'Gaurikund', 'Trek', 'Rishikesh'] },
+      { name: 'Uttarakhand Nainital-Corbett', duration: '6D / 5N', price: 22500, highlights: ['Naini Lake', 'Corbett Safari', 'Snow View', 'Bhimtal'] },
+      { name: 'Haridwar Rishikesh Mussoorie', duration: '6D / 5N', price: 35599, highlights: ['Ganga Aarti', 'Rafting', 'Kempty Falls', 'Mall Road'] },
+      { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
+      { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Kedarnath Temple — Sacred Himalayan Shrine' },
+    aboutHeading: 'Chardham Yatra — The Sacred Circuit',
+    aboutParagraphs: [
+      'The Char Dham Yatra is Hinduism\'s most sacred pilgrimage, covering four divine shrines — Yamunotri, Gangotri, Kedarnath, and Badrinath — nestled high in the Garhwal Himalayas of Uttarakhand.',
+      'Beyond pilgrimage, Uttarakhand offers adventure in Rishikesh, spirituality in Haridwar, hill station charm in Mussoorie and Nainital, and wildlife safaris in Jim Corbett National Park.',
+    ],
+    whyVisit: [
+      { emoji: '🙏', text: 'Sacred Char Dham Circuit' },
+      { emoji: '🛕', text: 'Kedarnath & Badrinath Temples' },
+      { emoji: '🕉️', text: 'Ganga Aarti at Haridwar' },
+      { emoji: '🏄', text: 'River Rafting in Rishikesh' },
+      { emoji: '⛰️', text: 'Himalayan Mountain Views' },
+      { emoji: '🐅', text: 'Jim Corbett Tiger Safari' },
+    ],
+    placesToVisit: [
+      { name: 'Kedarnath', description: 'One of the holiest Shiva temples, perched at 3,583 m in the Himalayas. The trek from Gaurikund (16 km) through stunning mountain scenery is a transformative spiritual experience.', image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Badrinath', description: 'The sacred abode of Lord Vishnu, situated between the Nar and Narayan mountain ranges. The temple and nearby Mana Village (last Indian village before Tibet) are must-visits.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Haridwar', description: 'One of India\'s seven holiest cities, where the Ganges enters the plains. The evening Ganga Aarti at Har Ki Pauri is a mesmerizing spiritual spectacle not to be missed.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Rishikesh', description: 'The Yoga Capital of the World and Adventure Capital of India. Famous for river rafting, bungee jumping, Lakshman Jhula, and peaceful ashrams on the banks of the Ganges.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Yamunotri & Gangotri', description: 'The source shrines of the sacred Yamuna and Ganga rivers. Yamunotri features hot springs and a beautiful trek, while Gangotri offers stunning glacier views and the revered Gangotri Temple.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Chardham & Uttarakhand Packages',
+    aboutPackagesParagraphs: [
+      'We offer the full spectrum of Uttarakhand tours — from the complete Char Dham circuit (12 days) to shorter Do Dham and Ek Dham options. Adventure seekers can choose Rishikesh packages, and nature lovers can explore Nainital and Corbett.',
+      'All pilgrimage packages include comfortable accommodation, meals, transfers, darshan assistance, and experienced guides. Helicopter options are available for Kedarnath.',
+    ],
+    bestTime: [
+      { period: 'May – June', description: 'Char Dham portals open. Best weather for the yatra with pleasant temperatures and clear skies.', type: 'sun', recommended: true },
+      { period: 'September – October', description: 'Post-monsoon clarity. Less crowded and beautiful autumn colors. Last chance before portals close in November.', type: 'leaf' },
+      { period: 'July – August', description: 'Monsoon season. Heavy rainfall can cause landslides and road disruptions. Not recommended for Char Dham.', type: 'rain' },
+    ],
+    inclusions: ['Hotel Accommodation', 'Daily Breakfast', 'Daily Dinner', 'Transfers', 'Darshan Assistance', 'Sightseeing', 'Local Guide', 'Driver Allowance', 'Toll & Parking', 'Permit Assistance'],
+    faq: [
+      { q: 'When do Char Dham portals open?', a: 'Portals open in April/May (exact dates decided by priests) and close in October/November after Diwali. Plan between May and October.' },
+      { q: 'Is helicopter available for Kedarnath?', a: 'Yes, helicopter services operate from Phata, Guptkashi, and Sirsi. We can arrange bookings at additional cost.' },
+      { q: 'How difficult is the Kedarnath trek?', a: 'The 16 km trek from Gaurikund is moderate. Ponies, palkis (palanquins), and helicopter services are available for those who prefer not to trek.' },
+      { q: 'Can I do just Kedarnath or Badrinath?', a: 'Yes! We offer Ek Dham packages for both Kedarnath and Badrinath individually, as well as Do Dham (both together).' },
+      { q: 'What should I pack?', a: 'Warm layers, rain jacket, comfortable trekking shoes, medicines for altitude, and religious offerings. We provide a detailed packing list upon booking.' },
+      { q: 'Is Rishikesh rafting safe?', a: 'Yes! Rafting is conducted by certified operators with full safety gear. Grade 1–4 rapids available for all levels.' },
+    ],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // KEDARNATH & RISHIKESH
+  // ═══════════════════════════════════════════════════════════════════════════
+  'kedarnath-rishikesh': {
+    slug: 'kedarnath-rishikesh',
+    name: 'Kedarnath & Rishikesh',
+    heroImage: 'https://images.pexels.com/photos/2905570/pexels-photo-2905570.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Kedarnath & Rishikesh Tour Packages 2026 | Pilgrimage & Adventure',
+    heroDescription: 'Experience the divine energy of Kedarnath Temple and the thrilling adventure of Rishikesh. From the sacred trek to Lord Shiva\'s abode to river rafting on the Ganges, our packages offer the perfect blend of spirituality and adventure in Uttarakhand.',
+    packages: [
+      { name: 'Uttarakhand Rishikesh', duration: '5D / 4N', price: 17999, highlights: ['Rafting', 'Lakshman Jhula', 'Ganga Aarti', 'Yoga'] },
+      { name: 'Uttrakhand Do Dham', duration: '8D / 7N', price: 37999, highlights: ['Kedarnath', 'Badrinath', 'Rishikesh', 'Haridwar'] },
+      { name: 'Uttarakhand Char Dham', duration: '12D / 11N', price: 54999, highlights: ['Yamunotri', 'Gangotri', 'Kedarnath', 'Badrinath'] },
+      { name: 'Ek Dham Badrinath', duration: '6D / 5N', price: 26999, highlights: ['Badrinath Temple', 'Mana Village', 'Vasudhara Falls'] },
+      { name: 'Haridwar', duration: '6D / 5N', price: 21999, highlights: ['Ganga Aarti', 'Har Ki Pauri', 'Mansa Devi', 'Chandi Devi'] },
+      { name: 'Ek Dham Kedarnath', duration: '6D / 5N', price: 25999, highlights: ['Kedarnath Temple', 'Gaurikund', 'Trek', 'Rishikesh'] },
+      { name: 'Uttarakhand Nainital-Corbett', duration: '6D / 5N', price: 22500, highlights: ['Naini Lake', 'Corbett Safari', 'Snow View', 'Bhimtal'] },
+      { name: 'Haridwar Rishikesh Mussoorie', duration: '6D / 5N', price: 35599, highlights: ['Ganga Aarti', 'Rafting', 'Kempty Falls', 'Mall Road'] },
+      { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
+      { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/2905570/pexels-photo-2905570.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Kedarnath Temple at Dawn' },
+    aboutHeading: 'Kedarnath & Rishikesh Tour',
+    aboutParagraphs: [
+      'Kedarnath, one of the 12 Jyotirlingas of Lord Shiva, sits at 3,583 m in the Garhwal Himalayas. The 16 km trek from Gaurikund through breathtaking mountain scenery is a transformative spiritual journey undertaken by lakhs of devotees every year.',
+      'Rishikesh, the Yoga Capital of the World, offers a unique blend of spirituality and adventure. From the soul-stirring Ganga Aarti at Triveni Ghat to heart-pumping river rafting and bungee jumping, Rishikesh has something for everyone.',
+    ],
+    whyVisit: [
+      { emoji: '🙏', text: 'Sacred Kedarnath Jyotirlinga' },
+      { emoji: '🏄', text: 'River Rafting in Rishikesh' },
+      { emoji: '🕉️', text: 'Ganga Aarti Experience' },
+      { emoji: '🥾', text: 'Scenic Himalayan Treks' },
+      { emoji: '🧘', text: 'Yoga & Meditation Ashrams' },
+      { emoji: '⛰️', text: 'Stunning Mountain Views' },
+    ],
+    placesToVisit: [
+      { name: 'Kedarnath Temple', description: 'One of the holiest Shiva temples, perched at 3,583 m in the Himalayas. The trek from Gaurikund through stunning mountain scenery is a once-in-a-lifetime spiritual experience. Helicopter services also available.', image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Rishikesh', description: 'The Yoga Capital of the World, set on the banks of the sacred Ganges. Famous for Lakshman Jhula, Ram Jhula, river rafting, bungee jumping, and spiritual ashrams.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Haridwar', description: 'One of India\'s seven holiest cities where the Ganges enters the plains. The evening Ganga Aarti at Har Ki Pauri is a mesmerizing spiritual spectacle.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Badrinath', description: 'The sacred abode of Lord Vishnu between the Nar and Narayan mountain ranges. Visit the ancient temple and nearby Mana Village — the last Indian village before Tibet.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Kedarnath & Rishikesh Packages',
+    aboutPackagesParagraphs: [
+      'Our packages cover the entire Uttarakhand spiritual and adventure spectrum — from the sacred Char Dham Yatra to weekend Rishikesh rafting trips. Choose Ek Dham for a focused pilgrimage, or combine Do Dham and Char Dham for the full circuit.',
+      'All packages include comfortable accommodation, meals, transfers, darshan assistance, and experienced guides. Helicopter options are available for Kedarnath at additional cost.',
+    ],
+    bestTime: [
+      { period: 'May – June', description: 'Kedarnath portals open. Best weather for trekking and pilgrimage with pleasant temperatures.', type: 'sun', recommended: true },
+      { period: 'September – October', description: 'Post-monsoon clarity with fewer crowds. Beautiful autumn colors and clear Himalayan views.', type: 'leaf' },
+      { period: 'July – August', description: 'Monsoon season with heavy rainfall. Not recommended for Kedarnath due to landslide risk.', type: 'rain' },
+    ],
+    inclusions: ['Hotel Accommodation', 'Daily Breakfast', 'Daily Dinner', 'Transfers', 'Darshan Assistance', 'Sightseeing', 'Local Guide', 'Driver Allowance', 'Toll & Parking', 'Permit Assistance'],
+    faq: [
+      { q: 'How difficult is the Kedarnath trek?', a: 'The 16 km trek from Gaurikund is moderate difficulty. Ponies, palkis (palanquins), and helicopter services are available for those who prefer not to trek.' },
+      { q: 'Is helicopter available for Kedarnath?', a: 'Yes, helicopter services operate from Phata, Guptkashi, and Sirsi to Kedarnath. We can arrange bookings at additional cost.' },
+      { q: 'When does Kedarnath temple open?', a: 'Kedarnath portals open in April/May (exact date decided by priests) and close in October/November after Diwali.' },
+      { q: 'Is Rishikesh rafting safe?', a: 'Yes! Rafting is conducted by certified operators with full safety gear. Grade 1–4 rapids are available for all experience levels.' },
+      { q: 'Can I combine Kedarnath and Badrinath?', a: 'Yes! Our Do Dham package covers both Kedarnath and Badrinath in 8 days with comfortable stays and transfers.' },
+      { q: 'What should I pack for Kedarnath?', a: 'Warm layers, rain jacket, comfortable trekking shoes, medicines for altitude, water bottle, and religious offerings.' },
+    ],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // BADRINATH
+  // ═══════════════════════════════════════════════════════════════════════════
+  'badrinath': {
+    slug: 'badrinath',
+    name: 'Badrinath',
+    heroImage: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Badrinath Tour Packages 2026 | Sacred Abode of Lord Vishnu',
+    heroDescription: 'Visit one of India\'s holiest shrines — Badrinath Dham, nestled between the Nar and Narayan mountain ranges. Explore Mana Village, Vasudhara Falls, and Tapt Kund on this divine Himalayan pilgrimage.',
+    packages: [
+      { name: 'Uttarakhand Rishikesh', duration: '5D / 4N', price: 17999, highlights: ['Rafting', 'Lakshman Jhula', 'Ganga Aarti', 'Yoga'] },
+      { name: 'Uttarakhand Do Dham', duration: '8D / 7N', price: 37999, highlights: ['Kedarnath', 'Badrinath', 'Rishikesh', 'Haridwar'] },
+      { name: 'Uttarakhand Char Dham', duration: '12D / 11N', price: 54999, highlights: ['Yamunotri', 'Gangotri', 'Kedarnath', 'Badrinath'] },
+      { name: 'Ek Dham Badrinath', duration: '6D / 5N', price: 26999, highlights: ['Badrinath Temple', 'Mana Village', 'Vasudhara Falls'] },
+      { name: 'Haridwar', duration: '6D / 5N', price: 21999, highlights: ['Ganga Aarti', 'Har Ki Pauri', 'Mansa Devi', 'Chandi Devi'] },
+      { name: 'Ek Dham Kedarnath', duration: '6D / 5N', price: 25999, highlights: ['Kedarnath Temple', 'Gaurikund', 'Trek', 'Rishikesh'] },
+      { name: 'Uttarakhand Nainital–Corbett', duration: '6D / 5N', price: 22500, highlights: ['Naini Lake', 'Corbett Safari', 'Snow View', 'Bhimtal'] },
+      { name: 'Haridwar, Rishikesh & Mussoorie', duration: '6D / 5N', price: 35599, highlights: ['Ganga Aarti', 'Rafting', 'Kempty Falls', 'Mall Road'] },
+      { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
+      { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Badrinath Temple — Abode of Lord Vishnu' },
+    aboutHeading: 'Badrinath Dham — Abode of Lord Vishnu',
+    aboutParagraphs: [
+      'Badrinath, one of the four Char Dhams, is dedicated to Lord Vishnu and sits at 3,133 m in the Garhwal Himalayas. The ancient temple is flanked by the majestic Nar and Narayan peaks and the holy Alaknanda River.',
+      'Nearby Mana Village is India\'s last inhabited village before the Tibetan border. Visitors can explore Vasudhara Falls, Tapt Kund hot springs, and the mythical Vyas Gufa where Ved Vyas is believed to have composed the Mahabharata.',
+    ],
+    whyVisit: [
+      { emoji: '🛕', text: 'Badrinath Temple Darshan' },
+      { emoji: '🏔️', text: 'Mana — Last Indian Village' },
+      { emoji: '🌊', text: 'Vasudhara Falls' },
+      { emoji: '♨️', text: 'Tapt Kund Hot Springs' },
+      { emoji: '📖', text: 'Vyas Gufa — Mahabharata Cave' },
+      { emoji: '⛰️', text: 'Himalayan Mountain Views' },
+    ],
+    placesToVisit: [
+      { name: 'Badrinath Temple', description: 'One of the four Char Dhams and one of 108 Divya Desams of Lord Vishnu. The colorful temple against snow-capped peaks is an iconic sight. VIP darshan arrangements available.', image: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Mana Village', description: 'India\'s last village before the Tibetan border. Visit Vyas Gufa, Ganesh Gufa, Bheem Pul (natural rock bridge), and Saraswati River origin. A fascinating cultural experience.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Vasudhara Falls', description: 'A magnificent 400-ft waterfall about 5 km from Mana Village. Legend says the water does not touch sinners. The trek offers stunning views of Himalayan peaks.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Badrinath Tour Packages',
+    aboutPackagesParagraphs: [
+      'Our Badrinath packages range from focused Ek Dham trips to comprehensive Char Dham circuits. All packages include comfortable stays, meals, transfers, and darshan assistance.',
+      'We also offer combined packages with Kedarnath (Do Dham), Rishikesh adventure, and Nainital leisure — covering the full Uttarakhand experience.',
+    ],
+    bestTime: [
+      { period: 'May – June', description: 'Badrinath portals open. Best weather with pleasant days and clear mountain views.', type: 'sun', recommended: true },
+      { period: 'September – October', description: 'Post-monsoon clarity. Fewer crowds and beautiful autumn colors before portals close.', type: 'leaf' },
+      { period: 'July – August', description: 'Monsoon with heavy rain. Roads may be affected. Not ideal for the yatra.', type: 'rain' },
+    ],
+    inclusions: ['Hotel Accommodation', 'Daily Breakfast', 'Daily Dinner', 'Transfers', 'Darshan Assistance', 'Sightseeing', 'Local Guide', 'Driver Allowance', 'Toll & Parking', 'Permit Assistance'],
+    faq: [
+      { q: 'When does Badrinath temple open?', a: 'Portals open in April/May and close in October/November. Exact dates are decided by the temple committee.' },
+      { q: 'How to reach Badrinath?', a: 'Drive from Haridwar/Rishikesh via Joshimath (300 km). Nearest airport is Jolly Grant, Dehradun.' },
+      { q: 'Can I combine Badrinath and Kedarnath?', a: 'Yes! Our Do Dham package covers both shrines in 8 days with comfortable transfers.' },
+      { q: 'Is the road to Badrinath safe?', a: 'The road is well-maintained but mountainous. Our experienced drivers ensure safe travel. Avoid monsoon months for best road conditions.' },
+    ],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // KEDARNATH
+  // ═══════════════════════════════════════════════════════════════════════════
+  'kedarnath': {
+    slug: 'kedarnath',
+    name: 'Kedarnath',
+    heroImage: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Kedarnath Tour Packages 2026 | Mahadev Ka Dham',
+    heroDescription: 'Trek to one of the 12 Jyotirlingas of Lord Shiva at 3,583 m in the Garhwal Himalayas. The 16 km trek from Gaurikund through breathtaking mountain scenery is a transformative spiritual experience.',
+    packages: [
+      { name: 'Uttarakhand Rishikesh', duration: '5D / 4N', price: 17999, highlights: ['Rafting', 'Lakshman Jhula', 'Ganga Aarti', 'Yoga'] },
+      { name: 'Uttarakhand Do Dham', duration: '8D / 7N', price: 37999, highlights: ['Kedarnath', 'Badrinath', 'Rishikesh', 'Haridwar'] },
+      { name: 'Uttarakhand Char Dham', duration: '12D / 11N', price: 54999, highlights: ['Yamunotri', 'Gangotri', 'Kedarnath', 'Badrinath'] },
+      { name: 'Ek Dham Badrinath', duration: '6D / 5N', price: 26999, highlights: ['Badrinath Temple', 'Mana Village', 'Vasudhara Falls'] },
+      { name: 'Haridwar', duration: '6D / 5N', price: 21999, highlights: ['Ganga Aarti', 'Har Ki Pauri', 'Mansa Devi', 'Chandi Devi'] },
+      { name: 'Ek Dham Kedarnath', duration: '6D / 5N', price: 25999, highlights: ['Kedarnath Temple', 'Gaurikund', 'Trek', 'Rishikesh'] },
+      { name: 'Uttarakhand Nainital–Corbett', duration: '6D / 5N', price: 22500, highlights: ['Naini Lake', 'Corbett Safari', 'Snow View', 'Bhimtal'] },
+      { name: 'Haridwar, Rishikesh & Mussoorie', duration: '6D / 5N', price: 35599, highlights: ['Ganga Aarti', 'Rafting', 'Kempty Falls', 'Mall Road'] },
+      { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
+      { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Kedarnath Temple — Jyotirlinga of Lord Shiva' },
+    aboutHeading: 'Kedarnath Dham — Mahadev Ka Dham',
+    aboutParagraphs: [
+      'Kedarnath, one of the 12 Jyotirlingas, is among Hinduism\'s holiest shrines. The ancient stone temple sits at 3,583 m surrounded by snow-capped peaks, with the Mandakini River flowing nearby.',
+      'The 16 km trek from Gaurikund takes you through stunning Himalayan landscapes. For those who prefer not to trek, ponies, palkis, and helicopter services are available.',
+    ],
+    whyVisit: [
+      { emoji: '🙏', text: 'Kedarnath Jyotirlinga' },
+      { emoji: '🥾', text: '16 km Himalayan Trek' },
+      { emoji: '🚁', text: 'Helicopter Services' },
+      { emoji: '❄️', text: 'Snow-Capped Peaks' },
+      { emoji: '🏞️', text: 'Chorabari & Vasuki Tal' },
+      { emoji: '⛰️', text: 'Gaurikund & Bhairav Temple' },
+    ],
+    placesToVisit: [
+      { name: 'Kedarnath Temple', description: 'One of the 12 Jyotirlingas of Lord Shiva, perched at 3,583 m. The ancient stone temple has survived centuries of natural calamities and stands as a testament to faith and architecture.', image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Gaurikund', description: 'The starting point of the Kedarnath trek and a sacred hot spring where Goddess Parvati is believed to have meditated. Also the base camp for the pilgrimage.', image: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Chorabari Tal (Gandhi Sarovar)', description: 'A glacial lake at 3,900 m, about 1 km from Kedarnath Temple. The pristine lake surrounded by snow peaks is a rewarding side trek for adventurous pilgrims.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Kedarnath Tour Packages',
+    aboutPackagesParagraphs: [
+      'Choose from Ek Dham Kedarnath for a focused pilgrimage, Do Dham to combine with Badrinath, or the full Char Dham circuit. Adventure lovers can add Rishikesh rafting.',
+      'All packages include accommodation, meals, transfers, trek/helicopter assistance, and experienced guides who know the terrain well.',
+    ],
+    bestTime: [
+      { period: 'May – June', description: 'Portals open. Best weather for the trek with pleasant days and manageable cold nights.', type: 'sun', recommended: true },
+      { period: 'September – October', description: 'Post-monsoon with fewer crowds. Clear skies and stunning autumn views.', type: 'leaf' },
+      { period: 'July – August', description: 'Monsoon. Heavy rain and landslide risk. Trek not recommended.', type: 'rain' },
+    ],
+    inclusions: ['Hotel Accommodation', 'Daily Breakfast', 'Daily Dinner', 'Transfers', 'Darshan Assistance', 'Sightseeing', 'Local Guide', 'Driver Allowance', 'Toll & Parking', 'Permit Assistance'],
+    faq: [
+      { q: 'How difficult is the Kedarnath trek?', a: 'The 16 km trek from Gaurikund is moderate. Ponies, palkis, and helicopter services are available.' },
+      { q: 'Is helicopter available?', a: 'Yes, helicopter services from Phata, Guptkashi, and Sirsi. We arrange bookings at additional cost.' },
+      { q: 'When does the temple open?', a: 'Portals open in April/May and close in October/November after Diwali.' },
+      { q: 'What should I pack?', a: 'Warm layers, rain jacket, trekking shoes, altitude medicine, water bottle, and religious offerings.' },
+    ],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // UTTARAKHAND DO DHAM
+  // ═══════════════════════════════════════════════════════════════════════════
+  'do-dham': {
+    slug: 'do-dham',
+    name: 'Do Dham Yatra',
+    heroImage: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Do Dham Yatra Packages 2026 | Kedarnath & Badrinath',
+    heroDescription: 'Combine two of India\'s most sacred Dhams — Kedarnath and Badrinath — in one divine yatra through the majestic Garhwal Himalayas. Our packages include comfortable stays, transfers, darshan assistance, and experienced guides.',
+    packages: [
+      { name: 'Uttarakhand Rishikesh', duration: '5D / 4N', price: 17999, highlights: ['Rafting', 'Lakshman Jhula', 'Ganga Aarti', 'Yoga'] },
+      { name: 'Uttarakhand Do Dham', duration: '8D / 7N', price: 37999, highlights: ['Kedarnath', 'Badrinath', 'Rishikesh', 'Haridwar'] },
+      { name: 'Uttarakhand Char Dham', duration: '12D / 11N', price: 54999, highlights: ['Yamunotri', 'Gangotri', 'Kedarnath', 'Badrinath'] },
+      { name: 'Ek Dham Badrinath', duration: '6D / 5N', price: 26999, highlights: ['Badrinath Temple', 'Mana Village', 'Vasudhara Falls'] },
+      { name: 'Haridwar', duration: '6D / 5N', price: 21999, highlights: ['Ganga Aarti', 'Har Ki Pauri', 'Mansa Devi', 'Chandi Devi'] },
+      { name: 'Ek Dham Kedarnath', duration: '6D / 5N', price: 25999, highlights: ['Kedarnath Temple', 'Gaurikund', 'Trek', 'Rishikesh'] },
+      { name: 'Uttarakhand Nainital–Corbett', duration: '6D / 5N', price: 22500, highlights: ['Naini Lake', 'Corbett Safari', 'Snow View', 'Bhimtal'] },
+      { name: 'Haridwar, Rishikesh & Mussoorie', duration: '6D / 5N', price: 35599, highlights: ['Ganga Aarti', 'Rafting', 'Kempty Falls', 'Mall Road'] },
+      { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
+      { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Do Dham — Twin Sacred Shrines of Uttarakhand' },
+    aboutHeading: 'Do Dham Yatra — Kedarnath & Badrinath',
+    aboutParagraphs: [
+      'The Do Dham Yatra combines the two most important Char Dham shrines — Kedarnath (Lord Shiva) and Badrinath (Lord Vishnu) — into a single powerful pilgrimage through the Garhwal Himalayas.',
+      'Starting from Haridwar or Rishikesh, the journey takes you through scenic mountain passes, holy confluences at Devprayag and Rudraprayag, and the spiritual energy of two ancient Himalayan temples.',
+    ],
+    whyVisit: [
+      { emoji: '🙏', text: 'Kedarnath & Badrinath Darshan' },
+      { emoji: '🛕', text: 'Two Dhams in One Yatra' },
+      { emoji: '⛰️', text: 'Garhwal Himalayan Scenery' },
+      { emoji: '🌊', text: 'Holy Confluences (Prayags)' },
+      { emoji: '🚁', text: 'Helicopter Option for Kedarnath' },
+      { emoji: '🕉️', text: 'Deep Spiritual Experience' },
+    ],
+    placesToVisit: [
+      { name: 'Kedarnath Temple', description: 'One of the 12 Jyotirlingas of Lord Shiva at 3,583 m. The 16 km trek from Gaurikund is a transformative spiritual experience. Helicopter services also available.', image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Badrinath Temple', description: 'Sacred abode of Lord Vishnu between the Nar and Narayan peaks. Explore Mana Village, Vasudhara Falls, and Tapt Kund hot springs.', image: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Devprayag', description: 'The sacred confluence of the Bhagirathi and Alaknanda rivers, forming the holy Ganges. A visually stunning and spiritually significant stop on the yatra.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Rishikesh & Haridwar', description: 'Start and end your yatra in these sacred cities. Experience Ganga Aarti, river rafting, yoga ashrams, and the spiritual energy of the Ganges.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Do Dham Yatra Packages',
+    aboutPackagesParagraphs: [
+      'Our Do Dham package covers Kedarnath and Badrinath in 8 days with comfortable stays at each stop, meals, transfers, and darshan assistance.',
+      'We also offer the full Char Dham (12 days), individual Ek Dham packages, and adventure add-ons like Rishikesh rafting.',
+    ],
+    bestTime: [
+      { period: 'May – June', description: 'Both temple portals open. Best weather for the yatra with clear skies and pleasant temperatures.', type: 'sun', recommended: true },
+      { period: 'September – October', description: 'Post-monsoon clarity. Fewer crowds and beautiful autumn scenery. Last window before portals close.', type: 'leaf' },
+      { period: 'July – August', description: 'Monsoon. Heavy rain, landslide risk. Not recommended for Do Dham Yatra.', type: 'rain' },
+    ],
+    inclusions: ['Hotel Accommodation', 'Daily Breakfast', 'Daily Dinner', 'Transfers', 'Darshan Assistance', 'Sightseeing', 'Local Guide', 'Driver Allowance', 'Toll & Parking', 'Permit Assistance'],
+    faq: [
+      { q: 'How many days for Do Dham?', a: 'We recommend 8 days / 7 nights to cover both Kedarnath and Badrinath comfortably with Haridwar/Rishikesh.' },
+      { q: 'Which Dham is visited first?', a: 'Typically Kedarnath first (via Guptkashi/Gaurikund), then Badrinath (via Joshimath). The route is optimized for smooth travel.' },
+      { q: 'Is helicopter available?', a: 'Yes, for the Kedarnath leg. Helicopter services from Phata/Guptkashi are available at additional cost.' },
+      { q: 'Can I extend to Char Dham?', a: 'Yes! Add Yamunotri and Gangotri for the complete Char Dham circuit (12 days).' },
+    ],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // HARIDWAR
+  // ═══════════════════════════════════════════════════════════════════════════
+  'haridwar': {
+    slug: 'haridwar',
+    name: 'Haridwar',
+    heroImage: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Haridwar Tour Packages 2026 | Gateway to the Gods',
+    heroDescription: 'Witness the mesmerizing Ganga Aarti at Har Ki Pauri, bathe in the holy waters of the Ganges, and explore one of India\'s seven sacred cities. Haridwar is the gateway to Uttarakhand\'s pilgrimage and adventure destinations.',
+    packages: [
+      { name: 'Uttarakhand Rishikesh', duration: '5D / 4N', price: 17999, highlights: ['Rafting', 'Lakshman Jhula', 'Ganga Aarti', 'Yoga'] },
+      { name: 'Uttarakhand Do Dham', duration: '8D / 7N', price: 37999, highlights: ['Kedarnath', 'Badrinath', 'Rishikesh', 'Haridwar'] },
+      { name: 'Uttarakhand Char Dham', duration: '12D / 11N', price: 54999, highlights: ['Yamunotri', 'Gangotri', 'Kedarnath', 'Badrinath'] },
+      { name: 'Ek Dham Badrinath', duration: '6D / 5N', price: 26999, highlights: ['Badrinath Temple', 'Mana Village', 'Vasudhara Falls'] },
+      { name: 'Haridwar', duration: '6D / 5N', price: 21999, highlights: ['Ganga Aarti', 'Har Ki Pauri', 'Mansa Devi', 'Chandi Devi'] },
+      { name: 'Ek Dham Kedarnath', duration: '6D / 5N', price: 25999, highlights: ['Kedarnath Temple', 'Gaurikund', 'Trek', 'Rishikesh'] },
+      { name: 'Uttarakhand Nainital–Corbett', duration: '6D / 5N', price: 22500, highlights: ['Naini Lake', 'Corbett Safari', 'Snow View', 'Bhimtal'] },
+      { name: 'Haridwar, Rishikesh & Mussoorie', duration: '6D / 5N', price: 35599, highlights: ['Ganga Aarti', 'Rafting', 'Kempty Falls', 'Mall Road'] },
+      { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
+      { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Ganga Aarti at Har Ki Pauri, Haridwar' },
+    aboutHeading: 'Haridwar — Gateway to the Gods',
+    aboutParagraphs: [
+      'Haridwar, one of India\'s seven holiest cities, is where the sacred Ganges descends from the Himalayas into the plains. The city is a vibrant center of Hindu spirituality, with ancient temples, ashrams, and the world-famous Ganga Aarti at Har Ki Pauri.',
+      'As the gateway to Uttarakhand\'s pilgrimage circuit, Haridwar connects to Rishikesh, Mussoorie, Kedarnath, Badrinath, and the Char Dham route. It\'s also a starting point for Rajaji National Park wildlife safaris.',
+    ],
+    whyVisit: [
+      { emoji: '🕉️', text: 'Ganga Aarti at Har Ki Pauri' },
+      { emoji: '🛕', text: 'Mansa Devi & Chandi Devi' },
+      { emoji: '🌊', text: 'Holy Ganges Bathing' },
+      { emoji: '🏞️', text: 'Rajaji National Park' },
+      { emoji: '🧘', text: 'Ashrams & Spiritual Centers' },
+      { emoji: '🚪', text: 'Gateway to Char Dham' },
+    ],
+    placesToVisit: [
+      { name: 'Har Ki Pauri', description: 'The most sacred ghat in Haridwar where Lord Vishnu\'s footprint is believed to be imprinted. The evening Ganga Aarti here with thousands of diyas floating on the Ganges is an unforgettable spectacle.', image: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Mansa Devi Temple', description: 'A hilltop temple dedicated to Goddess Mansa Devi, reachable by cable car. Offers panoramic views of Haridwar and the Ganges. Tie a wish thread and return when it\'s fulfilled.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Chandi Devi Temple', description: 'An ancient hilltop temple dedicated to Goddess Chandi. Accessible by cable car from Chandighat. One of the Siddha Peethas with powerful spiritual energy.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Rishikesh', description: 'Just 25 km from Haridwar, the Yoga Capital offers Lakshman Jhula, river rafting, bungee jumping, and tranquil ashrams. A must-add to any Haridwar trip.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Haridwar Tour Packages',
+    aboutPackagesParagraphs: [
+      'Our Haridwar packages range from focused spiritual trips to combined packages with Rishikesh, Mussoorie, and the Char Dham circuit.',
+      'All packages include comfortable stays, meals, transfers, temple visit assistance, and local guides. Perfect for families, pilgrims, and spiritual seekers.',
+    ],
+    bestTime: [
+      { period: 'October – March', description: 'Pleasant weather for sightseeing and temple visits. Ganga Aarti is best experienced in cooler months.', type: 'sun', recommended: true },
+      { period: 'April – June', description: 'Warm but perfect for starting Char Dham Yatra. Kumbh/Ardh Kumbh Mela years attract millions.', type: 'leaf' },
+      { period: 'July – September', description: 'Monsoon with the Ganges in full flow. Kanwar Yatra season brings huge pilgrim crowds in July-August.', type: 'rain' },
+    ],
+    inclusions: ['Hotel Accommodation', 'Daily Breakfast', 'Daily Dinner', 'Transfers', 'Temple Visit Assistance', 'Sightseeing', 'Local Guide', 'Driver Allowance'],
+    faq: [
+      { q: 'What is the Ganga Aarti timing?', a: 'The evening Ganga Aarti at Har Ki Pauri starts at sunset (around 6-7 PM). Arrive 30 minutes early for the best viewing spots.' },
+      { q: 'How to reach Haridwar?', a: 'By train (Haridwar Junction), by air (Jolly Grant Airport, Dehradun — 35 km), or by road from Delhi (230 km, 5-6 hours).' },
+      { q: 'Can I combine Haridwar with Rishikesh?', a: 'Absolutely! They\'re just 25 km apart. Our "Haridwar, Rishikesh & Mussoorie" package covers all three.' },
+      { q: 'Is Haridwar safe for families?', a: 'Yes, Haridwar is very safe and family-friendly. It\'s one of India\'s most visited pilgrimage cities with excellent infrastructure.' },
+    ],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // BALI
+  // ═══════════════════════════════════════════════════════════════════════════
+  'bali': {
+    slug: 'bali',
+    name: 'Bali',
+    heroImage: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Bali Tour Packages 2026 | Island of the Gods',
+    heroDescription: 'Discover the magical island of Bali — from ancient temples and emerald rice terraces to pristine beaches and world-class surf. Our customized Bali packages offer the perfect tropical getaway with comfortable stays, sightseeing, and unforgettable experiences.',
+    packages: [
+      { name: 'Bali', duration: '6D / 5N', price: 22999, highlights: ['Ubud', 'Tanah Lot', 'Kuta Beach', 'Kintamani'] },
+      { name: 'Bali Paradise', duration: '7D / 6N', price: 98999, highlights: ['Luxury Villa', 'Spa', 'Private Tours', 'Uluwatu', 'Seminyak'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Tanah Lot Temple at Sunset, Bali' },
+    aboutHeading: 'Bali — Island of the Gods',
+    aboutParagraphs: [
+      'Bali, Indonesia\'s most famous island, is a paradise of ancient Hindu temples, lush rice terraces, volcanic mountains, and stunning beaches. The island seamlessly blends spirituality, culture, and natural beauty.',
+      'From the artistic hub of Ubud to the surf beaches of Kuta and the dramatic cliffs of Uluwatu, Bali offers diverse experiences — yoga retreats, temple visits, water sports, nightlife, and world-class dining.',
+    ],
+    whyVisit: [
+      { emoji: '🛕', text: 'Ancient Hindu Temples' },
+      { emoji: '🌾', text: 'Ubud Rice Terraces' },
+      { emoji: '🏖️', text: 'Pristine Beaches' },
+      { emoji: '🌋', text: 'Kintamani Volcano' },
+      { emoji: '🧘', text: 'Yoga & Wellness Retreats' },
+      { emoji: '🌅', text: 'Spectacular Sunsets' },
+    ],
+    placesToVisit: [
+      { name: 'Ubud', description: 'The cultural heart of Bali, famous for its rice terraces, art galleries, monkey forest, and traditional dance performances. A haven for yoga and wellness enthusiasts.', image: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Tanah Lot', description: 'An iconic sea temple perched on a rock formation in the ocean. One of Bali\'s most photographed landmarks, especially stunning at sunset.', image: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Uluwatu', description: 'A dramatic clifftop temple overlooking the Indian Ocean. Famous for its Kecak fire dance performance at sunset and world-class surfing below.', image: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Seminyak & Kuta', description: 'Bali\'s most popular beach areas with vibrant nightlife, upscale restaurants, boutique shopping, and beautiful sandy beaches perfect for surfing and sunbathing.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Bali Tour Packages',
+    aboutPackagesParagraphs: [
+      'Our Bali packages range from budget-friendly 6-day trips to premium 7-day luxury experiences with private villas, spa treatments, and exclusive tours.',
+      'All packages include airport transfers, hotel accommodation, breakfast, sightseeing, and experienced English-speaking guides.',
+    ],
+    bestTime: [
+      { period: 'April – October', description: 'Dry season with sunny days, low humidity, and perfect beach weather. Best time for sightseeing and outdoor activities.', type: 'sun', recommended: true },
+      { period: 'November – March', description: 'Wet season with afternoon tropical showers. Lower prices and fewer crowds. Lush green landscapes.', type: 'rain' },
+    ],
+    inclusions: ['Hotel/Villa Accommodation', 'Daily Breakfast', 'Airport Transfers', 'Sightseeing Tours', 'English-Speaking Guide', 'Visa Assistance', 'Travel Insurance'],
+    faq: [
+      { q: 'Do Indians need a visa for Bali?', a: 'Indians can get Visa on Arrival (VoA) for 30 days at Bali airport. We assist with all documentation.' },
+      { q: 'What is the best time to visit Bali?', a: 'April to October is the dry season with the best weather. November to March is the rainy season but offers lower prices.' },
+      { q: 'Is Bali safe for Indian travelers?', a: 'Yes, Bali is very safe and welcoming. It has a strong Hindu culture similar to India, making Indian tourists feel at home.' },
+      { q: 'What currency is used?', a: 'Indonesian Rupiah (IDR). USD and credit cards are widely accepted in tourist areas.' },
+    ],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // MALAYSIA
+  // ═══════════════════════════════════════════════════════════════════════════
+  'malaysia': {
+    slug: 'malaysia',
+    name: 'Malaysia',
+    heroImage: 'https://images.pexels.com/photos/22804/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Malaysia Tour Packages 2026 | Truly Asia',
+    heroDescription: 'Experience the best of Southeast Asia — from the iconic Petronas Twin Towers of Kuala Lumpur to the pristine beaches of Langkawi, ancient Batu Caves, and the cultural melting pot of George Town. Malaysia offers modern luxury, natural beauty, and diverse cuisine.',
+    packages: [
+      { name: 'Malaysia', duration: '6D / 5N', price: 21500, highlights: ['Petronas Towers', 'Batu Caves', 'Genting Highlands', 'KL City Tour'] },
+      { name: 'Malaysia Explorer', duration: '8D / 7N', price: 45500, highlights: ['Kuala Lumpur', 'Langkawi', 'Penang', 'Cameron Highlands'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/22804/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1200', caption: 'Petronas Twin Towers — Kuala Lumpur' },
+    aboutHeading: 'Malaysia — Truly Asia',
+    aboutParagraphs: [
+      'Malaysia is a vibrant Southeast Asian nation that perfectly blends modernity with tradition. The iconic Petronas Twin Towers dominate the Kuala Lumpur skyline, while ancient rainforests, tropical islands, and multicultural heritage create a diverse travel experience.',
+      'From the street food paradise of Penang to the duty-free island of Langkawi, the tea plantations of Cameron Highlands, and the Hindu shrine of Batu Caves — Malaysia offers something for every traveler.',
+    ],
+    whyVisit: [
+      { emoji: '🏙️', text: 'Petronas Twin Towers' },
+      { emoji: '🏝️', text: 'Langkawi Island Beaches' },
+      { emoji: '🛕', text: 'Batu Caves' },
+      { emoji: '🍜', text: 'World-Class Street Food' },
+      { emoji: '🌿', text: 'Cameron Highlands Tea' },
+      { emoji: '🏛️', text: 'George Town Heritage' },
+    ],
+    placesToVisit: [
+      { name: 'Kuala Lumpur', description: 'Malaysia\'s capital city, home to the iconic Petronas Twin Towers, bustling Bukit Bintang shopping district, historic Merdeka Square, and the vibrant Jalan Alor food street.', image: 'https://images.pexels.com/photos/22804/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Langkawi', description: 'A duty-free tropical island paradise with stunning beaches, the Sky Bridge, mangrove tours, and island-hopping adventures. Perfect for relaxation and water sports.', image: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Batu Caves', description: 'A series of limestone caves housing Hindu temples, dominated by a 42.7 m golden statue of Lord Murugan. The 272-step climb to the main temple cave is a cultural highlight.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Penang (George Town)', description: 'A UNESCO World Heritage city famous for its colonial architecture, vibrant street art, and arguably the best street food in Asia. A multicultural melting pot of Malay, Chinese, and Indian cultures.', image: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Malaysia Tour Packages',
+    aboutPackagesParagraphs: [
+      'Our Malaysia packages cover Kuala Lumpur city tours to comprehensive explorer packages including Langkawi, Penang, and Cameron Highlands.',
+      'All packages include flights assistance, hotel accommodation, breakfast, sightseeing, transfers, and experienced guides.',
+    ],
+    bestTime: [
+      { period: 'March – October', description: 'Dry season on the west coast (KL, Langkawi, Penang). Best weather for sightseeing and beach activities.', type: 'sun', recommended: true },
+      { period: 'November – February', description: 'Monsoon on the east coast but west coast remains relatively dry. Good time for KL and Langkawi.', type: 'rain' },
+    ],
+    inclusions: ['Hotel Accommodation', 'Daily Breakfast', 'Airport Transfers', 'Sightseeing Tours', 'English-Speaking Guide', 'Visa Assistance', 'Travel Insurance'],
+    faq: [
+      { q: 'Do Indians need a visa for Malaysia?', a: 'Yes, Indians need a visa. eVISA (eNTRI) is available for 15-day stays. We assist with the complete visa process.' },
+      { q: 'What currency is used?', a: 'Malaysian Ringgit (MYR). Credit cards are widely accepted. ATMs available everywhere.' },
+      { q: 'Is Malaysia safe for Indian travelers?', a: 'Very safe! Malaysia has a large Indian community and Indian food is widely available. English is commonly spoken.' },
+      { q: 'What is the best time to visit?', a: 'March to October for the west coast (KL, Langkawi). Malaysia is a year-round destination with tropical climate.' },
+    ],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // SINGAPORE
+  // ═══════════════════════════════════════════════════════════════════════════
+  'singapore': {
+    slug: 'singapore',
+    name: 'Singapore',
+    heroImage: 'https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Singapore Tour Packages 2026 | The Lion City',
+    heroDescription: 'Experience the dazzling city-state of Singapore — futuristic gardens, world-class shopping, vibrant hawker centers, and iconic landmarks. From Marina Bay Sands to Sentosa Island, Singapore is the perfect blend of modern luxury and cultural heritage.',
+    packages: [
+      { name: 'Singapore', duration: '4D / 3N', price: 89999, highlights: ['Marina Bay Sands', 'Sentosa Island', 'Gardens by the Bay', 'Universal Studios'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Marina Bay Sands — Singapore Skyline' },
+    aboutHeading: 'Singapore — The Lion City',
+    aboutParagraphs: [
+      'Singapore is a stunning city-state that punches far above its size. The futuristic skyline of Marina Bay, the lush Gardens by the Bay, and world-class attractions like Universal Studios make it one of Asia\'s top travel destinations.',
+      'Despite its modern sheen, Singapore has deep cultural roots — from the colorful shophouses of Chinatown and Little India to the aromatic hawker centers serving some of the world\'s best street food.',
+    ],
+    whyVisit: [
+      { emoji: '🏙️', text: 'Marina Bay Sands Skyline' },
+      { emoji: '🌳', text: 'Gardens by the Bay' },
+      { emoji: '🎢', text: 'Universal Studios' },
+      { emoji: '🏝️', text: 'Sentosa Island' },
+      { emoji: '🍜', text: 'Hawker Center Street Food' },
+      { emoji: '🛍️', text: 'Orchard Road Shopping' },
+    ],
+    placesToVisit: [
+      { name: 'Marina Bay Sands', description: 'Singapore\'s most iconic landmark with a rooftop infinity pool, observation deck, luxury shopping, and the spectacular light & water show at night.', image: 'https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Gardens by the Bay', description: 'Futuristic nature park featuring the iconic Supertree Grove, Cloud Forest, and Flower Dome. The light show at night is mesmerizing.', image: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Sentosa Island', description: 'A resort island with Universal Studios, S.E.A. Aquarium, Adventure Cove, beaches, and cable car rides. Perfect for families and thrill-seekers.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Singapore Tour Packages',
+    aboutPackagesParagraphs: [
+      'Our Singapore package covers all major attractions in 4 days including Marina Bay, Gardens by the Bay, Sentosa Island, and city tours.',
+      'Package includes hotel accommodation, breakfast, airport transfers, sightseeing, and visa assistance.',
+    ],
+    bestTime: [
+      { period: 'Year-Round', description: 'Singapore has a tropical climate with warm weather year-round. February–April is slightly drier. December–January sees festive celebrations.', type: 'sun', recommended: true },
+    ],
+    inclusions: ['Hotel Accommodation', 'Daily Breakfast', 'Airport Transfers', 'Sightseeing Tours', 'Attraction Tickets', 'Visa Assistance', 'Travel Insurance'],
+    faq: [
+      { q: 'Do Indians need a visa for Singapore?', a: 'Yes, Indians need a visa. We assist with the complete e-visa application process.' },
+      { q: 'Is Singapore expensive?', a: 'Singapore can be pricey but our packages offer great value with included attractions. Hawker centers offer affordable, delicious food.' },
+      { q: 'How many days are enough?', a: '3-4 days is perfect to cover all major attractions including Marina Bay, Gardens, Sentosa, and city exploration.' },
+    ],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // VIETNAM
+  // ═══════════════════════════════════════════════════════════════════════════
+  'vietnam': {
+    slug: 'vietnam',
+    name: 'Vietnam',
+    heroImage: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Vietnam Tour Packages 2026 | Land of the Ascending Dragon',
+    heroDescription: 'Explore the breathtaking landscapes of Vietnam — from the emerald waters of Ha Long Bay and the ancient streets of Hanoi to the vibrant energy of Ho Chi Minh City and the terraced rice fields of Sapa. Vietnam offers stunning natural beauty, rich history, and incredible cuisine.',
+    packages: [
+      { name: 'Vietnam', duration: '6D / 5N', price: 53999, highlights: ['Ha Long Bay', 'Hanoi', 'Ho Chi Minh City', 'Hoi An'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Ha Long Bay — UNESCO World Heritage' },
+    aboutHeading: 'Vietnam — Land of the Ascending Dragon',
+    aboutParagraphs: [
+      'Vietnam is a Southeast Asian gem stretching along the eastern coast of the Indochinese Peninsula. The country offers an incredible diversity of landscapes — from the limestone karsts of Ha Long Bay to the lush rice paddies of the north and the bustling streets of Ho Chi Minh City.',
+      'Vietnamese cuisine is world-renowned for its fresh flavors — pho, banh mi, and spring rolls are just the beginning. The country\'s rich history, ancient temples, and warm hospitality make it a must-visit destination.',
+    ],
+    whyVisit: [
+      { emoji: '🏞️', text: 'Ha Long Bay Cruise' },
+      { emoji: '🍜', text: 'World-Famous Cuisine' },
+      { emoji: '🏛️', text: 'Ancient Hoi An Town' },
+      { emoji: '🌾', text: 'Sapa Rice Terraces' },
+      { emoji: '🏍️', text: 'Vibrant Street Life' },
+      { emoji: '🕌', text: 'Rich History & Culture' },
+    ],
+    placesToVisit: [
+      { name: 'Ha Long Bay', description: 'A UNESCO World Heritage Site with thousands of limestone karsts and islands rising from emerald waters. Overnight cruises offer kayaking, cave exploration, and stunning sunsets.', image: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Hanoi', description: 'Vietnam\'s charming capital with French colonial architecture, the Old Quarter, Ho Chi Minh Mausoleum, and legendary street food. A city that beautifully blends old and new.', image: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Ho Chi Minh City', description: 'Vietnam\'s largest city, a dynamic metropolis with French colonial landmarks, war museums, vibrant markets, and an incredible food scene.', image: 'https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Vietnam Tour Packages',
+    aboutPackagesParagraphs: [
+      'Our Vietnam package covers the highlights in 6 days — Hanoi, Ha Long Bay, and Ho Chi Minh City with comfortable stays and guided tours.',
+      'Package includes hotel accommodation, breakfast, transfers, sightseeing, Ha Long Bay cruise, and visa assistance.',
+    ],
+    bestTime: [
+      { period: 'October – April', description: 'Best overall weather. North is cool and dry, south is warm with less rain. Ideal for Ha Long Bay cruises.', type: 'sun', recommended: true },
+      { period: 'May – September', description: 'Hot and humid with monsoon rains, especially in the south. Good deals and fewer tourists.', type: 'rain' },
+    ],
+    inclusions: ['Hotel Accommodation', 'Daily Breakfast', 'Airport Transfers', 'Ha Long Bay Cruise', 'Sightseeing Tours', 'English-Speaking Guide', 'Visa Assistance'],
+    faq: [
+      { q: 'Do Indians need a visa for Vietnam?', a: 'Yes, but e-Visa is available online for 30 days. We assist with the complete application process.' },
+      { q: 'Is Vietnam affordable?', a: 'Very affordable! Vietnam offers excellent value — great food, accommodation, and experiences at budget-friendly prices.' },
+      { q: 'Is Vietnam safe?', a: 'Yes, Vietnam is very safe for tourists with low crime rates and friendly locals.' },
+    ],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // THAILAND
+  // ═══════════════════════════════════════════════════════════════════════════
+  'thailand': {
+    slug: 'thailand',
+    name: 'Thailand',
+    heroImage: 'https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Thailand Tour Packages 2026 | Land of Smiles',
+    heroDescription: 'Discover the magic of Thailand — from the bustling streets of Bangkok and glittering temples to the tropical paradise of Pattaya\'s beaches. Our Thailand packages offer the perfect mix of culture, adventure, nightlife, and relaxation.',
+    packages: [
+      { name: 'Thailand', duration: '5D / 4N', price: 26999, highlights: ['Bangkok', 'Pattaya', 'Grand Palace', 'Floating Market'] },
+      { name: 'Bangkok Pattaya', duration: '5D / 4N', price: 42000, highlights: ['Grand Palace', 'Coral Island', 'Alcazar Show', 'Safari World'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Grand Palace — Bangkok, Thailand' },
+    aboutHeading: 'Thailand — Land of Smiles',
+    aboutParagraphs: [
+      'Thailand is Southeast Asia\'s most popular tourist destination, famous for its ornate temples, pristine beaches, vibrant street life, and incredible cuisine. Bangkok\'s Grand Palace and floating markets are world-renowned.',
+      'Pattaya offers beautiful beaches, water sports, coral island trips, and vibrant nightlife. Together, Bangkok and Pattaya make for the perfect introduction to Thailand\'s diverse offerings.',
+    ],
+    whyVisit: [
+      { emoji: '🛕', text: 'Grand Palace & Temples' },
+      { emoji: '🏖️', text: 'Pattaya Beaches' },
+      { emoji: '🛶', text: 'Floating Markets' },
+      { emoji: '🍜', text: 'Thai Street Food' },
+      { emoji: '🎭', text: 'Alcazar & Cultural Shows' },
+      { emoji: '🐘', text: 'Safari World' },
+    ],
+    placesToVisit: [
+      { name: 'Bangkok', description: 'Thailand\'s vibrant capital with the magnificent Grand Palace, Wat Pho, floating markets, bustling Khao San Road, and world-class shopping at MBK and Chatuchak Market.', image: 'https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Pattaya', description: 'A lively beach resort city with Coral Island, water sports, Nong Nooch Garden, the famous Alcazar cabaret show, and vibrant Walking Street nightlife.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Coral Island (Koh Larn)', description: 'A beautiful island just 45 minutes from Pattaya with crystal-clear waters, white sand beaches, snorkeling, parasailing, and water activities.', image: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Thailand Tour Packages',
+    aboutPackagesParagraphs: [
+      'Our Thailand packages cover Bangkok and Pattaya with all major attractions, comfortable stays, and guided tours.',
+      'All packages include hotel accommodation, breakfast, airport transfers, sightseeing, and visa-on-arrival assistance.',
+    ],
+    bestTime: [
+      { period: 'November – February', description: 'Cool and dry season. Best weather for sightseeing and beach activities. Most popular tourist season.', type: 'sun', recommended: true },
+      { period: 'March – May', description: 'Hot season but great for beaches. Songkran (Thai New Year) in April is a unique cultural experience.', type: 'leaf' },
+      { period: 'June – October', description: 'Rainy season with afternoon showers. Lower prices and fewer crowds. Still enjoyable.', type: 'rain' },
+    ],
+    inclusions: ['Hotel Accommodation', 'Daily Breakfast', 'Airport Transfers', 'Sightseeing Tours', 'Coral Island Trip', 'English-Speaking Guide', 'Travel Insurance'],
+    faq: [
+      { q: 'Do Indians need a visa for Thailand?', a: 'Indians get Visa on Arrival for 15 days or can apply for a 60-day tourist visa. We assist with all documentation.' },
+      { q: 'Is Thailand safe for Indian travelers?', a: 'Very safe! Thailand is one of the most tourist-friendly countries in Asia with excellent infrastructure.' },
+      { q: 'What currency is used?', a: 'Thai Baht (THB). ATMs and money exchange available everywhere. Credit cards widely accepted in cities.' },
+      { q: 'Is Thai food suitable for vegetarians?', a: 'Yes, Thai cuisine has many vegetarian options. We can arrange vegetarian/Jain meals at restaurants and hotels.' },
+    ],
+  },
+
+  // ═══════════════════════════════════════════════════════════════════════════
+  // BHUTAN
+  // ═══════════════════════════════════════════════════════════════════════════
+  'bhutan': {
+    slug: 'bhutan',
+    name: 'Bhutan',
+    heroImage: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroTitle: 'Bhutan Tour Packages 2026 | Land of the Thunder Dragon',
+    heroDescription: 'Discover the last Shangri-La — Bhutan, a mystical Himalayan kingdom of ancient monasteries, dramatic dzongs, pristine forests, and the philosophy of Gross National Happiness. Trek to the iconic Tiger\'s Nest and experience a culture untouched by time.',
+    packages: [
+      { name: 'Bhutan', duration: '6D / 5N', price: 29999, highlights: ['Tiger\'s Nest', 'Thimphu', 'Paro', 'Punakha Dzong'] },
+    ],
+    featuredImage: { src: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Tiger\'s Nest Monastery — Paro, Bhutan' },
+    aboutHeading: 'Bhutan — Land of the Thunder Dragon',
+    aboutParagraphs: [
+      'Bhutan is the world\'s only carbon-negative country and a Himalayan kingdom that measures success by Gross National Happiness. Ancient Buddhist monasteries, dramatic dzongs (fortress-monasteries), and pristine forests make it a truly unique destination.',
+      'The iconic Tiger\'s Nest (Paro Taktsang), perched on a cliff at 3,120 m, is one of the world\'s most sacred and spectacular Buddhist sites. Thimphu and Punakha offer rich cultural experiences with vibrant festivals and warm Bhutanese hospitality.',
+    ],
+    whyVisit: [
+      { emoji: '🛕', text: 'Tiger\'s Nest Monastery' },
+      { emoji: '🏰', text: 'Punakha Dzong' },
+      { emoji: '🏔️', text: 'Himalayan Mountain Views' },
+      { emoji: '🙏', text: 'Buddhist Culture & Festivals' },
+      { emoji: '🌿', text: 'Pristine Nature & Forests' },
+      { emoji: '😊', text: 'Gross National Happiness' },
+    ],
+    placesToVisit: [
+      { name: 'Tiger\'s Nest (Paro Taktsang)', description: 'Bhutan\'s most iconic landmark — a sacred Buddhist monastery clinging to a cliff face at 3,120 m. The 2-3 hour hike through pine forests offers breathtaking views and a deeply spiritual experience.', image: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Punakha Dzong', description: 'The most beautiful dzong in Bhutan, set at the confluence of two rivers. This fortress-monastery served as the capital and is a masterpiece of Bhutanese architecture.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Thimphu', description: 'Bhutan\'s capital city with the giant Buddha Dordenma statue, Tashichho Dzong, Memorial Chorten, and the only capital in the world without traffic lights.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    ],
+    aboutPackagesHeading: 'About Bhutan Tour Packages',
+    aboutPackagesParagraphs: [
+      'Our Bhutan package covers Paro, Thimphu, and Punakha in 6 days with comfortable stays, meals, guided tours, and the Tiger\'s Nest trek.',
+      'Package includes hotel accommodation, all meals, airport transfers, licensed Bhutanese guide, sightseeing, and permit assistance.',
+    ],
+    bestTime: [
+      { period: 'March – May', description: 'Spring with blooming rhododendrons and clear Himalayan views. Pleasant temperatures ideal for trekking to Tiger\'s Nest.', type: 'sun', recommended: true },
+      { period: 'September – November', description: 'Autumn with crystal-clear skies, harvest festivals, and stunning mountain panoramas. Best visibility for Himalayan peaks.', type: 'leaf' },
+      { period: 'June – August', description: 'Monsoon with rain but lush green valleys. Fewer tourists and lower prices. Some trails may be slippery.', type: 'rain' },
+    ],
+    inclusions: ['Hotel Accommodation', 'All Meals', 'Airport Transfers', 'Licensed Bhutanese Guide', 'Sightseeing', 'Monument Entry Fees', 'Permit & Visa Assistance', 'Sustainable Development Fee'],
+    faq: [
+      { q: 'Do Indians need a visa for Bhutan?', a: 'Indians do not need a visa for Bhutan! You only need a valid Indian passport or Voter ID. We handle all permit formalities.' },
+      { q: 'How to reach Bhutan?', a: 'Fly to Paro (Druk Air or Bhutan Airlines from Delhi, Kolkata, Mumbai). You can also enter by road via Phuentsholing from West Bengal.' },
+      { q: 'Is Bhutan expensive?', a: 'Bhutan has a Sustainable Development Fee, but our packages include this. Once paid, the country offers great value with all meals, guide, and transport included.' },
+      { q: 'How difficult is the Tiger\'s Nest trek?', a: 'The 2-3 hour uphill hike is moderate. Horses are available for the first half. Take it slow and enjoy the views!' },
+    ],
+  },
 };
 
 // ─── Generate default data for remaining destinations ────────────────────────
