@@ -625,7 +625,7 @@ export default function DestinationPage() {
                 <img src="/images/weddings/Logo.png" alt="Him Yatra Logo" className="w-11 h-11 rounded-xl object-contain" />
                 <div><p className="font-display text-xl font-bold">Him Yatra</p><p className="text-gray-400 text-xs">Holidays</p></div>
               </Link>
-              <p className="text-gray-400 text-sm leading-relaxed">Crafting unforgettable adventures since 2008. 10,000+ happy travellers.</p>
+              <p className="text-gray-400 text-sm leading-relaxed">Crafting unforgettable adventures since 2018. 10,000+ happy travellers.</p>
             </div>
             <div>
               <h4 className="font-bold mb-4 text-sm uppercase tracking-wider text-gray-300">Quick Links</h4>

@@ -518,7 +518,7 @@ const destinations = [
 const categories = ["All", "Domestic", "Pilgrimage", "International"];
 
 const stats = [
-  { number: "15+", label: "Years Experience", icon: Award },
+  { number: "8+", label: "Years Experience", icon: Award },
   { number: "10K+", label: "Happy Travelers", icon: Heart },
   { number: "200+", label: "Destinations", icon: MapPin },
   { number: "50+", label: "Expert Guides", icon: Compass },
@@ -1274,7 +1274,7 @@ function HomePage() {
           <div className="inline-flex items-center gap-2 bg-white/15 backdrop-blur border border-white/20 rounded-full px-4 py-2 mb-6">
             <Sparkles className="w-4 h-4 text-accent-400" />
             <span className="text-white/90 text-sm font-medium">
-              Crafting Himalayan Dreams Since 2008
+              Crafting Himalayan Dreams Since 2018
             </span>
           </div>
 
@@ -1587,7 +1587,7 @@ function HomePage() {
                 About Us
               </p>
               <h2 className="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                Crafting Himalayan Dreams Since 2008
+                Crafting Himalayan Dreams Since 2018
               </h2>
               <p className="text-gray-600 text-lg mb-5 leading-relaxed">
                 Him Yatra Holidays was born from a single conviction — that

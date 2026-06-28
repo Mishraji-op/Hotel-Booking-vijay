@@ -87,7 +87,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'kashmir': {
     slug: 'kashmir',
     name: 'Kashmir',
-    heroImage: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://www.kashmirtourpackage.org/blog/wp-content/uploads/2024/02/Leh-Ladakh.jpg',
     heroTitle: 'Kashmir Tour Packages 2026 | Best Deals & Offers',
     heroDescription: 'Explore the breathtaking beauty of Kashmir with our customized tour packages designed for Indian travelers. From the serene Dal Lake in Srinagar to the snow-covered landscapes of Gulmarg and the lush green valleys of Pahalgam, Kashmir offers a perfect mix of nature, adventure, and relaxation.',
     packages: [
@@ -97,7 +97,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Srinagar Pahalgam', duration: '7D / 6N', price: 24500, highlights: ['Aru Valley', 'Chandanwari', 'Houseboat'] },
       { name: 'Srinagar Pahalgam Gulmarg Kashmir', duration: '6D / 5N', price: 25900, highlights: ['Complete Tour', 'Gondola', 'Dal Lake', 'Betaab Valley'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Shikara Ride in Dal Lake' },
+    featuredImage: { src: 'https://hblimg.mmtcdn.com/content/hubble/img/additionalttdimages/mmt/activities/m_Shikara_Ride_in_Srinagar_1_l_360_640.jpg', caption: 'Shikara Ride in Dal Lake' },
     aboutHeading: 'Jammu & Kashmir Tour',
     aboutParagraphs: [
       'Kashmir, often called Paradise on Earth, is one of India\'s most beautiful destinations. Surrounded by snow-capped mountains, lush valleys, alpine lakes, and colorful gardens, Kashmir offers a perfect blend of nature, adventure, culture, and relaxation.',
@@ -112,11 +112,11 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '📸', text: 'Amazing photography locations' },
     ],
     placesToVisit: [
-      { name: 'Srinagar', description: 'The summer capital of J&K, famous for Dal Lake, Mughal Gardens, houseboats, and the bustling old city with its papier-mâché and pashmina crafts. A shikara ride at sunset is an unforgettable experience.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Gulmarg', description: 'Known as the "Meadow of Flowers," Gulmarg is India\'s premier ski destination and home to the world\'s second-highest operating cable car (Gondola). In summer, it transforms into a lush golf course and trekking paradise.', image: 'https://images.pexels.com/photos/1287460/pexels-photo-1287460.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Pahalgam', description: 'The "Valley of Shepherds" is a tranquil town along the Lidder River. It serves as the base camp for the Amarnath Yatra and offers stunning valleys like Betaab, Aru, and Chandanwari for trekking and sightseeing.', image: 'https://images.pexels.com/photos/2749656/pexels-photo-2749656.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Sonmarg', description: 'The "Meadow of Gold" sits at 2,800 m and is the gateway to Ladakh via Zoji La. Surrounded by glaciers, alpine flowers, and trout streams, it\'s perfect for pony rides and day trips to Thajiwas Glacier.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Mughal Gardens', description: 'Srinagar\'s Mughal Gardens — Shalimar Bagh, Nishat Bagh, and Chashme Shahi — are terraced masterpieces with cascading fountains, vibrant flower beds, and chinar-shaded avenues dating to the Mughal era.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Srinagar', description: 'The summer capital of J&K, famous for Dal Lake, Mughal Gardens, houseboats, and the bustling old city with its papier-mâché and pashmina crafts. A shikara ride at sunset is an unforgettable experience.', image: 'https://images.unsplash.com/photo-1564329494258-3f72215ba175?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+      { name: 'Gulmarg', description: 'Known as the "Meadow of Flowers," Gulmarg is India\'s premier ski destination and home to the world\'s second-highest operating cable car (Gondola). In summer, it transforms into a lush golf course and trekking paradise.', image: 'https://images.unsplash.com/photo-1621232082074-1a7750ecc557?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8R3VsbWFyZ3xlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Pahalgam', description: 'The "Valley of Shepherds" is a tranquil town along the Lidder River. It serves as the base camp for the Amarnath Yatra and offers stunning valleys like Betaab, Aru, and Chandanwari for trekking and sightseeing.', image: 'https://images.unsplash.com/photo-1609412489711-2f037d8f4c77?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8UGFoYWxnYW18ZW58MHx8MHx8fDA%3D' },
+      { name: 'Sonmarg', description: 'The "Meadow of Gold" sits at 2,800 m and is the gateway to Ladakh via Zoji La. Surrounded by glaciers, alpine flowers, and trout streams, it\'s perfect for pony rides and day trips to Thajiwas Glacier.', image: 'https://images.unsplash.com/photo-1666545380922-1296a4ac9521?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U29ubWFyZ3xlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Mughal Gardens', description: 'Srinagar\'s Mughal Gardens — Shalimar Bagh, Nishat Bagh, and Chashme Shahi — are terraced masterpieces with cascading fountains, vibrant flower beds, and chinar-shaded avenues dating to the Mughal era.', image: 'https://images.unsplash.com/photo-1677438657323-c5181f445a2d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TXVnaGFsJTIwR2FyZGVuc3xlbnwwfHwwfHx8MA%3D%3D' },
     ],
     aboutPackagesHeading: 'About Kashmir Tour Packages',
     aboutPackagesParagraphs: [
@@ -147,7 +147,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'leh-ladakh': {
     slug: 'leh-ladakh',
     name: 'Leh Ladakh',
-    heroImage: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGVoJTIwbGFkYWtofGVufDB8fDB8fHww',
     heroTitle: 'Ladakh Tour Packages 2026 | Adventure Trips & Scenic Road Journeys',
     heroDescription: 'Explore the breathtaking landscapes of Ladakh with our customized tour packages designed for travelers across India. From the vibrant streets of Leh and the crystal-clear waters of Pangong Lake to the sand dunes of Nubra Valley and the thrilling high-altitude passes, Ladakh offers a perfect mix of adventure and natural beauty. Whether you are planning a bike trip, group tour, or family vacation, our Ladakh packages include hotel stays, transfers, permits, and sightseeing for a safe and unforgettable travel experience.',
     packages: [
@@ -156,7 +156,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Ladakh Summer Holiday', duration: '7D / 6N', price: 25999, highlights: ['Pangong Lake', 'Nubra Valley', 'Diskit Monastery', 'Chang La'] },
       { name: 'Ladakh', duration: '6D / 5N', price: 27999, highlights: ['Leh Local', 'Magnetic Hill', 'Thiksey', 'Shey Palace'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Landscape of sand dunes at Nubra Valley, Ladakh' },
+    featuredImage: { src: 'https://media1.thrillophilia.com/filestore/wvk97i5gssbtljdu5gqplwqmloh6_1494510547_HONEYMOON-IN-NUBRA.jpg', caption: 'Landscape of sand dunes at Nubra Valley, Ladakh' },
     aboutHeading: 'Leh Ladakh',
     aboutParagraphs: [
       'Leh Ladakh tour packages offer an awe-inspiring adventure in the northernmost region of India. Nestled amidst the majestic Himalayas, Ladakh is renowned for its surreal landscapes, ancient monasteries, and vibrant culture. These packages typically include accommodation, transportation, guided tours, and permits to restricted areas.',
@@ -171,11 +171,11 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '📸', text: 'Perfect for adventure lovers' },
     ],
     placesToVisit: [
-      { name: 'Pangong Lake', description: 'A 134 km long high-altitude lake stretching from India to Tibet. Its waters shift between cobalt blue, turquoise, and emerald green depending on sunlight. Camping by the lake under a star-filled sky is unforgettable.', image: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Nubra Valley', description: 'Known as the "Valley of Flowers," Nubra features white sand dunes at Hunder where you can ride double-humped Bactrian camels. The Diskit Monastery overlooks the valley with a giant Maitreya Buddha statue.', image: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Khardung La', description: 'One of the world\'s highest motorable passes at 17,982 ft. The road to Nubra Valley crosses this legendary pass, offering breathtaking views of snow-covered peaks and the thrill of standing on top of the world.', image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Thiksey Monastery', description: 'A stunning 12-storey hilltop monastery resembling Lhasa\'s Potala Palace. Home to a two-storey seated Maitreya Buddha, it offers sunrise views and the peaceful chanting of resident monks.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Magnetic Hill', description: 'A gravity-defying optical illusion where vehicles appear to roll uphill. Located on the Leh-Kargil Highway, it\'s one of Ladakh\'s quirkiest attractions and a fun stop on any Leh sightseeing tour.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Pangong Lake', description: 'A 134 km long high-altitude lake stretching from India to Tibet. Its waters shift between cobalt blue, turquoise, and emerald green depending on sunlight. Camping by the lake under a star-filled sky is unforgettable.', image: 'https://images.unsplash.com/photo-1652204597589-962156b9483d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UGFuZ29uZyUyMExha2V8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Nubra Valley', description: 'Known as the "Valley of Flowers," Nubra features white sand dunes at Hunder where you can ride double-humped Bactrian camels. The Diskit Monastery overlooks the valley with a giant Maitreya Buddha statue.', image: 'https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TnVicmElMjBWYWxsZXl8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Khardung La', description: 'One of the world\'s highest motorable passes at 17,982 ft. The road to Nubra Valley crosses this legendary pass, offering breathtaking views of snow-covered peaks and the thrill of standing on top of the world.', image: 'https://images.unsplash.com/photo-1636788236886-90de63beab48?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S2hhcmR1bmclMjBMYXxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Thiksey Monastery', description: 'A stunning 12-storey hilltop monastery resembling Lhasa\'s Potala Palace. Home to a two-storey seated Maitreya Buddha, it offers sunrise views and the peaceful chanting of resident monks.', image: 'https://images.unsplash.com/photo-1708945124506-e1b2baeb2dd7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VGhpa3NleSUyME1vbmFzdGVyeXxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Magnetic Hill', description: 'A gravity-defying optical illusion where vehicles appear to roll uphill. Located on the Leh-Kargil Highway, it\'s one of Ladakh\'s quirkiest attractions and a fun stop on any Leh sightseeing tour.', image: 'https://images.unsplash.com/photo-1641319626759-cc9ea5b18107?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFnbmV0aWMlMjBIaWxsfGVufDB8fDB8fHww' },
     ],
     aboutPackagesHeading: 'About Ladakh Tour Packages',
     aboutPackagesParagraphs: [
@@ -207,7 +207,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'goa': {
     slug: 'goa',
     name: 'Goa',
-    heroImage: 'https://images.pexels.com/photos/1002348/pexels-photo-1002348.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://plus.unsplash.com/premium_photo-1697729701846-e34563b06d47?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z29hfGVufDB8fDB8fHww',
     heroTitle: 'Goa Tour Packages 2026 | Beach Holidays & Party Getaways',
     heroDescription: 'Experience the vibrant beaches, Portuguese heritage, and legendary nightlife of Goa. From the bustling shores of Baga to the serene sands of Palolem, our curated packages offer the ultimate coastal escape for families, couples, and friends.',
     packages: [
@@ -216,7 +216,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'South Goa Serenity', duration: '5D / 4N', price: 24999, highlights: ['Palolem', 'Colva', 'Cabo de Rama'] },
       { name: 'Goa Honeymoon Special', duration: '6D / 5N', price: 34999, highlights: ['Cruise', 'Spa', 'Candlelit Dinner'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/1002348/pexels-photo-1002348.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Golden Sunset at Baga Beach' },
+    featuredImage: { src: 'https://images.unsplash.com/photo-1560179406-1c6c60e0dc76?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z29hfGVufDB8fDB8fHww', caption: 'Golden Sunset at Baga Beach' },
     aboutHeading: 'Goa — Sun, Sand & Celebrations',
     aboutParagraphs: [
       'Goa is India\'s smallest state but its biggest party destination. With 100+ km of coastline, Portuguese colonial heritage, world-class seafood, and a laid-back vibe, Goa attracts millions of travelers every year.',
@@ -231,11 +231,11 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '💑', text: 'Romantic honeymoon destination' },
     ],
     placesToVisit: [
-      { name: 'Baga Beach', description: 'The heart of North Goa\'s party scene — buzzing shacks, water sports, and Saturday night markets. Baga is where Goa\'s energy is at its peak.', image: 'https://images.pexels.com/photos/1002348/pexels-photo-1002348.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Basilica of Bom Jesus', description: 'A UNESCO World Heritage Site housing the mortal remains of St. Francis Xavier. This 16th-century church is a masterpiece of Baroque architecture.', image: 'https://images.pexels.com/photos/3581364/pexels-photo-3581364.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Dudhsagar Falls', description: 'A four-tiered, 310 m waterfall on the Goa-Karnataka border. Accessible by jeep through dense jungle, it\'s one of India\'s tallest and most spectacular falls.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Fort Aguada', description: 'A well-preserved 17th-century Portuguese fort overlooking the Arabian Sea. Its lighthouse offers panoramic views of the coastline.', image: 'https://images.pexels.com/photos/1287460/pexels-photo-1287460.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Palolem Beach', description: 'South Goa\'s most beautiful crescent-shaped beach. Lined with palm trees and colorful beach huts, it\'s perfect for swimming, kayaking, and dolphin spotting.', image: 'https://images.pexels.com/photos/2749656/pexels-photo-2749656.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Baga Beach', description: 'The heart of North Goa\'s party scene — buzzing shacks, water sports, and Saturday night markets. Baga is where Goa\'s energy is at its peak.', image: 'https://images.unsplash.com/photo-1723275763631-2f53c56ee251?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+      { name: 'Basilica of Bom Jesus', description: 'A UNESCO World Heritage Site housing the mortal remains of St. Francis Xavier. This 16th-century church is a masterpiece of Baroque architecture.', image: 'https://plus.unsplash.com/premium_photo-1694475706705-e48c72fc4677?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmFzaWxpY2ElMjBvZiUyMEJvbSUyMEplc3VzfGVufDB8fDB8fHww' },
+      { name: 'Dudhsagar Falls', description: 'A four-tiered, 310 m waterfall on the Goa-Karnataka border. Accessible by jeep through dense jungle, it\'s one of India\'s tallest and most spectacular falls.', image: 'https://plus.unsplash.com/premium_photo-1732030992689-b215161ede41?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RHVkaHNhZ2FyJTIwRmFsbHN8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Fort Aguada', description: 'A well-preserved 17th-century Portuguese fort overlooking the Arabian Sea. Its lighthouse offers panoramic views of the coastline.', image: 'https://plus.unsplash.com/premium_photo-1733342499689-b8d937bc2792?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Rm9ydCUyMEFndWFkYXxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Palolem Beach', description: 'South Goa\'s most beautiful crescent-shaped beach. Lined with palm trees and colorful beach huts, it\'s perfect for swimming, kayaking, and dolphin spotting.', image: 'https://images.unsplash.com/photo-1615473787506-24ca223bf0e1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fFBhbG9sZW0lMjBCZWFjaHxlbnwwfHwwfHx8MA%3D%3D' },
     ],
     aboutPackagesHeading: 'About Goa Tour Packages',
     aboutPackagesParagraphs: [
@@ -266,7 +266,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'kerala': {
     slug: 'kerala',
     name: 'Kerala',
-    heroImage: 'https://images.pexels.com/photos/256447/pexels-photo-256447.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://images.unsplash.com/photo-1593693411515-c20261bcad6e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8a2VyYWxhfGVufDB8fDB8fHww',
     heroTitle: 'Kerala Tour Packages 2026 | God\'s Own Country Awaits',
     heroDescription: 'Discover the lush backwaters, rolling tea hills, spice-scented streets, and golden beaches of Kerala. From houseboat cruises in Alleppey to wildlife safaris in Periyar, Kerala is India\'s most tranquil paradise.',
     packages: [
@@ -276,7 +276,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Munnar Thekkady Alleppey', duration: '5D / 4N', price: 18900, highlights: ['Munnar', 'Periyar Wildlife', 'Houseboat'] },
       { name: 'Munnar Alleppey Kerala', duration: '4D / 3N', price: 19900, highlights: ['Tea Plantations', 'Backwater Cruise', 'Kochi'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/256447/pexels-photo-256447.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Houseboat Cruise on Alleppey Backwaters' },
+    featuredImage: { src: 'https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SG91c2Vib2F0JTIwQ3J1aXNlJTIwb24lMjBBbGxlcHBleSUyMEJhY2t3YXRlcnN8ZW58MHx8MHx8fDA%3D', caption: 'Houseboat Cruise on Alleppey Backwaters' },
     aboutHeading: 'Kerala — God\'s Own Country',
     aboutParagraphs: [
       'Kerala is a tropical paradise along India\'s southwestern Malabar Coast, renowned for its palm-lined backwaters, misty hill stations, spice plantations, and Ayurvedic wellness traditions.',
@@ -291,11 +291,11 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🌶️', text: 'Spice garden tours & local cuisine' },
     ],
     placesToVisit: [
-      { name: 'Alleppey (Alappuzha)', description: 'The "Venice of the East" is famous for its palm-fringed backwater canals. A night on a traditional houseboat gliding through serene waterways is the quintessential Kerala experience.', image: 'https://images.pexels.com/photos/256447/pexels-photo-256447.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Munnar', description: 'A hill station at 1,600 m altitude, carpeted with endless tea plantations, misty valleys, and exotic flora. Eravikulam National Park here is home to the endangered Nilgiri Tahr.', image: 'https://images.pexels.com/photos/2749656/pexels-photo-2749656.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Fort Kochi', description: 'A charming blend of Portuguese, Dutch, and British colonial heritage. Walk past Chinese fishing nets, visit St. Francis Church (India\'s oldest European church), and explore the vibrant art galleries.', image: 'https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Periyar Wildlife Sanctuary', description: 'Home to elephants, tigers, and exotic birds. Enjoy a boat ride on Periyar Lake surrounded by dense tropical forest, or trek through the wilderness with tribal guides.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Kovalam Beach', description: 'A crescent-shaped beach with lighthouse views, Ayurvedic massage parlours, and calm waters perfect for swimming. Kovalam is one of South India\'s most popular beach destinations.', image: 'https://images.pexels.com/photos/1002348/pexels-photo-1002348.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Alleppey (Alappuzha)', description: 'The "Venice of the East" is famous for its palm-fringed backwater canals. A night on a traditional houseboat gliding through serene waterways is the quintessential Kerala experience.', image: 'https://images.unsplash.com/photo-1592726129696-4eadb95126e6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fCdBbGxlcHBleXxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Munnar', description: 'A hill station at 1,600 m altitude, carpeted with endless tea plantations, misty valleys, and exotic flora. Eravikulam National Park here is home to the endangered Nilgiri Tahr.', image: 'https://images.unsplash.com/photo-1629813538702-64c925934e19?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TXVubmFyfGVufDB8fDB8fHww' },
+      { name: 'Fort Kochi', description: 'A charming blend of Portuguese, Dutch, and British colonial heritage. Walk past Chinese fishing nets, visit St. Francis Church (India\'s oldest European church), and explore the vibrant art galleries.', image: 'https://plus.unsplash.com/premium_photo-1697729640715-b4f8b691b9ce?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Rm9ydCUyMEtvY2hpfGVufDB8fDB8fHww' },
+      { name: 'Periyar Wildlife Sanctuary', description: 'Home to elephants, tigers, and exotic birds. Enjoy a boat ride on Periyar Lake surrounded by dense tropical forest, or trek through the wilderness with tribal guides.', image: 'https://images.unsplash.com/photo-1765636011267-8b445af967f5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UGVyaXlhciUyMFdpbGRsaWZlJTIwU2FuY3R1YXJ5J3xlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Kovalam Beach', description: 'A crescent-shaped beach with lighthouse views, Ayurvedic massage parlours, and calm waters perfect for swimming. Kovalam is one of South India\'s most popular beach destinations.', image: 'https://images.unsplash.com/photo-1677769608829-1534f945c1df?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S292YWxhbSUyMEJlYWNofGVufDB8fDB8fHww' },
     ],
     aboutPackagesHeading: 'About Kerala Tour Packages',
     aboutPackagesParagraphs: [
@@ -326,14 +326,14 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'rajasthan': {
     slug: 'rajasthan',
     name: 'Rajasthan',
-    heroImage: 'https://images.pexels.com/photos/3581364/pexels-photo-3581364.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://images.unsplash.com/photo-1602643163983-ed0babc39797?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8UkFKQVNUSEFOfGVufDB8fDB8fHww',
     heroTitle: 'Rajasthan Tour Packages 2026 | Royal Heritage & Desert Adventures',
     heroDescription: 'Step into the land of maharajas, majestic forts, golden deserts, and vibrant culture. From the pink city of Jaipur to the blue city of Jodhpur and the romantic lakes of Udaipur, Rajasthan is India\'s most regal destination.',
     packages: [
       { name: 'Jaipur Ranthambhore', duration: '5D / 4N', price: 12000, highlights: ['Amer Fort', 'Hawa Mahal', 'Tiger Safari', 'City Palace'] },
       { name: 'Udaipur Kumbhalgarh', duration: '4D / 3N', price: 7800, highlights: ['Lake Pichola', 'Kumbhalgarh Fort', 'City Palace', 'Ranakpur'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/3581364/pexels-photo-3581364.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Majestic Amer Fort — Jaipur' },
+    featuredImage: { src: 'https://plus.unsplash.com/premium_photo-1661963054563-ce928e477ff3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWFqZXN0aWMlMjBBbWVyJTIwRm9ydCUyMCVFMiU4MCU5NCUyMEphaXB1cid8ZW58MHx8MHx8fDA%3D', caption: 'Majestic Amer Fort — Jaipur' },
     aboutHeading: 'Rajasthan — Land of Kings',
     aboutParagraphs: [
       'Rajasthan is India\'s largest state and its most colorful. Every city has a distinct personality — Jaipur is pink, Jodhpur is blue, Jaisalmer is golden, and Udaipur is white. Together, they tell the story of India\'s royal heritage.',
@@ -348,11 +348,11 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '📸', text: 'Incredible photography opportunities' },
     ],
     placesToVisit: [
-      { name: 'Jaipur — The Pink City', description: 'Home to Amer Fort, Hawa Mahal, City Palace, and Jantar Mantar. The vibrant bazaars of Johari and Bapu are perfect for shopping jewelry, textiles, and handicrafts.', image: 'https://images.pexels.com/photos/3581364/pexels-photo-3581364.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Udaipur — City of Lakes', description: 'The most romantic city in India with Lake Pichola, City Palace, and Jag Mandir. Sunset from a lakeside restaurant is pure magic.', image: 'https://images.pexels.com/photos/1007426/pexels-photo-1007426.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Jaisalmer — The Golden City', description: 'A living fort rising from the Thar Desert. Explore havelis with intricate stone carvings, ride camels across sand dunes, and sleep under stars in desert camps.', image: 'https://images.pexels.com/photos/2749656/pexels-photo-2749656.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Jodhpur — The Blue City', description: 'Dominated by the mighty Mehrangarh Fort, Jodhpur\'s blue-washed houses create a stunning cityscape. The Umaid Bhawan Palace is one of the world\'s largest private residences.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Pushkar', description: 'One of India\'s oldest cities with the only Brahma Temple in the world. The annual Pushkar Camel Fair is a riot of color, music, and desert culture.', image: 'https://images.pexels.com/photos/2905570/pexels-photo-2905570.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Jaipur — The Pink City', description: 'Home to Amer Fort, Hawa Mahal, City Palace, and Jantar Mantar. The vibrant bazaars of Johari and Bapu are perfect for shopping jewelry, textiles, and handicrafts.', image: 'https://images.unsplash.com/photo-1650530777057-3a7dbc24bf6c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8J0phaXB1ciUyMCVFMiU4MCU5NCUyMFRoZSUyMFBpbmslMjBDaXR5fGVufDB8fDB8fHww' },
+      { name: 'Udaipur — City of Lakes', description: 'The most romantic city in India with Lake Pichola, City Palace, and Jag Mandir. Sunset from a lakeside restaurant is pure magic.', image: 'https://images.unsplash.com/photo-1695956353120-54ce5e91632b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VWRhaXB1ciUyMCVFMiU4MCU5NCUyMENpdHklMjBvZiUyMExha2VzfGVufDB8fDB8fHww' },
+      { name: 'Jaisalmer — The Golden City', description: 'A living fort rising from the Thar Desert. Explore havelis with intricate stone carvings, ride camels across sand dunes, and sleep under stars in desert camps.', image: 'https://media.istockphoto.com/id/1222495861/photo/temple-inside-the-jaisalmer-fort.webp?a=1&b=1&s=612x612&w=0&k=20&c=D-Pe_MUzlDDmChaBqXXySPkKZbPM_l6nybdiLVfo9ZI=' },
+      { name: 'Jodhpur — The Blue City', description: 'Dominated by the mighty Mehrangarh Fort, Jodhpur\'s blue-washed houses create a stunning cityscape. The Umaid Bhawan Palace is one of the world\'s largest private residences.', image: 'https://images.unsplash.com/photo-1602643363875-1167d8a219a5?q=80&w=1064&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+      { name: 'Pushkar', description: 'One of India\'s oldest cities with the only Brahma Temple in the world. The annual Pushkar Camel Fair is a riot of color, music, and desert culture.', image: 'https://plus.unsplash.com/premium_photo-1697730426227-9056296a0315?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UHVzaGthcnxlbnwwfHwwfHx8MA%3D%3D' },
     ],
     aboutPackagesHeading: 'About Rajasthan Tour Packages',
     aboutPackagesParagraphs: [
@@ -383,7 +383,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'shimla-manali': {
     slug: 'shimla-manali',
     name: 'Shimla & Manali',
-    heroImage: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://images.unsplash.com/photo-1698930299968-5cc0e664fdd0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U0hJTUxBLU1BTkFMSXxlbnwwfHwwfHx8MA%3D%3D',
     heroTitle: 'Shimla Manali Tour Packages 2026 | Twin Hill Station Magic',
     heroDescription: 'Experience the charm of two legendary Himalayan hill stations. From Shimla\'s colonial elegance to Manali\'s adventure-packed valleys, this twin-city journey offers snow sports, apple orchards, and breathtaking mountain views.',
     packages: [
@@ -393,7 +393,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Shimla Manali Chandigarh', duration: '7D / 6N', price: 25897, highlights: ['Kufri', 'Rohtang Pass', 'Rock Garden', 'Mall Road'] },
       { name: 'Shimla Manali Vacation', duration: '6D / 5N', price: 32000, highlights: ['Premium Stay', 'Snow Points', 'Spa', 'Sightseeing'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Snow-Covered Rohtang Pass' },
+    featuredImage: { src: 'https://images.unsplash.com/photo-1651955670895-9aa2e9243b66?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U25vdy1Db3ZlcmVkJTIwUm9odGFuZyUyMFBhc3N8ZW58MHx8MHx8fDA%3D', caption: 'Snow-Covered Rohtang Pass' },
     aboutHeading: 'Shimla & Manali — Himalayan Gems',
     aboutParagraphs: [
       'Shimla, the former summer capital of British India, enchants with its colonial architecture, toy-train rides, and panoramic mountain views. Manali, just a scenic drive away, is the adventure capital of Himachal.',
@@ -408,11 +408,11 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🏔️', text: 'Rohtang Pass & Atal Tunnel' },
     ],
     placesToVisit: [
-      { name: 'Mall Road, Shimla', description: 'The bustling heart of Shimla with shops, restaurants, and the iconic Christ Church. A walk along the Ridge offers stunning views of snow-capped peaks.', image: 'https://images.pexels.com/photos/2749656/pexels-photo-2749656.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Rohtang Pass', description: 'A legendary high-altitude pass at 13,050 ft offering snow activities, glaciers, and breathtaking views. Now accessible year-round via the Atal Tunnel.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Solang Valley', description: 'Manali\'s adventure playground — paragliding, zorbing, skiing, and snow tubing. The valley is stunning in every season.', image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Hadimba Temple', description: 'A 16th-century pagoda-style temple surrounded by cedar forests. Its unique wooden architecture and serene setting make it Manali\'s most iconic landmark.', image: 'https://images.pexels.com/photos/2905570/pexels-photo-2905570.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Kufri', description: 'A tiny hill station near Shimla famous for its ski slopes, pony rides, and the Himalayan Nature Park with red pandas and snow leopards.', image: 'https://images.pexels.com/photos/1287460/pexels-photo-1287460.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Mall Road, Shimla', description: 'The bustling heart of Shimla with shops, restaurants, and the iconic Christ Church. A walk along the Ridge offers stunning views of snow-capped peaks.', image: 'https://images.unsplash.com/photo-1641735734951-5e6e96bf9a25?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWFsbCUyMFJvYWQlMkMlMjBTaGltbGF8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Rohtang Pass', description: 'A legendary high-altitude pass at 13,050 ft offering snow activities, glaciers, and breathtaking views. Now accessible year-round via the Atal Tunnel.', image: 'https://images.unsplash.com/photo-1581793746485-04698e79a4e8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Um9odGFuZyUyMFBhc3N8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Solang Valley', description: 'Manali\'s adventure playground — paragliding, zorbing, skiing, and snow tubing. The valley is stunning in every season.', image: 'https://images.unsplash.com/photo-1677820915325-d8ce3184c2a4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U29sYW5nJTIwVmFsbGV5fGVufDB8fDB8fHww' },
+      { name: 'Hadimba Temple', description: 'A 16th-century pagoda-style temple surrounded by cedar forests. Its unique wooden architecture and serene setting make it Manali\'s most iconic landmark.', image: 'https://images.unsplash.com/photo-1655809062121-8f3b53832a6d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SGFkaW1iYSUyMFRlbXBsZXxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Kufri', description: 'A tiny hill station near Shimla famous for its ski slopes, pony rides, and the Himalayan Nature Park with red pandas and snow leopards.', image: 'https://images.unsplash.com/photo-1619476006517-75d535a84652?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwcGFuZGFzJTIwYW5kJTIwc25vdyUyMGxlb3BhcmRzfGVufDB8fDB8fHww' },
     ],
     aboutPackagesHeading: 'About Shimla Manali Packages',
     aboutPackagesParagraphs: [
@@ -443,7 +443,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'darjeeling-gangtok': {
     slug: 'darjeeling-gangtok',
     name: 'Darjeeling & Gangtok',
-    heroImage: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://images.unsplash.com/photo-1544634076-a90160ddf44c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fERBUkpFRUxJTkd8ZW58MHx8MHx8fDA%3D',
     heroTitle: 'Darjeeling Gangtok Packages 2026 | Tea Gardens & Mountains',
     heroDescription: 'Witness sunrise over Kanchenjunga, ride the Darjeeling Himalayan Railway, explore vibrant Sikkimese culture, and sip the world\'s finest tea in the misty hills of Northeast India.',
     packages: [
@@ -453,7 +453,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Darjeeling Gangtok', duration: '5D / 4N', price: 24599, highlights: ['Tiger Hill', 'Mall Road', 'MG Marg', 'Tea Gardens'] },
       { name: 'Kolkata', duration: '3D / 2N', price: 12500, highlights: ['Victoria Memorial', 'Howrah Bridge', 'City Tour'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Sunrise at Tiger Hill — Kanchenjunga View' },
+    featuredImage: { src: 'https://images.unsplash.com/photo-1717399393413-865590439e08?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U3VucmlzZSUyMGF0JTIwVGlnZXIlMjBIaWxsJTIwJUUyJTgwJTk0JTIwS2FuY2hlbmp1bmdhJTIwVmlld3xlbnwwfHwwfHx8MA%3D%3D', caption: 'Sunrise at Tiger Hill — Kanchenjunga View' },
     aboutHeading: 'Darjeeling & Gangtok Tour',
     aboutParagraphs: [
       'Darjeeling, the "Queen of Hills," is famous for its tea plantations, the toy train, and unforgettable sunrise views of Kanchenjunga. Gangtok, the capital of Sikkim, offers a blend of Buddhist culture, pristine nature, and high-altitude lakes.',
@@ -468,11 +468,11 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🌺', text: 'Rhododendron forests & orchids' },
     ],
     placesToVisit: [
-      { name: 'Tiger Hill', description: 'Watch the first rays of dawn illuminate Kanchenjunga and the Himalayan range. This sunrise viewpoint is one of India\'s most iconic experiences.', image: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Tsomgo Lake', description: 'A glacial lake at 12,310 ft near Gangtok. Frozen in winter and surrounded by wildflowers in summer, with yak rides along its shores.', image: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Nathula Pass', description: 'The Indo-China border pass at 14,140 ft. Open to Indian tourists, it offers stunning views and a unique chance to stand at an international border.', image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Happy Valley Tea Estate', description: 'One of the oldest tea gardens in Darjeeling. Walk through aromatic tea bushes, watch the plucking and processing, and taste freshly brewed Darjeeling tea.', image: 'https://images.pexels.com/photos/2749656/pexels-photo-2749656.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Rumtek Monastery', description: 'The largest monastery in Sikkim and seat of the Karmapa. Its golden stupas, prayer halls, and serene setting offer a deep spiritual experience.', image: 'https://images.pexels.com/photos/2905570/pexels-photo-2905570.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Tiger Hill', description: 'Watch the first rays of dawn illuminate Kanchenjunga and the Himalayan range. This sunrise viewpoint is one of India\'s most iconic experiences.', image: 'https://images.unsplash.com/photo-1452001603782-7d4e7d931173?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8VGlnZXIlMjBIaWxsfGVufDB8fDB8fHww' },
+      { name: 'Tsomgo Lake', description: 'A glacial lake at 12,310 ft near Gangtok. Frozen in winter and surrounded by wildflowers in summer, with yak rides along its shores.', image: 'https://images.unsplash.com/photo-1632726823875-43dd9adad495?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VHNvbWdvJTIwTGFrZXxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Nathula Pass', description: 'The Indo-China border pass at 14,140 ft. Open to Indian tourists, it offers stunning views and a unique chance to stand at an international border.', image: 'https://images.unsplash.com/photo-1551155311-88cda3ebe650?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TmF0aHVsYSUyMFBhc3N8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Happy Valley Tea Estate', description: 'One of the oldest tea gardens in Darjeeling. Walk through aromatic tea bushes, watch the plucking and processing, and taste freshly brewed Darjeeling tea.', image: 'https://plus.unsplash.com/premium_photo-1692049123463-010c76b8df7a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SGFwcHklMjBWYWxsZXklMjBUZWElMjBFc3RhdGV8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Rumtek Monastery', description: 'The largest monastery in Sikkim and seat of the Karmapa. Its golden stupas, prayer halls, and serene setting offer a deep spiritual experience.', image: 'https://plus.unsplash.com/premium_photo-1732737295950-b1517183d7e4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UnVtdGVrJTIwTW9uYXN0ZXJ5fGVufDB8fDB8fHww' },
     ],
     aboutPackagesHeading: 'About Darjeeling Gangtok Packages',
     aboutPackagesParagraphs: [
@@ -503,7 +503,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'himachal-pradesh': {
     slug: 'himachal-pradesh',
     name: 'Himachal Pradesh',
-    heroImage: 'https://images.pexels.com/photos/2749656/pexels-photo-2749656.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://plus.unsplash.com/premium_photo-1697730487072-c7c29e113007?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGltYWNoYWwtcHJhZGVzaHxlbnwwfHwwfHx8MA%3D%3D',
     heroTitle: 'Himachal Pradesh Packages 2026 | Devbhoomi Adventures',
     heroDescription: 'Explore the divine land of Himachal Pradesh — from the spiritual vibes of Dharamshala to the colonial charm of Dalhousie and the pine forests of Kasauli. Snow-capped peaks, cedar trails, and hill-station magic await.',
     packages: [
@@ -513,7 +513,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Shimla Manali Chandigarh', duration: '7D / 6N', price: 25897, highlights: ['Kufri', 'Rohtang Pass', 'Rock Garden', 'Mall Road'] },
       { name: 'Shimla Manali Vacation', duration: '6D / 5N', price: 32000, highlights: ['Premium Stay', 'Snow Points', 'Spa', 'Sightseeing'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2749656/pexels-photo-2749656.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Pine Forest Trail — Himachal Pradesh' },
+    featuredImage: { src: 'https://unsplash.com/s/photos/Pine-Forest-Trail-%E2%80%94-Himachal-Pradesh', caption: 'Pine Forest Trail — Himachal Pradesh' },
     aboutHeading: 'Himachal Pradesh — Devbhoomi',
     aboutParagraphs: [
       'Himachal Pradesh, the "Land of Gods," is a northern Indian state spanning the western Himalayas. Known for its snow-capped mountains, deep valleys, Buddhist monasteries, and adventure sports, Himachal is a year-round destination.',
@@ -528,11 +528,11 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🌤️', text: 'Perfect weather escape' },
     ],
     placesToVisit: [
-      { name: 'Dharamshala & McLeodGanj', description: 'Home of the Dalai Lama and the Tibetan government-in-exile. Trek to Triund, visit Buddhist temples, and enjoy the vibrant café culture.', image: 'https://images.pexels.com/photos/2749656/pexels-photo-2749656.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Dalhousie', description: 'A charming hill station with Victorian-era architecture, pine-covered slopes, and the "Mini Switzerland" of Khajjiar.', image: 'https://images.pexels.com/photos/1287460/pexels-photo-1287460.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Kasauli', description: 'A quiet colonial cantonment town with heritage churches, brewery tours, and Monkey Point offering panoramic Himalayan views.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Khajjiar', description: 'Called the "Mini Switzerland of India," this lush meadow surrounded by cedar forests is perfect for horse riding, zorbing, and photography.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Bir Billing', description: 'Asia\'s highest paragliding site and a major center for meditation retreats. The flight from Billing to Bir offers spectacular valley views.', image: 'https://images.pexels.com/photos/2905570/pexels-photo-2905570.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Dharamshala & McLeodGanj', description: 'Home of the Dalai Lama and the Tibetan government-in-exile. Trek to Triund, visit Buddhist temples, and enjoy the vibrant café culture.', image: 'https://images.unsplash.com/photo-1581321863389-ef7d7bfe4b75?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZGhhcmFtc2hhbGElMjAlMjYlMjBNY0xlb2RHYW5qfGVufDB8fDB8fHww' },
+      { name: 'Dalhousie', description: 'A charming hill station with Victorian-era architecture, pine-covered slopes, and the "Mini Switzerland" of Khajjiar.', image: 'https://images.unsplash.com/photo-1630186351668-15d3c8116cd9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8RGFsaG91c2llJ3xlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Kasauli', description: 'A quiet colonial cantonment town with heritage churches, brewery tours, and Monkey Point offering panoramic Himalayan views.', image: 'https://images.unsplash.com/photo-1643778765874-23e79f4e38b8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8S2FzYXVsaXxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Khajjiar', description: 'Called the "Mini Switzerland of India," this lush meadow surrounded by cedar forests is perfect for horse riding, zorbing, and photography.', image: 'https://images.unsplash.com/photo-1714381639586-80d1f04dfb0e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S2hhamppYXJ8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Bir Billing', description: 'Asia\'s highest paragliding site and a major center for meditation retreats. The flight from Billing to Bir offers spectacular valley views.', image: 'https://images.unsplash.com/photo-1702374018905-a89f8a133272?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QmlyJTIwQmlsbGluZyd8ZW58MHx8MHx8fDA%3D' },
     ],
     aboutPackagesHeading: 'About Himachal Pradesh Packages',
     aboutPackagesParagraphs: [
@@ -563,7 +563,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'guwahati-shillong': {
     slug: 'guwahati-shillong',
     name: 'Guwahati & Shillong',
-    heroImage: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://images.unsplash.com/photo-1625826415766-001bd75aaf52?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U0hJTExPTkd8ZW58MHx8MHx8fDA%3D',
     heroTitle: 'Guwahati & Shillong Tour Packages 2026 | Northeast India',
     heroDescription: 'Discover the Scotland of the East with our customized Guwahati & Shillong tour packages. From the sacred Kamakhya Temple to the crystal-clear waters of Dawki River, misty Shillong Peak, and the living root bridges of Cherrapunji — experience the unexplored beauty of Northeast India.',
     packages: [
@@ -571,7 +571,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Guwahati & Kaziranga', duration: '5D / 4N', price: 21498, highlights: ['Kaziranga Safari', 'One-Horned Rhino', 'Kamakhya Temple'] },
       { name: 'Guwahati & Shillong', duration: '5D / 4N', price: 17390, highlights: ['Shillong Peak', 'Ward\'s Lake', 'Elephant Falls'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Crystal-Clear Dawki River, Meghalaya' },
+    featuredImage: { src: 'https://images.unsplash.com/photo-1552978534-9d01e1f91517?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q3J5c3RhbC1DbGVhciUyMERhd2tpJTIwUml2ZXIlMkMlMjBNZWdoYWxheWF8ZW58MHx8MHx8fDA%3D', caption: 'Crystal-Clear Dawki River, Meghalaya' },
     aboutHeading: 'Guwahati & Shillong Tour',
     aboutParagraphs: [
       'Guwahati, the gateway to Northeast India, is a vibrant city on the banks of the Brahmaputra. Famous for the ancient Kamakhya Temple, Umananda Island, and bustling markets, it offers a rich cultural experience.',
@@ -586,10 +586,10 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '📸', text: 'Stunning Photography Spots' },
     ],
     placesToVisit: [
-      { name: 'Kamakhya Temple', description: 'One of India\'s most sacred Shakti Peethas, perched on Nilachal Hill in Guwahati. The temple attracts pilgrims and tourists year-round with its ancient architecture and spiritual significance.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Shillong Peak', description: 'The highest point of Shillong at 6,449 ft offering panoramic views of the city and surrounding hills. On clear days, you can see the plains of Bangladesh in the distance.', image: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Dawki River', description: 'Famous for its crystal-clear turquoise waters where boats appear to float in mid-air. Located on the India-Bangladesh border, it\'s one of the most photographed spots in Northeast India.', image: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Elephant Falls', description: 'A beautiful three-tiered waterfall near Shillong, surrounded by lush greenery. Named by the British after an elephant-shaped rock that once stood nearby.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Kamakhya Temple', description: 'One of India\'s most sacred Shakti Peethas, perched on Nilachal Hill in Guwahati. The temple attracts pilgrims and tourists year-round with its ancient architecture and spiritual significance.', image: 'https://plus.unsplash.com/premium_photo-1694475136007-14c4dbf484f5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8S2FtYWtoeWElMjBUZW1wbGV8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Shillong Peak', description: 'The highest point of Shillong at 6,449 ft offering panoramic views of the city and surrounding hills. On clear days, you can see the plains of Bangladesh in the distance.', image: 'https://plus.unsplash.com/premium_photo-1675811726174-b041364d4525?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2hpbGxvbmclMjBQZWFrfGVufDB8fDB8fHww' },
+      { name: 'Dawki River', description: 'Famous for its crystal-clear turquoise waters where boats appear to float in mid-air. Located on the India-Bangladesh border, it\'s one of the most photographed spots in Northeast India.', image: 'https://plus.unsplash.com/premium_photo-1666533246305-018d68b6b5e4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGF3a2klMjBSaXZlcnxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Elephant Falls', description: 'A beautiful three-tiered waterfall near Shillong, surrounded by lush greenery. Named by the British after an elephant-shaped rock that once stood nearby.', image: 'https://images.unsplash.com/photo-1531698451051-18c97580aeb2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RWxlcGhhbnQlMjBGYWxsc3xlbnwwfHwwfHx8MA%3D%3D' },
     ],
     aboutPackagesHeading: 'About Guwahati & Shillong Tour Packages',
     aboutPackagesParagraphs: [
@@ -616,7 +616,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'nainital-corbett': {
     slug: 'nainital-corbett',
     name: 'Nainital & Jim Corbett',
-    heroImage: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://images.unsplash.com/photo-1706468630738-b0ded0c5fc25?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TkFJTklUQUx8ZW58MHx8MHx8fDA%3D',
     heroTitle: 'Uttarakhand Tour Packages 2026 | Nainital, Corbett & Char Dham',
     heroDescription: 'Explore the divine land of Uttarakhand — from the serene lakes of Nainital and thrilling tiger safaris in Jim Corbett to the sacred Char Dham Yatra. Whether you seek adventure in Rishikesh, spirituality in Haridwar, or mountain tranquility, Uttarakhand has it all.',
     packages: [
@@ -631,7 +631,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
       { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Naini Lake — The Jewel of Kumaon' },
+    featuredImage: { src: 'https://plus.unsplash.com/premium_photo-1733266829433-6306cbd53e56?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TmFpbmklMjBMYWtlfGVufDB8fDB8fHww', caption: 'Naini Lake — The Jewel of Kumaon' },
     aboutHeading: 'Uttarakhand Tour — Dev Bhoomi',
     aboutParagraphs: [
       'Uttarakhand, the "Land of Gods," is a treasure trove of natural beauty, spirituality, and adventure. From the sacred Char Dham circuit to the serene lakes of Nainital and thrilling wildlife safaris in Jim Corbett National Park, this state offers something for every traveler.',
@@ -646,11 +646,11 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '⛰️', text: 'Himalayan Mountain Views' },
     ],
     placesToVisit: [
-      { name: 'Nainital', description: 'A charming hill station built around the emerald Naini Lake. Famous for boating, the Mall Road, Snow View Point, and Naina Devi Temple. A perfect family getaway in the Kumaon hills.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Jim Corbett National Park', description: 'India\'s oldest national park and a premier tiger reserve. Enjoy jeep safaris through sal forests, spot Bengal tigers, elephants, and over 600 bird species in this wildlife paradise.', image: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Rishikesh', description: 'The Yoga Capital of the World, set on the banks of the Ganges. Famous for Lakshman Jhula, Ram Jhula, river rafting, bungee jumping, and spiritual ashrams.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Haridwar', description: 'One of India\'s holiest cities, where the Ganges enters the plains. The evening Ganga Aarti at Har Ki Pauri is a mesmerizing spiritual experience not to be missed.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Kedarnath & Badrinath', description: 'Two of the four sacred Char Dham shrines nestled high in the Himalayas. Kedarnath requires a scenic 16 km trek, while Badrinath is accessible by road with stunning mountain views.', image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Nainital', description: 'A charming hill station built around the emerald Naini Lake. Famous for boating, the Mall Road, Snow View Point, and Naina Devi Temple. A perfect family getaway in the Kumaon hills.', image: 'https://images.unsplash.com/photo-1712201649803-ab1b13dae600?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE5haW5pdGFsfGVufDB8fDB8fHww' },
+      { name: 'Jim Corbett National Park', description: 'India\'s oldest national park and a premier tiger reserve. Enjoy jeep safaris through sal forests, spot Bengal tigers, elephants, and over 600 bird species in this wildlife paradise.', image: 'https://plus.unsplash.com/premium_photo-1661817083646-cf3a6f24f040?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8SmltJTIwQ29yYmV0dCUyME5hdGlvbmFsJTIwUGFya3xlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Rishikesh', description: 'The Yoga Capital of the World, set on the banks of the Ganges. Famous for Lakshman Jhula, Ram Jhula, river rafting, bungee jumping, and spiritual ashrams.', image: 'https://images.unsplash.com/photo-1718383537411-6f9e727ae0bb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8UmlzaGlrZXNofGVufDB8fDB8fHww' },
+      { name: 'Haridwar', description: 'One of India\'s holiest cities, where the Ganges enters the plains. The evening Ganga Aarti at Har Ki Pauri is a mesmerizing spiritual experience not to be missed.', image: 'https://images.unsplash.com/photo-1511754863001-18d44abd0a93?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+      { name: 'Kedarnath & Badrinath', description: 'Two of the four sacred Char Dham shrines nestled high in the Himalayas. Kedarnath requires a scenic 16 km trek, while Badrinath is accessible by road with stunning mountain views.', image: 'https://plus.unsplash.com/premium_photo-1678303396253-72e9f330baae?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QmFkcmluYXRofGVufDB8fDB8fHww' },
     ],
     aboutPackagesHeading: 'About Uttarakhand Tour Packages',
     aboutPackagesParagraphs: [
@@ -679,7 +679,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'madhya-pradesh': {
     slug: 'madhya-pradesh',
     name: 'Madhya Pradesh',
-    heroImage: 'https://images.pexels.com/photos/5007839/pexels-photo-5007839.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://images.unsplash.com/photo-1658730487395-dcc99f5d997c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fE1BREhZQSUyMFBSQURFU0h8ZW58MHx8MHx8fDA%3D',
     heroTitle: 'Madhya Pradesh Tour Packages 2026 | Heart of Incredible India',
     heroDescription: 'Explore the cultural heartland of India — ancient temples of Khajuraho, tiger trails of Bandhavgarh & Kanha, the holy city of Ujjain, the hill station of Pachmarhi, and the historic grandeur of Orchha & Sanchi.',
     packages: [
@@ -691,7 +691,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Leisure and Wild', duration: '6D / 5N', price: 26116, highlights: ['Kanha', 'Pachmarhi', 'Nature Walks'] },
       { name: 'Heritage of Madhya Pradesh', duration: '5D / 4N', price: 21058, highlights: ['Sanchi Stupa', 'Bhimbetka', 'Bhopal', 'Orchha'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/5007839/pexels-photo-5007839.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Khajuraho Temples — UNESCO World Heritage' },
+    featuredImage: { src: 'https://images.unsplash.com/photo-1671375159250-8f81a29e54e7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S2hhanVyYWhvJTIwVGVtcGxlc3xlbnwwfHwwfHx8MA%3D%3D', caption: 'Khajuraho Temples — UNESCO World Heritage' },
     aboutHeading: 'Madhya Pradesh — Heart of India',
     aboutParagraphs: [
       'Madhya Pradesh, the heart of India, is a treasure trove of history, wildlife, and spirituality. Home to three UNESCO World Heritage Sites — Khajuraho, Sanchi, and Bhimbetka — the state offers a cultural depth unmatched by any other.',
@@ -706,11 +706,11 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🎨', text: 'Bhimbetka Rock Shelters' },
     ],
     placesToVisit: [
-      { name: 'Khajuraho', description: 'UNESCO World Heritage Site famous for its stunning medieval temples adorned with intricate erotic sculptures. A masterpiece of Indian art and architecture dating back to the Chandela dynasty.', image: 'https://images.pexels.com/photos/5007839/pexels-photo-5007839.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Bandhavgarh National Park', description: 'One of India\'s best tiger reserves with the highest density of Bengal tigers. The park also features the ancient Bandhavgarh Fort and diverse wildlife including leopards, deer, and birds.', image: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Ujjain', description: 'One of India\'s seven sacred cities, home to the Mahakaleshwar Jyotirlinga. The city hosts the grand Kumbh Mela and offers a deeply spiritual experience on the banks of the Shipra River.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Pachmarhi', description: 'The only hill station in MP, known as "Satpura ki Rani." Surrounded by forests, waterfalls, caves, and viewpoints. Bee Falls, Pandav Caves, and Dhoopgarh sunset are must-visits.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Orchha', description: 'A hidden gem on the banks of the Betwa River with magnificent Bundela-era palaces and cenotaphs. The Jehangir Mahal, Raja Mahal, and Ram Raja Temple are architectural marvels.', image: 'https://images.pexels.com/photos/3581364/pexels-photo-3581364.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Khajuraho', description: 'UNESCO World Heritage Site famous for its stunning medieval temples adorned with intricate erotic sculptures. A masterpiece of Indian art and architecture dating back to the Chandela dynasty.', image: 'https://images.unsplash.com/photo-1671375159250-8f81a29e54e7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S2hhanVyYWhvJTIwVGVtcGxlc3xlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Bandhavgarh National Park', description: 'One of India\'s best tiger reserves with the highest density of Bengal tigers. The park also features the ancient Bandhavgarh Fort and diverse wildlife including leopards, deer, and birds.', image: 'https://images.unsplash.com/photo-1554380726-5bd6b17b42e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QmFuZGhhdmdhcmglMjBOYXRpb25hbCUyMFBhcmt8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Ujjain', description: 'One of India\'s seven sacred cities, home to the Mahakaleshwar Jyotirlinga. The city hosts the grand Kumbh Mela and offers a deeply spiritual experience on the banks of the Shipra River.', image: 'https://images.unsplash.com/photo-1658730487395-dcc99f5d997c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VWpqYWlufGVufDB8fDB8fHww' },
+      { name: 'Pachmarhi', description: 'The only hill station in MP, known as "Satpura ki Rani." Surrounded by forests, waterfalls, caves, and viewpoints. Bee Falls, Pandav Caves, and Dhoopgarh sunset are must-visits.', image: 'https://images.unsplash.com/photo-1690441850698-b9aae3786d35?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UGFjaG1hcmhpfGVufDB8fDB8fHww' },
+      { name: 'Orchha', description: 'A hidden gem on the banks of the Betwa River with magnificent Bundela-era palaces and cenotaphs. The Jehangir Mahal, Raja Mahal, and Ram Raja Temple are architectural marvels.', image: 'https://images.unsplash.com/photo-1629914509217-17ae2042f1d7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8T3JjaGhhfGVufDB8fDB8fHww' },
     ],
     aboutPackagesHeading: 'About Madhya Pradesh Tour Packages',
     aboutPackagesParagraphs: [
@@ -738,7 +738,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'chardham': {
     slug: 'chardham',
     name: 'Chardham Yatra',
-    heroImage: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://plus.unsplash.com/premium_photo-1692102550620-35f8716814b4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hhcmRoYW0lMjB5YXRyYXxlbnwwfHwwfHx8MA%3D%3D',
     heroTitle: 'Uttarakhand Chardham Yatra Packages 2026 | Sacred Pilgrimage',
     heroDescription: 'Embark on the holiest pilgrimage in Hinduism — the Char Dham Yatra covering Yamunotri, Gangotri, Kedarnath, and Badrinath. We also offer Do Dham, Ek Dham, and Uttarakhand adventure packages for every type of traveler.',
     packages: [
@@ -753,7 +753,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
       { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Kedarnath Temple — Sacred Himalayan Shrine' },
+    featuredImage: { src: 'https://plus.unsplash.com/premium_photo-1691031429084-894ffad104ac?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8S2VkYXJuYXRoJTIwVGVtcGxlfGVufDB8fDB8fHww', caption: 'Kedarnath Temple — Sacred Himalayan Shrine' },
     aboutHeading: 'Chardham Yatra — The Sacred Circuit',
     aboutParagraphs: [
       'The Char Dham Yatra is Hinduism\'s most sacred pilgrimage, covering four divine shrines — Yamunotri, Gangotri, Kedarnath, and Badrinath — nestled high in the Garhwal Himalayas of Uttarakhand.',
@@ -768,11 +768,11 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🐅', text: 'Jim Corbett Tiger Safari' },
     ],
     placesToVisit: [
-      { name: 'Kedarnath', description: 'One of the holiest Shiva temples, perched at 3,583 m in the Himalayas. The trek from Gaurikund (16 km) through stunning mountain scenery is a transformative spiritual experience.', image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Badrinath', description: 'The sacred abode of Lord Vishnu, situated between the Nar and Narayan mountain ranges. The temple and nearby Mana Village (last Indian village before Tibet) are must-visits.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Haridwar', description: 'One of India\'s seven holiest cities, where the Ganges enters the plains. The evening Ganga Aarti at Har Ki Pauri is a mesmerizing spiritual spectacle not to be missed.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Rishikesh', description: 'The Yoga Capital of the World and Adventure Capital of India. Famous for river rafting, bungee jumping, Lakshman Jhula, and peaceful ashrams on the banks of the Ganges.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Yamunotri & Gangotri', description: 'The source shrines of the sacred Yamuna and Ganga rivers. Yamunotri features hot springs and a beautiful trek, while Gangotri offers stunning glacier views and the revered Gangotri Temple.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Kedarnath', description: 'One of the holiest Shiva temples, perched at 3,583 m in the Himalayas. The trek from Gaurikund (16 km) through stunning mountain scenery is a transformative spiritual experience.', image: 'https://images.unsplash.com/photo-1699042921538-6d03a8df9631?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8S2VkYXJuYXRofGVufDB8fDB8fHww' },
+      { name: 'Badrinath', description: 'The sacred abode of Lord Vishnu, situated between the Nar and Narayan mountain ranges. The temple and nearby Mana Village (last Indian village before Tibet) are must-visits.', image: 'https://images.unsplash.com/photo-1622003615761-9c9077a56c36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEJhZHJpbmF0aHxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Haridwar', description: 'One of India\'s seven holiest cities, where the Ganges enters the plains. The evening Ganga Aarti at Har Ki Pauri is a mesmerizing spiritual spectacle not to be missed.', image: 'https://images.unsplash.com/photo-1511754863001-18d44abd0a93?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8SGFyaWR3YXJ8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Rishikesh', description: 'The Yoga Capital of the World and Adventure Capital of India. Famous for river rafting, bungee jumping, Lakshman Jhula, and peaceful ashrams on the banks of the Ganges.', image: 'https://images.unsplash.com/photo-1712510817140-917938f92e5b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UmlzaGlrZXNofGVufDB8fDB8fHww' },
+      { name: 'Yamunotri & Gangotri', description: 'The source shrines of the sacred Yamuna and Ganga rivers. Yamunotri features hot springs and a beautiful trek, while Gangotri offers stunning glacier views and the revered Gangotri Temple.', image: 'https://plus.unsplash.com/premium_photo-1661963385126-11fa577925d3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8R2FuZ290cml8ZW58MHx8MHx8fDA%3D' },
     ],
     aboutPackagesHeading: 'About Chardham & Uttarakhand Packages',
     aboutPackagesParagraphs: [
@@ -801,7 +801,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'kedarnath-rishikesh': {
     slug: 'kedarnath-rishikesh',
     name: 'Kedarnath & Rishikesh',
-    heroImage: 'https://images.pexels.com/photos/2905570/pexels-photo-2905570.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://plus.unsplash.com/premium_photo-1697730398251-40cd8dc57e0b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UklTSElLRVNIfGVufDB8fDB8fHww',
     heroTitle: 'Kedarnath & Rishikesh Tour Packages 2026 | Pilgrimage & Adventure',
     heroDescription: 'Experience the divine energy of Kedarnath Temple and the thrilling adventure of Rishikesh. From the sacred trek to Lord Shiva\'s abode to river rafting on the Ganges, our packages offer the perfect blend of spirituality and adventure in Uttarakhand.',
     packages: [
@@ -816,7 +816,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
       { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2905570/pexels-photo-2905570.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Kedarnath Temple at Dawn' },
+    featuredImage: { src: 'https://images.unsplash.com/photo-1649147313351-c86537fda0eb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8S2VkYXJuYXRoJTIwVGVtcGxlJTIwYXQlMjBEYXdufGVufDB8fDB8fHww', caption: 'Kedarnath Temple at Dawn' },
     aboutHeading: 'Kedarnath & Rishikesh Tour',
     aboutParagraphs: [
       'Kedarnath, one of the 12 Jyotirlingas of Lord Shiva, sits at 3,583 m in the Garhwal Himalayas. The 16 km trek from Gaurikund through breathtaking mountain scenery is a transformative spiritual journey undertaken by lakhs of devotees every year.',
@@ -831,10 +831,10 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '⛰️', text: 'Stunning Mountain Views' },
     ],
     placesToVisit: [
-      { name: 'Kedarnath Temple', description: 'One of the holiest Shiva temples, perched at 3,583 m in the Himalayas. The trek from Gaurikund through stunning mountain scenery is a once-in-a-lifetime spiritual experience. Helicopter services also available.', image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Rishikesh', description: 'The Yoga Capital of the World, set on the banks of the sacred Ganges. Famous for Lakshman Jhula, Ram Jhula, river rafting, bungee jumping, and spiritual ashrams.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Haridwar', description: 'One of India\'s seven holiest cities where the Ganges enters the plains. The evening Ganga Aarti at Har Ki Pauri is a mesmerizing spiritual spectacle.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Badrinath', description: 'The sacred abode of Lord Vishnu between the Nar and Narayan mountain ranges. Visit the ancient temple and nearby Mana Village — the last Indian village before Tibet.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Kedarnath Temple', description: 'One of the holiest Shiva temples, perched at 3,583 m in the Himalayas. The trek from Gaurikund through stunning mountain scenery is a once-in-a-lifetime spiritual experience. Helicopter services also available.', image: 'https://plus.unsplash.com/premium_photo-1675597056623-74d1e05dc3f0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8S2VkYXJuYXRoJTIwVGVtcGxlfGVufDB8fDB8fHww' },
+      { name: 'Rishikesh', description: 'The Yoga Capital of the World, set on the banks of the sacred Ganges. Famous for Lakshman Jhula, Ram Jhula, river rafting, bungee jumping, and spiritual ashrams.', image: 'https://images.unsplash.com/photo-1713340546638-5e30e2b7b1fe?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fFJpc2hpa2VzaHxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Haridwar', description: 'One of India\'s seven holiest cities where the Ganges enters the plains. The evening Ganga Aarti at Har Ki Pauri is a mesmerizing spiritual spectacle.', image: 'https://images.unsplash.com/photo-1725600090866-dc591ddf4957?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEhhcmlkd2FyfGVufDB8fDB8fHww' },
+      { name: 'Badrinath', description: 'The sacred abode of Lord Vishnu between the Nar and Narayan mountain ranges. Visit the ancient temple and nearby Mana Village — the last Indian village before Tibet.', image: 'https://images.unsplash.com/photo-1735817984411-af719b6836c0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fEJhZHJpbmF0aHxlbnwwfHwwfHx8MA%3D%3D' },
     ],
     aboutPackagesHeading: 'About Kedarnath & Rishikesh Packages',
     aboutPackagesParagraphs: [
@@ -863,7 +863,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'badrinath': {
     slug: 'badrinath',
     name: 'Badrinath',
-    heroImage: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://images.unsplash.com/photo-1622003615761-9c9077a56c36?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEJhZHJpbmF0aHxlbnwwfHwwfHx8MA%3D%3D',
     heroTitle: 'Badrinath Tour Packages 2026 | Sacred Abode of Lord Vishnu',
     heroDescription: 'Visit one of India\'s holiest shrines — Badrinath Dham, nestled between the Nar and Narayan mountain ranges. Explore Mana Village, Vasudhara Falls, and Tapt Kund on this divine Himalayan pilgrimage.',
     packages: [
@@ -878,7 +878,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
       { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Badrinath Temple — Abode of Lord Vishnu' },
+    featuredImage: { src: 'https://plus.unsplash.com/premium_photo-1678597956152-4d92c3f4fc8e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TG9yZCUyMFZpc2hudXxlbnwwfHwwfHx8MA%3D%3D', caption: 'Badrinath Temple — Abode of Lord Vishnu' },
     aboutHeading: 'Badrinath Dham — Abode of Lord Vishnu',
     aboutParagraphs: [
       'Badrinath, one of the four Char Dhams, is dedicated to Lord Vishnu and sits at 3,133 m in the Garhwal Himalayas. The ancient temple is flanked by the majestic Nar and Narayan peaks and the holy Alaknanda River.',
@@ -893,9 +893,9 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '⛰️', text: 'Himalayan Mountain Views' },
     ],
     placesToVisit: [
-      { name: 'Badrinath Temple', description: 'One of the four Char Dhams and one of 108 Divya Desams of Lord Vishnu. The colorful temple against snow-capped peaks is an iconic sight. VIP darshan arrangements available.', image: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Mana Village', description: 'India\'s last village before the Tibetan border. Visit Vyas Gufa, Ganesh Gufa, Bheem Pul (natural rock bridge), and Saraswati River origin. A fascinating cultural experience.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Vasudhara Falls', description: 'A magnificent 400-ft waterfall about 5 km from Mana Village. Legend says the water does not touch sinners. The trek offers stunning views of Himalayan peaks.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Badrinath Temple', description: 'One of the four Char Dhams and one of 108 Divya Desams of Lord Vishnu. The colorful temple against snow-capped peaks is an iconic sight. VIP darshan arrangements available.', image: 'https://images.unsplash.com/photo-1722067487040-5c63b4a6d5f1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEJhZHJpbmF0aCUyMFRlbXBsZXxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Mana Village', description: 'India\'s last village before the Tibetan border. Visit Vyas Gufa, Ganesh Gufa, Bheem Pul (natural rock bridge), and Saraswati River origin. A fascinating cultural experience.', image: 'https://images.unsplash.com/photo-1742281415340-83cf1cda44a2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWFuYSUyMFZpbGxhZ2V8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Vasudhara Falls', description: 'A magnificent 400-ft waterfall about 5 km from Mana Village. Legend says the water does not touch sinners. The trek offers stunning views of Himalayan peaks.', image: 'https://images.unsplash.com/photo-1723871493391-d8204dddfa90?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VmFzdWRoYXJhJTIwRmFsbHN8ZW58MHx8MHx8fDA%3D' },
     ],
     aboutPackagesHeading: 'About Badrinath Tour Packages',
     aboutPackagesParagraphs: [
@@ -922,7 +922,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'kedarnath': {
     slug: 'kedarnath',
     name: 'Kedarnath',
-    heroImage: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://images.unsplash.com/photo-1642774667024-e9e2f37914d2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEtFREFSTkFUSHxlbnwwfHwwfHx8MA%3D%3D',
     heroTitle: 'Kedarnath Tour Packages 2026 | Mahadev Ka Dham',
     heroDescription: 'Trek to one of the 12 Jyotirlingas of Lord Shiva at 3,583 m in the Garhwal Himalayas. The 16 km trek from Gaurikund through breathtaking mountain scenery is a transformative spiritual experience.',
     packages: [
@@ -937,7 +937,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
       { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Kedarnath Temple — Jyotirlinga of Lord Shiva' },
+    featuredImage: { src: 'https://images.unsplash.com/photo-1642774667024-e9e2f37914d2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SnlvdGlybGluZ2ElMjBvZiUyMExvcmQlMjBTaGl2YXxlbnwwfHwwfHx8MA%3D%3D', caption: 'Kedarnath Temple — Jyotirlinga of Lord Shiva' },
     aboutHeading: 'Kedarnath Dham — Mahadev Ka Dham',
     aboutParagraphs: [
       'Kedarnath, one of the 12 Jyotirlingas, is among Hinduism\'s holiest shrines. The ancient stone temple sits at 3,583 m surrounded by snow-capped peaks, with the Mandakini River flowing nearby.',
@@ -952,9 +952,9 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '⛰️', text: 'Gaurikund & Bhairav Temple' },
     ],
     placesToVisit: [
-      { name: 'Kedarnath Temple', description: 'One of the 12 Jyotirlingas of Lord Shiva, perched at 3,583 m. The ancient stone temple has survived centuries of natural calamities and stands as a testament to faith and architecture.', image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Gaurikund', description: 'The starting point of the Kedarnath trek and a sacred hot spring where Goddess Parvati is believed to have meditated. Also the base camp for the pilgrimage.', image: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Chorabari Tal (Gandhi Sarovar)', description: 'A glacial lake at 3,900 m, about 1 km from Kedarnath Temple. The pristine lake surrounded by snow peaks is a rewarding side trek for adventurous pilgrims.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Kedarnath Temple', description: 'One of the 12 Jyotirlingas of Lord Shiva, perched at 3,583 m. The ancient stone temple has survived centuries of natural calamities and stands as a testament to faith and architecture.', image: 'https://images.unsplash.com/photo-1712733900711-d0b929d0d7cc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S2VkYXJuYXRoJTIwVGVtcGxlfGVufDB8fDB8fHww' },
+      { name: 'Gaurikund', description: 'The starting point of the Kedarnath trek and a sacred hot spring where Goddess Parvati is believed to have meditated. Also the base camp for the pilgrimage.', image: 'https://images.unsplash.com/photo-1696355931734-5db6a09a418d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R2F1cmlrdW5kfGVufDB8fDB8fHww' },
+      { name: 'Chorabari Tal (Gandhi Sarovar)', description: 'A glacial lake at 3,900 m, about 1 km from Kedarnath Temple. The pristine lake surrounded by snow peaks is a rewarding side trek for adventurous pilgrims.', image: 'https://plus.unsplash.com/premium_photo-1661935781384-b27f5faa9197?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2hvcmF8ZW58MHx8MHx8fDA%3D' },
     ],
     aboutPackagesHeading: 'About Kedarnath Tour Packages',
     aboutPackagesParagraphs: [
@@ -981,7 +981,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'do-dham': {
     slug: 'do-dham',
     name: 'Do Dham Yatra',
-    heroImage: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://images.unsplash.com/photo-1612438214708-f428a707dd4e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VVRUQVJBS0hBTkR8ZW58MHx8MHx8fDA%3D',
     heroTitle: 'Do Dham Yatra Packages 2026 | Kedarnath & Badrinath',
     heroDescription: 'Combine two of India\'s most sacred Dhams — Kedarnath and Badrinath — in one divine yatra through the majestic Garhwal Himalayas. Our packages include comfortable stays, transfers, darshan assistance, and experienced guides.',
     packages: [
@@ -996,7 +996,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
       { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Do Dham — Twin Sacred Shrines of Uttarakhand' },
+    featuredImage: { src: 'https://plus.unsplash.com/premium_photo-1697729733902-f8c92710db07?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fFV0dGFyYWtoYW5kfGVufDB8fDB8fHww', caption: 'Do Dham — Twin Sacred Shrines of Uttarakhand' },
     aboutHeading: 'Do Dham Yatra — Kedarnath & Badrinath',
     aboutParagraphs: [
       'The Do Dham Yatra combines the two most important Char Dham shrines — Kedarnath (Lord Shiva) and Badrinath (Lord Vishnu) — into a single powerful pilgrimage through the Garhwal Himalayas.',
@@ -1011,10 +1011,10 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🕉️', text: 'Deep Spiritual Experience' },
     ],
     placesToVisit: [
-      { name: 'Kedarnath Temple', description: 'One of the 12 Jyotirlingas of Lord Shiva at 3,583 m. The 16 km trek from Gaurikund is a transformative spiritual experience. Helicopter services also available.', image: 'https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Badrinath Temple', description: 'Sacred abode of Lord Vishnu between the Nar and Narayan peaks. Explore Mana Village, Vasudhara Falls, and Tapt Kund hot springs.', image: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Devprayag', description: 'The sacred confluence of the Bhagirathi and Alaknanda rivers, forming the holy Ganges. A visually stunning and spiritually significant stop on the yatra.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Rishikesh & Haridwar', description: 'Start and end your yatra in these sacred cities. Experience Ganga Aarti, river rafting, yoga ashrams, and the spiritual energy of the Ganges.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Kedarnath Temple', description: 'One of the 12 Jyotirlingas of Lord Shiva at 3,583 m. The 16 km trek from Gaurikund is a transformative spiritual experience. Helicopter services also available.', image: 'https://plus.unsplash.com/premium_photo-1691031429084-894ffad104ac?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8S2VkYXJuYXRoJTIwVGVtcGxlfGVufDB8fDB8fHww' },
+      { name: 'Badrinath Temple', description: 'Sacred abode of Lord Vishnu between the Nar and Narayan peaks. Explore Mana Village, Vasudhara Falls, and Tapt Kund hot springs.', image: 'https://images.unsplash.com/photo-1729409141463-3dfbf786e756?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFkcmluYXRofGVufDB8fDB8fHww' },
+      { name: 'Devprayag', description: 'The sacred confluence of the Bhagirathi and Alaknanda rivers, forming the holy Ganges. A visually stunning and spiritually significant stop on the yatra.', image: 'https://images.unsplash.com/photo-1650445683345-9d9d4cc1d8a4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8RGV2cHJheWFnfGVufDB8fDB8fHww' },
+      { name: 'Rishikesh & Haridwar', description: 'Start and end your yatra in these sacred cities. Experience Ganga Aarti, river rafting, yoga ashrams, and the spiritual energy of the Ganges.', image: 'https://images.unsplash.com/photo-1622611908679-cbeda47d9404?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8SGFyaWR3YXJ8ZW58MHx8MHx8fDA%3D' },
     ],
     aboutPackagesHeading: 'About Do Dham Yatra Packages',
     aboutPackagesParagraphs: [
@@ -1041,7 +1041,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'haridwar': {
     slug: 'haridwar',
     name: 'Haridwar',
-    heroImage: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://images.unsplash.com/photo-1653392083932-d5e9e7d2ccd1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGFyaWR3YXJ8ZW58MHx8MHx8fDA%3D',
     heroTitle: 'Haridwar Tour Packages 2026 | Gateway to the Gods',
     heroDescription: 'Witness the mesmerizing Ganga Aarti at Har Ki Pauri, bathe in the holy waters of the Ganges, and explore one of India\'s seven sacred cities. Haridwar is the gateway to Uttarakhand\'s pilgrimage and adventure destinations.',
     packages: [
@@ -1056,7 +1056,7 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { name: 'Nainital, Kausani & Corbett', duration: '6D / 5N', price: 32198, highlights: ['Naini Lake', 'Kausani Sunset', 'Corbett Safari'] },
       { name: 'Badrinath & Kedarnath Yatra', duration: '6D / 5N', price: 33900, highlights: ['Do Dham', 'Kedarnath Trek', 'Badrinath Darshan'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Ganga Aarti at Har Ki Pauri, Haridwar' },
+    featuredImage: { src: 'https://images.unsplash.com/photo-1716573260891-23ad993e8833?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R2FuZ2ElMjBBYXJ0aXxlbnwwfHwwfHx8MA%3D%3D', caption: 'Ganga Aarti at Har Ki Pauri, Haridwar' },
     aboutHeading: 'Haridwar — Gateway to the Gods',
     aboutParagraphs: [
       'Haridwar, one of India\'s seven holiest cities, is where the sacred Ganges descends from the Himalayas into the plains. The city is a vibrant center of Hindu spirituality, with ancient temples, ashrams, and the world-famous Ganga Aarti at Har Ki Pauri.',
@@ -1071,10 +1071,10 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🚪', text: 'Gateway to Char Dham' },
     ],
     placesToVisit: [
-      { name: 'Har Ki Pauri', description: 'The most sacred ghat in Haridwar where Lord Vishnu\'s footprint is believed to be imprinted. The evening Ganga Aarti here with thousands of diyas floating on the Ganges is an unforgettable spectacle.', image: 'https://images.pexels.com/photos/2356045/pexels-photo-2356045.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Mansa Devi Temple', description: 'A hilltop temple dedicated to Goddess Mansa Devi, reachable by cable car. Offers panoramic views of Haridwar and the Ganges. Tie a wish thread and return when it\'s fulfilled.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Chandi Devi Temple', description: 'An ancient hilltop temple dedicated to Goddess Chandi. Accessible by cable car from Chandighat. One of the Siddha Peethas with powerful spiritual energy.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Rishikesh', description: 'Just 25 km from Haridwar, the Yoga Capital offers Lakshman Jhula, river rafting, bungee jumping, and tranquil ashrams. A must-add to any Haridwar trip.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Har Ki Pauri', description: 'The most sacred ghat in Haridwar where Lord Vishnu\'s footprint is believed to be imprinted. The evening Ganga Aarti here with thousands of diyas floating on the Ganges is an unforgettable spectacle.', image: 'https://images.unsplash.com/photo-1660791601875-cc61b489e7fe?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8SGFyJTIwS2klMjBQYXVyaXxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Mansa Devi Temple', description: 'A hilltop temple dedicated to Goddess Mansa Devi, reachable by cable car. Offers panoramic views of Haridwar and the Ganges. Tie a wish thread and return when it\'s fulfilled.', image: 'https://plus.unsplash.com/premium_photo-1691031429427-97978a028467?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWFuc2ElMjBEZXZpJTIwVGVtcGxlfGVufDB8fDB8fHww' },
+      { name: 'Chandi Devi Temple', description: 'An ancient hilltop temple dedicated to Goddess Chandi. Accessible by cable car from Chandighat. One of the Siddha Peethas with powerful spiritual energy.', image: 'https://plus.unsplash.com/premium_photo-1678294329028-58d80618cac6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVtcGxlfGVufDB8fDB8fHww' },
+      { name: 'Rishikesh', description: 'Just 25 km from Haridwar, the Yoga Capital offers Lakshman Jhula, river rafting, bungee jumping, and tranquil ashrams. A must-add to any Haridwar trip.', image: 'https://images.unsplash.com/photo-1607406374368-809f8ec7f118?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cmlzaGlrZXNofGVufDB8fDB8fHww' },
     ],
     aboutPackagesHeading: 'About Haridwar Tour Packages',
     aboutPackagesParagraphs: [
@@ -1101,14 +1101,14 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'bali': {
     slug: 'bali',
     name: 'Bali',
-    heroImage: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: 'https://plus.unsplash.com/premium_photo-1677829177642-30def98b0963?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QkFMSXxlbnwwfHwwfHx8MA%3D%3D',
     heroTitle: 'Bali Tour Packages 2026 | Island of the Gods',
     heroDescription: 'Discover the magical island of Bali — from ancient temples and emerald rice terraces to pristine beaches and world-class surf. Our customized Bali packages offer the perfect tropical getaway with comfortable stays, sightseeing, and unforgettable experiences.',
     packages: [
       { name: 'Bali', duration: '6D / 5N', price: 22999, highlights: ['Ubud', 'Tanah Lot', 'Kuta Beach', 'Kintamani'] },
       { name: 'Bali Paradise', duration: '7D / 6N', price: 98999, highlights: ['Luxury Villa', 'Spa', 'Private Tours', 'Uluwatu', 'Seminyak'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Tanah Lot Temple at Sunset, Bali' },
+    featuredImage: { src: 'https://plus.unsplash.com/premium_photo-1694475518874-bd12a29e3332?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8VGFuYWglMjBMb3QlMjBUZW1wbGV8ZW58MHx8MHx8fDA%3D', caption: 'Tanah Lot Temple at Sunset, Bali' },
     aboutHeading: 'Bali — Island of the Gods',
     aboutParagraphs: [
       'Bali, Indonesia\'s most famous island, is a paradise of ancient Hindu temples, lush rice terraces, volcanic mountains, and stunning beaches. The island seamlessly blends spirituality, culture, and natural beauty.',
@@ -1123,10 +1123,10 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🌅', text: 'Spectacular Sunsets' },
     ],
     placesToVisit: [
-      { name: 'Ubud', description: 'The cultural heart of Bali, famous for its rice terraces, art galleries, monkey forest, and traditional dance performances. A haven for yoga and wellness enthusiasts.', image: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Tanah Lot', description: 'An iconic sea temple perched on a rock formation in the ocean. One of Bali\'s most photographed landmarks, especially stunning at sunset.', image: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Uluwatu', description: 'A dramatic clifftop temple overlooking the Indian Ocean. Famous for its Kecak fire dance performance at sunset and world-class surfing below.', image: 'https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Seminyak & Kuta', description: 'Bali\'s most popular beach areas with vibrant nightlife, upscale restaurants, boutique shopping, and beautiful sandy beaches perfect for surfing and sunbathing.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Ubud', description: 'The cultural heart of Bali, famous for its rice terraces, art galleries, monkey forest, and traditional dance performances. A haven for yoga and wellness enthusiasts.', image: 'https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8VWJ1ZHxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Tanah Lot', description: 'An iconic sea temple perched on a rock formation in the ocean. One of Bali\'s most photographed landmarks, especially stunning at sunset.', image: 'https://images.unsplash.com/photo-1553902000-e036b7d05af5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VGFuYWglMjBMb3R8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Uluwatu', description: 'A dramatic clifftop temple overlooking the Indian Ocean. Famous for its Kecak fire dance performance at sunset and world-class surfing below.', image: 'https://images.unsplash.com/photo-1588625224664-a561c1f5f619?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VWx1d2F0dXxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Seminyak & Kuta', description: 'Bali\'s most popular beach areas with vibrant nightlife, upscale restaurants, boutique shopping, and beautiful sandy beaches perfect for surfing and sunbathing.', image: 'https://images.unsplash.com/photo-1722460228785-733ae3a0e8c8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U2VtaW55YWslMjAlMjYlMjBLdXRhfGVufDB8fDB8fHww' },
     ],
     aboutPackagesHeading: 'About Bali Tour Packages',
     aboutPackagesParagraphs: [
@@ -1152,14 +1152,14 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'malaysia': {
     slug: 'malaysia',
     name: 'Malaysia',
-    heroImage: 'https://images.pexels.com/photos/22804/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: '',
     heroTitle: 'Malaysia Tour Packages 2026 | Truly Asia',
     heroDescription: 'Experience the best of Southeast Asia — from the iconic Petronas Twin Towers of Kuala Lumpur to the pristine beaches of Langkawi, ancient Batu Caves, and the cultural melting pot of George Town. Malaysia offers modern luxury, natural beauty, and diverse cuisine.',
     packages: [
       { name: 'Malaysia', duration: '6D / 5N', price: 21500, highlights: ['Petronas Towers', 'Batu Caves', 'Genting Highlands', 'KL City Tour'] },
       { name: 'Malaysia Explorer', duration: '8D / 7N', price: 45500, highlights: ['Kuala Lumpur', 'Langkawi', 'Penang', 'Cameron Highlands'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/22804/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1200', caption: 'Petronas Twin Towers — Kuala Lumpur' },
+    featuredImage: { src: '', caption: 'Petronas Twin Towers — Kuala Lumpur' },
     aboutHeading: 'Malaysia — Truly Asia',
     aboutParagraphs: [
       'Malaysia is a vibrant Southeast Asian nation that perfectly blends modernity with tradition. The iconic Petronas Twin Towers dominate the Kuala Lumpur skyline, while ancient rainforests, tropical islands, and multicultural heritage create a diverse travel experience.',
@@ -1174,10 +1174,10 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🏛️', text: 'George Town Heritage' },
     ],
     placesToVisit: [
-      { name: 'Kuala Lumpur', description: 'Malaysia\'s capital city, home to the iconic Petronas Twin Towers, bustling Bukit Bintang shopping district, historic Merdeka Square, and the vibrant Jalan Alor food street.', image: 'https://images.pexels.com/photos/22804/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Langkawi', description: 'A duty-free tropical island paradise with stunning beaches, the Sky Bridge, mangrove tours, and island-hopping adventures. Perfect for relaxation and water sports.', image: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Batu Caves', description: 'A series of limestone caves housing Hindu temples, dominated by a 42.7 m golden statue of Lord Murugan. The 272-step climb to the main temple cave is a cultural highlight.', image: 'https://images.pexels.com/photos/2907196/pexels-photo-2907196.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Penang (George Town)', description: 'A UNESCO World Heritage city famous for its colonial architecture, vibrant street art, and arguably the best street food in Asia. A multicultural melting pot of Malay, Chinese, and Indian cultures.', image: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Kuala Lumpur', description: 'Malaysia\'s capital city, home to the iconic Petronas Twin Towers, bustling Bukit Bintang shopping district, historic Merdeka Square, and the vibrant Jalan Alor food street.', image: '' },
+      { name: 'Langkawi', description: 'A duty-free tropical island paradise with stunning beaches, the Sky Bridge, mangrove tours, and island-hopping adventures. Perfect for relaxation and water sports.', image: '' },
+      { name: 'Batu Caves', description: 'A series of limestone caves housing Hindu temples, dominated by a 42.7 m golden statue of Lord Murugan. The 272-step climb to the main temple cave is a cultural highlight.', image: '' },
+      { name: 'Penang (George Town)', description: 'A UNESCO World Heritage city famous for its colonial architecture, vibrant street art, and arguably the best street food in Asia. A multicultural melting pot of Malay, Chinese, and Indian cultures.', image: '' },
     ],
     aboutPackagesHeading: 'About Malaysia Tour Packages',
     aboutPackagesParagraphs: [
@@ -1203,13 +1203,13 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'singapore': {
     slug: 'singapore',
     name: 'Singapore',
-    heroImage: 'https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: '',
     heroTitle: 'Singapore Tour Packages 2026 | The Lion City',
     heroDescription: 'Experience the dazzling city-state of Singapore — futuristic gardens, world-class shopping, vibrant hawker centers, and iconic landmarks. From Marina Bay Sands to Sentosa Island, Singapore is the perfect blend of modern luxury and cultural heritage.',
     packages: [
       { name: 'Singapore', duration: '4D / 3N', price: 89999, highlights: ['Marina Bay Sands', 'Sentosa Island', 'Gardens by the Bay', 'Universal Studios'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Marina Bay Sands — Singapore Skyline' },
+    featuredImage: { src: '', caption: 'Marina Bay Sands — Singapore Skyline' },
     aboutHeading: 'Singapore — The Lion City',
     aboutParagraphs: [
       'Singapore is a stunning city-state that punches far above its size. The futuristic skyline of Marina Bay, the lush Gardens by the Bay, and world-class attractions like Universal Studios make it one of Asia\'s top travel destinations.',
@@ -1224,9 +1224,9 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🛍️', text: 'Orchard Road Shopping' },
     ],
     placesToVisit: [
-      { name: 'Marina Bay Sands', description: 'Singapore\'s most iconic landmark with a rooftop infinity pool, observation deck, luxury shopping, and the spectacular light & water show at night.', image: 'https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Gardens by the Bay', description: 'Futuristic nature park featuring the iconic Supertree Grove, Cloud Forest, and Flower Dome. The light show at night is mesmerizing.', image: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Sentosa Island', description: 'A resort island with Universal Studios, S.E.A. Aquarium, Adventure Cove, beaches, and cable car rides. Perfect for families and thrill-seekers.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Marina Bay Sands', description: 'Singapore\'s most iconic landmark with a rooftop infinity pool, observation deck, luxury shopping, and the spectacular light & water show at night.', image: '' },
+      { name: 'Gardens by the Bay', description: 'Futuristic nature park featuring the iconic Supertree Grove, Cloud Forest, and Flower Dome. The light show at night is mesmerizing.', image: '' },
+      { name: 'Sentosa Island', description: 'A resort island with Universal Studios, S.E.A. Aquarium, Adventure Cove, beaches, and cable car rides. Perfect for families and thrill-seekers.', image: '' },
     ],
     aboutPackagesHeading: 'About Singapore Tour Packages',
     aboutPackagesParagraphs: [
@@ -1250,13 +1250,13 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'vietnam': {
     slug: 'vietnam',
     name: 'Vietnam',
-    heroImage: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: '',
     heroTitle: 'Vietnam Tour Packages 2026 | Land of the Ascending Dragon',
     heroDescription: 'Explore the breathtaking landscapes of Vietnam — from the emerald waters of Ha Long Bay and the ancient streets of Hanoi to the vibrant energy of Ho Chi Minh City and the terraced rice fields of Sapa. Vietnam offers stunning natural beauty, rich history, and incredible cuisine.',
     packages: [
       { name: 'Vietnam', duration: '6D / 5N', price: 53999, highlights: ['Ha Long Bay', 'Hanoi', 'Ho Chi Minh City', 'Hoi An'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Ha Long Bay — UNESCO World Heritage' },
+    featuredImage: { src: '', caption: 'Ha Long Bay — UNESCO World Heritage' },
     aboutHeading: 'Vietnam — Land of the Ascending Dragon',
     aboutParagraphs: [
       'Vietnam is a Southeast Asian gem stretching along the eastern coast of the Indochinese Peninsula. The country offers an incredible diversity of landscapes — from the limestone karsts of Ha Long Bay to the lush rice paddies of the north and the bustling streets of Ho Chi Minh City.',
@@ -1271,9 +1271,9 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🕌', text: 'Rich History & Culture' },
     ],
     placesToVisit: [
-      { name: 'Ha Long Bay', description: 'A UNESCO World Heritage Site with thousands of limestone karsts and islands rising from emerald waters. Overnight cruises offer kayaking, cave exploration, and stunning sunsets.', image: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Hanoi', description: 'Vietnam\'s charming capital with French colonial architecture, the Old Quarter, Ho Chi Minh Mausoleum, and legendary street food. A city that beautifully blends old and new.', image: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Ho Chi Minh City', description: 'Vietnam\'s largest city, a dynamic metropolis with French colonial landmarks, war museums, vibrant markets, and an incredible food scene.', image: 'https://images.pexels.com/photos/777059/pexels-photo-777059.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Ha Long Bay', description: 'A UNESCO World Heritage Site with thousands of limestone karsts and islands rising from emerald waters. Overnight cruises offer kayaking, cave exploration, and stunning sunsets.', image: '' },
+      { name: 'Hanoi', description: 'Vietnam\'s charming capital with French colonial architecture, the Old Quarter, Ho Chi Minh Mausoleum, and legendary street food. A city that beautifully blends old and new.', image: '' },
+      { name: 'Ho Chi Minh City', description: 'Vietnam\'s largest city, a dynamic metropolis with French colonial landmarks, war museums, vibrant markets, and an incredible food scene.', image: '' },
     ],
     aboutPackagesHeading: 'About Vietnam Tour Packages',
     aboutPackagesParagraphs: [
@@ -1298,14 +1298,14 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'thailand': {
     slug: 'thailand',
     name: 'Thailand',
-    heroImage: 'https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: '',
     heroTitle: 'Thailand Tour Packages 2026 | Land of Smiles',
     heroDescription: 'Discover the magic of Thailand — from the bustling streets of Bangkok and glittering temples to the tropical paradise of Pattaya\'s beaches. Our Thailand packages offer the perfect mix of culture, adventure, nightlife, and relaxation.',
     packages: [
       { name: 'Thailand', duration: '5D / 4N', price: 26999, highlights: ['Bangkok', 'Pattaya', 'Grand Palace', 'Floating Market'] },
       { name: 'Bangkok Pattaya', duration: '5D / 4N', price: 42000, highlights: ['Grand Palace', 'Coral Island', 'Alcazar Show', 'Safari World'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Grand Palace — Bangkok, Thailand' },
+    featuredImage: { src: '', caption: 'Grand Palace — Bangkok, Thailand' },
     aboutHeading: 'Thailand — Land of Smiles',
     aboutParagraphs: [
       'Thailand is Southeast Asia\'s most popular tourist destination, famous for its ornate temples, pristine beaches, vibrant street life, and incredible cuisine. Bangkok\'s Grand Palace and floating markets are world-renowned.',
@@ -1320,9 +1320,9 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🐘', text: 'Safari World' },
     ],
     placesToVisit: [
-      { name: 'Bangkok', description: 'Thailand\'s vibrant capital with the magnificent Grand Palace, Wat Pho, floating markets, bustling Khao San Road, and world-class shopping at MBK and Chatuchak Market.', image: 'https://images.pexels.com/photos/1659438/pexels-photo-1659438.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Pattaya', description: 'A lively beach resort city with Coral Island, water sports, Nong Nooch Garden, the famous Alcazar cabaret show, and vibrant Walking Street nightlife.', image: 'https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Coral Island (Koh Larn)', description: 'A beautiful island just 45 minutes from Pattaya with crystal-clear waters, white sand beaches, snorkeling, parasailing, and water activities.', image: 'https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Bangkok', description: 'Thailand\'s vibrant capital with the magnificent Grand Palace, Wat Pho, floating markets, bustling Khao San Road, and world-class shopping at MBK and Chatuchak Market.', image: '' },
+      { name: 'Pattaya', description: 'A lively beach resort city with Coral Island, water sports, Nong Nooch Garden, the famous Alcazar cabaret show, and vibrant Walking Street nightlife.', image: '' },
+      { name: 'Coral Island (Koh Larn)', description: 'A beautiful island just 45 minutes from Pattaya with crystal-clear waters, white sand beaches, snorkeling, parasailing, and water activities.', image: '' },
     ],
     aboutPackagesHeading: 'About Thailand Tour Packages',
     aboutPackagesParagraphs: [
@@ -1349,13 +1349,13 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'bhutan': {
     slug: 'bhutan',
     name: 'Bhutan',
-    heroImage: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    heroImage: '',
     heroTitle: 'Bhutan Tour Packages 2026 | Land of the Thunder Dragon',
     heroDescription: 'Discover the last Shangri-La — Bhutan, a mystical Himalayan kingdom of ancient monasteries, dramatic dzongs, pristine forests, and the philosophy of Gross National Happiness. Trek to the iconic Tiger\'s Nest and experience a culture untouched by time.',
     packages: [
       { name: 'Bhutan', duration: '6D / 5N', price: 29999, highlights: ['Tiger\'s Nest', 'Thimphu', 'Paro', 'Punakha Dzong'] },
     ],
-    featuredImage: { src: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=1200', caption: 'Tiger\'s Nest Monastery — Paro, Bhutan' },
+    featuredImage: { src: '', caption: 'Tiger\'s Nest Monastery — Paro, Bhutan' },
     aboutHeading: 'Bhutan — Land of the Thunder Dragon',
     aboutParagraphs: [
       'Bhutan is the world\'s only carbon-negative country and a Himalayan kingdom that measures success by Gross National Happiness. Ancient Buddhist monasteries, dramatic dzongs (fortress-monasteries), and pristine forests make it a truly unique destination.',
@@ -1370,9 +1370,9 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '😊', text: 'Gross National Happiness' },
     ],
     placesToVisit: [
-      { name: 'Tiger\'s Nest (Paro Taktsang)', description: 'Bhutan\'s most iconic landmark — a sacred Buddhist monastery clinging to a cliff face at 3,120 m. The 2-3 hour hike through pine forests offers breathtaking views and a deeply spiritual experience.', image: 'https://images.pexels.com/photos/2104882/pexels-photo-2104882.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Punakha Dzong', description: 'The most beautiful dzong in Bhutan, set at the confluence of two rivers. This fortress-monastery served as the capital and is a masterpiece of Bhutanese architecture.', image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=600' },
-      { name: 'Thimphu', description: 'Bhutan\'s capital city with the giant Buddha Dordenma statue, Tashichho Dzong, Memorial Chorten, and the only capital in the world without traffic lights.', image: 'https://images.pexels.com/photos/414746/pexels-photo-414746.jpeg?auto=compress&cs=tinysrgb&w=600' },
+      { name: 'Tiger\'s Nest (Paro Taktsang)', description: 'Bhutan\'s most iconic landmark — a sacred Buddhist monastery clinging to a cliff face at 3,120 m. The 2-3 hour hike through pine forests offers breathtaking views and a deeply spiritual experience.', image: '' },
+      { name: 'Punakha Dzong', description: 'The most beautiful dzong in Bhutan, set at the confluence of two rivers. This fortress-monastery served as the capital and is a masterpiece of Bhutanese architecture.', image: '' },
+      { name: 'Thimphu', description: 'Bhutan\'s capital city with the giant Buddha Dordenma statue, Tashichho Dzong, Memorial Chorten, and the only capital in the world without traffic lights.', image: '' },
     ],
     aboutPackagesHeading: 'About Bhutan Tour Packages',
     aboutPackagesParagraphs: [
