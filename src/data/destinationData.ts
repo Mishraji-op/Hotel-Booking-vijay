@@ -1152,14 +1152,14 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'malaysia': {
     slug: 'malaysia',
     name: 'Malaysia',
-    heroImage: '',
+    heroImage: 'https://plus.unsplash.com/premium_photo-1678303397238-76250a5ebf73?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFsYXlzaWF8ZW58MHx8MHx8fDA%3D',
     heroTitle: 'Malaysia Tour Packages 2026 | Truly Asia',
     heroDescription: 'Experience the best of Southeast Asia — from the iconic Petronas Twin Towers of Kuala Lumpur to the pristine beaches of Langkawi, ancient Batu Caves, and the cultural melting pot of George Town. Malaysia offers modern luxury, natural beauty, and diverse cuisine.',
     packages: [
       { name: 'Malaysia', duration: '6D / 5N', price: 21500, highlights: ['Petronas Towers', 'Batu Caves', 'Genting Highlands', 'KL City Tour'] },
       { name: 'Malaysia Explorer', duration: '8D / 7N', price: 45500, highlights: ['Kuala Lumpur', 'Langkawi', 'Penang', 'Cameron Highlands'] },
     ],
-    featuredImage: { src: '', caption: 'Petronas Twin Towers — Kuala Lumpur' },
+    featuredImage: { src: 'https://images.unsplash.com/photo-1597148543182-830ef7bbb904?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UGV0cm9uYXMlMjBUd2luJTIwVG93ZXJzfGVufDB8fDB8fHww', caption: 'Petronas Twin Towers — Kuala Lumpur' },
     aboutHeading: 'Malaysia — Truly Asia',
     aboutParagraphs: [
       'Malaysia is a vibrant Southeast Asian nation that perfectly blends modernity with tradition. The iconic Petronas Twin Towers dominate the Kuala Lumpur skyline, while ancient rainforests, tropical islands, and multicultural heritage create a diverse travel experience.',
@@ -1174,10 +1174,10 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🏛️', text: 'George Town Heritage' },
     ],
     placesToVisit: [
-      { name: 'Kuala Lumpur', description: 'Malaysia\'s capital city, home to the iconic Petronas Twin Towers, bustling Bukit Bintang shopping district, historic Merdeka Square, and the vibrant Jalan Alor food street.', image: '' },
-      { name: 'Langkawi', description: 'A duty-free tropical island paradise with stunning beaches, the Sky Bridge, mangrove tours, and island-hopping adventures. Perfect for relaxation and water sports.', image: '' },
-      { name: 'Batu Caves', description: 'A series of limestone caves housing Hindu temples, dominated by a 42.7 m golden statue of Lord Murugan. The 272-step climb to the main temple cave is a cultural highlight.', image: '' },
-      { name: 'Penang (George Town)', description: 'A UNESCO World Heritage city famous for its colonial architecture, vibrant street art, and arguably the best street food in Asia. A multicultural melting pot of Malay, Chinese, and Indian cultures.', image: '' },
+      { name: 'Kuala Lumpur', description: 'Malaysia\'s capital city, home to the iconic Petronas Twin Towers, bustling Bukit Bintang shopping district, historic Merdeka Square, and the vibrant Jalan Alor food street.', image: 'https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S3VhbGElMjBMdW1wdXJ8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Langkawi', description: 'A duty-free tropical island paradise with stunning beaches, the Sky Bridge, mangrove tours, and island-hopping adventures. Perfect for relaxation and water sports.', image: 'https://plus.unsplash.com/premium_photo-1664121799894-eb6c2af13bc8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TGFuZ2thd2l8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Batu Caves', description: 'A series of limestone caves housing Hindu temples, dominated by a 42.7 m golden statue of Lord Murugan. The 272-step climb to the main temple cave is a cultural highlight.', image: 'https://plus.unsplash.com/premium_photo-1661897264411-9d1915616451?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QmF0dSUyMENhdmVzfGVufDB8fDB8fHww' },
+      { name: 'Penang (George Town)', description: 'A UNESCO World Heritage city famous for its colonial architecture, vibrant street art, and arguably the best street food in Asia. A multicultural melting pot of Malay, Chinese, and Indian cultures.', image: 'https://plus.unsplash.com/premium_photo-1697730180268-074f29522eab?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UGVuYW5nJTIwKEdlb3JnZSUyMFRvd258ZW58MHx8MHx8fDA%3D' },
     ],
     aboutPackagesHeading: 'About Malaysia Tour Packages',
     aboutPackagesParagraphs: [
@@ -1203,13 +1203,13 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'singapore': {
     slug: 'singapore',
     name: 'Singapore',
-    heroImage: '',
+    heroImage: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8U0lOR0FQT1JFfGVufDB8fDB8fHww',
     heroTitle: 'Singapore Tour Packages 2026 | The Lion City',
     heroDescription: 'Experience the dazzling city-state of Singapore — futuristic gardens, world-class shopping, vibrant hawker centers, and iconic landmarks. From Marina Bay Sands to Sentosa Island, Singapore is the perfect blend of modern luxury and cultural heritage.',
     packages: [
       { name: 'Singapore', duration: '4D / 3N', price: 89999, highlights: ['Marina Bay Sands', 'Sentosa Island', 'Gardens by the Bay', 'Universal Studios'] },
     ],
-    featuredImage: { src: '', caption: 'Marina Bay Sands — Singapore Skyline' },
+    featuredImage: { src: 'https://plus.unsplash.com/premium_photo-1697730328915-a4ef880d00bf?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TWFyaW5hJTIwQmF5JTIwU2FuZHN8ZW58MHx8MHx8fDA%3D', caption: 'Marina Bay Sands — Singapore Skyline' },
     aboutHeading: 'Singapore — The Lion City',
     aboutParagraphs: [
       'Singapore is a stunning city-state that punches far above its size. The futuristic skyline of Marina Bay, the lush Gardens by the Bay, and world-class attractions like Universal Studios make it one of Asia\'s top travel destinations.',
@@ -1224,9 +1224,9 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🛍️', text: 'Orchard Road Shopping' },
     ],
     placesToVisit: [
-      { name: 'Marina Bay Sands', description: 'Singapore\'s most iconic landmark with a rooftop infinity pool, observation deck, luxury shopping, and the spectacular light & water show at night.', image: '' },
-      { name: 'Gardens by the Bay', description: 'Futuristic nature park featuring the iconic Supertree Grove, Cloud Forest, and Flower Dome. The light show at night is mesmerizing.', image: '' },
-      { name: 'Sentosa Island', description: 'A resort island with Universal Studios, S.E.A. Aquarium, Adventure Cove, beaches, and cable car rides. Perfect for families and thrill-seekers.', image: '' },
+      { name: 'Marina Bay Sands', description: 'Singapore\'s most iconic landmark with a rooftop infinity pool, observation deck, luxury shopping, and the spectacular light & water show at night.', image: 'https://images.unsplash.com/photo-1572148884483-794c9b6c6963?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWFyaW5hJTIwQmF5JTIwU2FuZHN8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Gardens by the Bay', description: 'Futuristic nature park featuring the iconic Supertree Grove, Cloud Forest, and Flower Dome. The light show at night is mesmerizing.', image: 'https://images.unsplash.com/photo-1552415274-73ad7198cb93?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8R2FyZGVucyUyMGJ5JTIwdGhlJTIwQmF5fGVufDB8fDB8fHww' },
+      { name: 'Sentosa Island', description: 'A resort island with Universal Studios, S.E.A. Aquarium, Adventure Cove, beaches, and cable car rides. Perfect for families and thrill-seekers.', image: 'https://plus.unsplash.com/premium_photo-1668883188861-39974ed9ad99?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8U2VudG9zYSUyMElzbGFuZHxlbnwwfHwwfHx8MA%3D%3D' },
     ],
     aboutPackagesHeading: 'About Singapore Tour Packages',
     aboutPackagesParagraphs: [
@@ -1250,13 +1250,13 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'vietnam': {
     slug: 'vietnam',
     name: 'Vietnam',
-    heroImage: '',
+    heroImage: 'https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8VklFVE5BTXxlbnwwfHwwfHx8MA%3D%3D',
     heroTitle: 'Vietnam Tour Packages 2026 | Land of the Ascending Dragon',
     heroDescription: 'Explore the breathtaking landscapes of Vietnam — from the emerald waters of Ha Long Bay and the ancient streets of Hanoi to the vibrant energy of Ho Chi Minh City and the terraced rice fields of Sapa. Vietnam offers stunning natural beauty, rich history, and incredible cuisine.',
     packages: [
       { name: 'Vietnam', duration: '6D / 5N', price: 53999, highlights: ['Ha Long Bay', 'Hanoi', 'Ho Chi Minh City', 'Hoi An'] },
     ],
-    featuredImage: { src: '', caption: 'Ha Long Bay — UNESCO World Heritage' },
+    featuredImage: { src: 'https://images.unsplash.com/photo-1676836186628-7a2786e4c9a3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8SGElMjBMb25nJTIwQmF5fGVufDB8fDB8fHww', caption: 'Ha Long Bay — UNESCO World Heritage' },
     aboutHeading: 'Vietnam — Land of the Ascending Dragon',
     aboutParagraphs: [
       'Vietnam is a Southeast Asian gem stretching along the eastern coast of the Indochinese Peninsula. The country offers an incredible diversity of landscapes — from the limestone karsts of Ha Long Bay to the lush rice paddies of the north and the bustling streets of Ho Chi Minh City.',
@@ -1271,9 +1271,9 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🕌', text: 'Rich History & Culture' },
     ],
     placesToVisit: [
-      { name: 'Ha Long Bay', description: 'A UNESCO World Heritage Site with thousands of limestone karsts and islands rising from emerald waters. Overnight cruises offer kayaking, cave exploration, and stunning sunsets.', image: '' },
-      { name: 'Hanoi', description: 'Vietnam\'s charming capital with French colonial architecture, the Old Quarter, Ho Chi Minh Mausoleum, and legendary street food. A city that beautifully blends old and new.', image: '' },
-      { name: 'Ho Chi Minh City', description: 'Vietnam\'s largest city, a dynamic metropolis with French colonial landmarks, war museums, vibrant markets, and an incredible food scene.', image: '' },
+      { name: 'Ha Long Bay', description: 'A UNESCO World Heritage Site with thousands of limestone karsts and islands rising from emerald waters. Overnight cruises offer kayaking, cave exploration, and stunning sunsets.', image: 'https://images.unsplash.com/photo-1593994602837-530142086918?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEhhJTIwTG9uZyUyMEJheXxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Hanoi', description: 'Vietnam\'s charming capital with French colonial architecture, the Old Quarter, Ho Chi Minh Mausoleum, and legendary street food. A city that beautifully blends old and new.', image: 'https://images.unsplash.com/photo-1616438096679-620332ede3a2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8SGFub2l8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Ho Chi Minh City', description: 'Vietnam\'s largest city, a dynamic metropolis with French colonial landmarks, war museums, vibrant markets, and an incredible food scene.', image: 'https://images.unsplash.com/photo-1680525534259-773f7e73b687?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aG8lMjBjaGklMjBtaW5oJTIwY2l0eXxlbnwwfHwwfHx8MA%3D%3D' },
     ],
     aboutPackagesHeading: 'About Vietnam Tour Packages',
     aboutPackagesParagraphs: [
@@ -1298,14 +1298,14 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'thailand': {
     slug: 'thailand',
     name: 'Thailand',
-    heroImage: '',
+    heroImage: 'https://images.unsplash.com/photo-1534008897995-27a23e859048?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRIQUlMQU5EfGVufDB8fDB8fHww',
     heroTitle: 'Thailand Tour Packages 2026 | Land of Smiles',
     heroDescription: 'Discover the magic of Thailand — from the bustling streets of Bangkok and glittering temples to the tropical paradise of Pattaya\'s beaches. Our Thailand packages offer the perfect mix of culture, adventure, nightlife, and relaxation.',
     packages: [
       { name: 'Thailand', duration: '5D / 4N', price: 26999, highlights: ['Bangkok', 'Pattaya', 'Grand Palace', 'Floating Market'] },
       { name: 'Bangkok Pattaya', duration: '5D / 4N', price: 42000, highlights: ['Grand Palace', 'Coral Island', 'Alcazar Show', 'Safari World'] },
     ],
-    featuredImage: { src: '', caption: 'Grand Palace — Bangkok, Thailand' },
+    featuredImage: { src: 'https://images.unsplash.com/photo-1668107710159-10fbbab2a9dd?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QmFuZ2tvayUyQyUyMFRoYWlsYW5kfGVufDB8fDB8fHww', caption: 'Grand Palace — Bangkok, Thailand' },
     aboutHeading: 'Thailand — Land of Smiles',
     aboutParagraphs: [
       'Thailand is Southeast Asia\'s most popular tourist destination, famous for its ornate temples, pristine beaches, vibrant street life, and incredible cuisine. Bangkok\'s Grand Palace and floating markets are world-renowned.',
@@ -1320,9 +1320,9 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '🐘', text: 'Safari World' },
     ],
     placesToVisit: [
-      { name: 'Bangkok', description: 'Thailand\'s vibrant capital with the magnificent Grand Palace, Wat Pho, floating markets, bustling Khao San Road, and world-class shopping at MBK and Chatuchak Market.', image: '' },
-      { name: 'Pattaya', description: 'A lively beach resort city with Coral Island, water sports, Nong Nooch Garden, the famous Alcazar cabaret show, and vibrant Walking Street nightlife.', image: '' },
-      { name: 'Coral Island (Koh Larn)', description: 'A beautiful island just 45 minutes from Pattaya with crystal-clear waters, white sand beaches, snorkeling, parasailing, and water activities.', image: '' },
+      { name: 'Bangkok', description: 'Thailand\'s vibrant capital with the magnificent Grand Palace, Wat Pho, floating markets, bustling Khao San Road, and world-class shopping at MBK and Chatuchak Market.', image: 'https://images.unsplash.com/photo-1552550018-5253c1b171e1?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fEJhbmdrb2t8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Pattaya', description: 'A lively beach resort city with Coral Island, water sports, Nong Nooch Garden, the famous Alcazar cabaret show, and vibrant Walking Street nightlife.', image: 'https://images.unsplash.com/photo-1599851245208-c1e43c053710?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UGF0dGF5YXxlbnwwfHwwfHx8MA%3D%3D' },
+      { name: 'Coral Island (Koh Larn)', description: 'A beautiful island just 45 minutes from Pattaya with crystal-clear waters, white sand beaches, snorkeling, parasailing, and water activities.', image: 'https://images.unsplash.com/photo-1650094558002-22937eb94be6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q29yYWwlMjBJc2xhbmR8ZW58MHx8MHx8fDA%3D' },
     ],
     aboutPackagesHeading: 'About Thailand Tour Packages',
     aboutPackagesParagraphs: [
@@ -1349,13 +1349,13 @@ export const destinationDetails: Record<string, DestinationDetail> = {
   'bhutan': {
     slug: 'bhutan',
     name: 'Bhutan',
-    heroImage: '',
+    heroImage: 'https://images.unsplash.com/photo-1650747858910-5d48a4116296?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Ymh1dGFufGVufDB8fDB8fHww',
     heroTitle: 'Bhutan Tour Packages 2026 | Land of the Thunder Dragon',
     heroDescription: 'Discover the last Shangri-La — Bhutan, a mystical Himalayan kingdom of ancient monasteries, dramatic dzongs, pristine forests, and the philosophy of Gross National Happiness. Trek to the iconic Tiger\'s Nest and experience a culture untouched by time.',
     packages: [
       { name: 'Bhutan', duration: '6D / 5N', price: 29999, highlights: ['Tiger\'s Nest', 'Thimphu', 'Paro', 'Punakha Dzong'] },
     ],
-    featuredImage: { src: '', caption: 'Tiger\'s Nest Monastery — Paro, Bhutan' },
+    featuredImage: { src: 'https://plus.unsplash.com/premium_photo-1697729736968-dbaf069935c9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8UGFybyUyQyUyMEJodXRhbnxlbnwwfHwwfHx8MA%3D%3D', caption: 'Tiger\'s Nest Monastery — Paro, Bhutan' },
     aboutHeading: 'Bhutan — Land of the Thunder Dragon',
     aboutParagraphs: [
       'Bhutan is the world\'s only carbon-negative country and a Himalayan kingdom that measures success by Gross National Happiness. Ancient Buddhist monasteries, dramatic dzongs (fortress-monasteries), and pristine forests make it a truly unique destination.',
@@ -1370,9 +1370,9 @@ export const destinationDetails: Record<string, DestinationDetail> = {
       { emoji: '😊', text: 'Gross National Happiness' },
     ],
     placesToVisit: [
-      { name: 'Tiger\'s Nest (Paro Taktsang)', description: 'Bhutan\'s most iconic landmark — a sacred Buddhist monastery clinging to a cliff face at 3,120 m. The 2-3 hour hike through pine forests offers breathtaking views and a deeply spiritual experience.', image: '' },
-      { name: 'Punakha Dzong', description: 'The most beautiful dzong in Bhutan, set at the confluence of two rivers. This fortress-monastery served as the capital and is a masterpiece of Bhutanese architecture.', image: '' },
-      { name: 'Thimphu', description: 'Bhutan\'s capital city with the giant Buddha Dordenma statue, Tashichho Dzong, Memorial Chorten, and the only capital in the world without traffic lights.', image: '' },
+      { name: 'Tiger\'s Nest (Paro Taktsang)', description: 'Bhutan\'s most iconic landmark — a sacred Buddhist monastery clinging to a cliff face at 3,120 m. The 2-3 hour hike through pine forests offers breathtaking views and a deeply spiritual experience.', image: 'https://images.unsplash.com/photo-1638246438556-5d5042582f05?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8KFBhcm8lMjBUYWt0c2FuZyl8ZW58MHx8MHx8fDA%3D' },
+      { name: 'Punakha Dzong', description: 'The most beautiful dzong in Bhutan, set at the confluence of two rivers. This fortress-monastery served as the capital and is a masterpiece of Bhutanese architecture.', image: 'https://images.unsplash.com/photo-1602058033339-b9325bb3a6c3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UHVuYWtoYSUyMER6b25nfGVufDB8fDB8fHww' },
+      { name: 'Thimphu', description: 'Bhutan\'s capital city with the giant Buddha Dordenma statue, Tashichho Dzong, Memorial Chorten, and the only capital in the world without traffic lights.', image: 'https://images.unsplash.com/photo-1629778662699-b6c4362230d9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8VGhpbXBodXxlbnwwfHwwfHx8MA%3D%3D' },
     ],
     aboutPackagesHeading: 'About Bhutan Tour Packages',
     aboutPackagesParagraphs: [
