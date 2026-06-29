@@ -932,23 +932,23 @@ function HomePage() {
   });
 
   const GOOGLE_SCRIPT_URL = "";
-
+  //first page ka crousel made by mishraji king
   const heroSlides = [
     {
       image:
-        "https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=1920",
+        "https://images.unsplash.com/photo-1584732200355-486a95263014?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       title: "Discover Kashmir",
       subtitle: "Paradise on Earth",
     },
     {
       image:
-        "https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=1920",
+        "https://images.unsplash.com/photo-1619103801164-1166263cb3b6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGFuZ29uZyUyMGxha2V8ZW58MHx8MHx8fDA%3D",
       title: "Conquer Ladakh",
       subtitle: "Land of High Passes",
     },
     {
       image:
-        "https://images.pexels.com/photos/2905570/pexels-photo-2905570.jpeg?auto=compress&cs=tinysrgb&w=1920",
+        "https://images.unsplash.com/photo-1652131812743-07bc5dde8b91?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHNwaXRpJTIwdmFsbGV5fGVufDB8fDB8fHww",
       title: "Explore Spiti",
       subtitle: "The Middle Land",
     },
@@ -1150,7 +1150,7 @@ function HomePage() {
               <p
                 className={`text-xs font-medium leading-none mt-0.5 ${isScrolled ? "text-primary-600" : "text-white/70"}`}
               >
-                Holidays
+                Holiday
               </p>
             </div>
           </button>
@@ -1178,6 +1178,13 @@ function HomePage() {
             >
               <Phone className="w-4 h-4" />
               <span>+91 98171 53799</span>
+            </a>
+            <span className={`text-xs ${isScrolled ? "text-gray-400" : "text-white/50"}`}>|</span>
+            <a
+              href="tel:+918894533629"
+              className={`flex items-center gap-1.5 text-sm font-medium ${isScrolled ? "text-gray-600" : "text-white/80"}`}
+            >
+              <span>+91 88945 33629</span>
             </a>
             <button
               onClick={() => scrollToSection("contact")}
@@ -1545,7 +1552,7 @@ function HomePage() {
                 <div className="relative">
                   <img
                     src="/images/weddings/pankaj.jpeg"
-                    alt="Pankaj Thakur — Founder, Him Yatra Holidays"
+                    alt="Pankaj Thakur — Founder, Him Yatra Holiday"
                     className="rounded-2xl shadow-2xl w-full object-cover"
                   />
                   {/* Founder badge */}
@@ -1590,7 +1597,7 @@ function HomePage() {
                 Crafting Himalayan Dreams Since 2018
               </h2>
               <p className="text-gray-600 text-lg mb-5 leading-relaxed">
-                Him Yatra Holidays was born from a single conviction — that
+                Him Yatra Holiday was born from a single conviction — that
                 everyone deserves to stand atop a Himalayan pass, float on a
                 mountain lake and return home changed forever.
               </p>
@@ -1995,13 +2002,13 @@ function HomePage() {
             {/* Info */}
             <div className="lg:col-span-2 space-y-6">
               {[
-                { icon: Phone, label: "Phone", lines: ["+91 98171 53799"] },
+                { icon: Phone, label: "Phone", lines: ["+91 98171 53799", "+91 88945 33629"] },
                 {
                   icon: Mail,
                   label: "Email",
                   lines: [
-                    "info@himyatraholidays.com",
-                    "bookings@himyatraholidays.com",
+                    "info@himyatraholiday.com",
+                    "bookings@himyatraholiday.com",
                   ],
                 },
                 {
@@ -2274,7 +2281,7 @@ function HomePage() {
                 />
                 <div>
                   <p className="font-display text-xl font-bold">Him Yatra</p>
-                  <p className="text-gray-400 text-xs">Holidays</p>
+                  <p className="text-gray-400 text-xs">Holiday</p>
                 </div>
               </div>
               <p className="text-gray-400 text-sm leading-relaxed">
@@ -2326,11 +2333,11 @@ function HomePage() {
               <ul className="space-y-3">
                 <li className="flex items-center gap-3 text-gray-400 text-sm">
                   <Phone className="w-4 h-4 text-primary-400 flex-shrink-0" />
-                  +91 98171 53799
+                  +91 98171 53799 / +91 88945 33629
                 </li>
                 <li className="flex items-center gap-3 text-gray-400 text-sm">
                   <Mail className="w-4 h-4 text-primary-400 flex-shrink-0" />
-                  info@himyatraholidays.com
+                  info@himyatraholiday.com
                 </li>
                 <li className="flex items-start gap-3 text-gray-400 text-sm">
                   <MapPin className="w-4 h-4 text-primary-400 flex-shrink-0 mt-0.5" />
@@ -2346,7 +2353,7 @@ function HomePage() {
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
             <p className="text-gray-500">
-              {new Date().getFullYear()} Him Yatra Holidays. All rights
+              {new Date().getFullYear()} Him Yatra Holiday. All rights
               reserved.
             </p>
             <div className="flex gap-5">

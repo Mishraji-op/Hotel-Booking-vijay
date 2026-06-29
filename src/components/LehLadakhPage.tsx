@@ -214,7 +214,7 @@ export default function LehLadakhPage() {
             <img src="/images/weddings/Logo.png" alt="Him Yatra Logo" className="w-11 h-11 rounded-xl object-contain shadow-lg group-hover:scale-105 transition-transform" />
             <div className="text-left">
               <p className={`font-display text-lg font-bold leading-none ${isScrolled ? 'text-gray-900' : 'text-white'}`}>Him Yatra</p>
-              <p className={`text-xs font-medium leading-none mt-0.5 ${isScrolled ? 'text-primary-600' : 'text-white/70'}`}>Holidays</p>
+              <p className={`text-xs font-medium leading-none mt-0.5 ${isScrolled ? 'text-primary-600' : 'text-white/70'}`}>Holiday</p>
             </div>
           </Link>
 
@@ -225,7 +225,7 @@ export default function LehLadakhPage() {
             </Link>
             <a href="tel:+919817153799" className={`hidden md:flex items-center gap-1.5 text-sm font-medium ${isScrolled ? 'text-gray-600' : 'text-white/80'}`}>
               <Phone className="w-4 h-4" />
-              +91 98171 53799
+              +91 98171 53799 | +91 88945 33629
             </a>
             <button
               onClick={scrollToEnquiry}
@@ -856,7 +856,7 @@ export default function LehLadakhPage() {
                 <img src="/images/weddings/Logo.png" alt="Him Yatra Logo" className="w-11 h-11 rounded-xl object-contain" />
                 <div>
                   <p className="font-display text-xl font-bold">Him Yatra</p>
-                  <p className="text-gray-400 text-xs">Holidays</p>
+                  <p className="text-gray-400 text-xs">Holiday</p>
                 </div>
               </Link>
               <p className="text-gray-400 text-sm leading-relaxed">
@@ -891,7 +891,7 @@ export default function LehLadakhPage() {
               <ul className="space-y-3">
                 <li className="flex items-center gap-3 text-gray-400 text-sm">
                   <Phone className="w-4 h-4 text-primary-400 flex-shrink-0" />
-                  +91 98171 53799
+                  +91 98171 53799 / +91 88945 33629
                 </li>
                 <li className="flex items-center gap-3 text-gray-400 text-sm">
                   <MapPin className="w-4 h-4 text-primary-400 flex-shrink-0" />
@@ -906,7 +906,7 @@ export default function LehLadakhPage() {
           </div>
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-            <p className="text-gray-500">{new Date().getFullYear()} Him Yatra Holidays. All rights reserved.</p>
+            <p className="text-gray-500">{new Date().getFullYear()} Him Yatra Holiday. All rights reserved.</p>
             <div className="flex gap-5">
               {['Privacy Policy', 'Terms of Service', 'Cancellation Policy'].map(l => (
                 <a key={l} href="#" className="text-gray-500 hover:text-white transition-colors">{l}</a>

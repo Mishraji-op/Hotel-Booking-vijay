@@ -167,7 +167,7 @@ export default function DestinationPage() {
             <img src="/images/weddings/Logo.png" alt="Him Yatra Logo" className="w-11 h-11 rounded-xl object-contain shadow-lg group-hover:scale-105 transition-transform" />
             <div className="text-left">
               <p className={`font-display text-lg font-bold leading-none ${isScrolled ? 'text-gray-900' : 'text-white'}`}>Him Yatra</p>
-              <p className={`text-xs font-medium leading-none mt-0.5 ${isScrolled ? 'text-primary-600' : 'text-white/70'}`}>Holidays</p>
+              <p className={`text-xs font-medium leading-none mt-0.5 ${isScrolled ? 'text-primary-600' : 'text-white/70'}`}>Holiday</p>
             </div>
           </Link>
           <div className="flex items-center gap-3">
@@ -175,7 +175,7 @@ export default function DestinationPage() {
               <ArrowLeft className="w-4 h-4" /> Back to Home
             </Link>
             <a href="tel:+919817153799" className={`hidden md:flex items-center gap-1.5 text-sm font-medium ${isScrolled ? 'text-gray-600' : 'text-white/80'}`}>
-              <Phone className="w-4 h-4" /> +91 98171 53799
+              <Phone className="w-4 h-4" /> +91 98171 53799 | +91 88945 33629
             </a>
             <button onClick={scrollToEnquiry} className="bg-gradient-to-r from-accent-500 to-accent-600 text-white px-5 py-2.5 rounded-full font-semibold text-sm hover:shadow-lg hover:shadow-accent-500/30 transition-all duration-300 hover:-translate-y-0.5">
               Get Quote
@@ -585,36 +585,8 @@ export default function DestinationPage() {
         </div>
       </section>
 
-      {/* ═══ 12. NEWSLETTER ══════════════════════════════════════════════════ */}
-      <section className="py-16 bg-white">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Anim>
-            <div className="bg-gradient-to-br from-primary-50 via-white to-accent-50 border border-primary-100 rounded-2xl p-8 md:p-12 text-center shadow-sm">
-              <h2 className="font-display text-2xl md:text-3xl font-bold text-gray-900 mb-3">
-                Get special offers, and more from Him Yatra Holidays
-              </h2>
-              <p className="text-gray-500 mb-8">Subscribe to see secret deals and price drops.</p>
 
-              {subscribed ? (
-                <div className="flex items-center justify-center gap-3 text-emerald-600">
-                  <CheckCircle className="w-6 h-6" />
-                  <span className="font-semibold text-lg">You're subscribed! Check your inbox for deals.</span>
-                </div>
-              ) : (
-                <form onSubmit={handleNewsletter} className="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto">
-                  <input
-                    type="email" required placeholder="Enter your email address" value={newsletterEmail} onChange={e => setNewsletterEmail(e.target.value)}
-                    className="flex-1 px-5 py-3.5 border border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-transparent outline-none text-sm shadow-sm" />
-                  <button type="submit" disabled={subscribing}
-                    className="bg-gradient-to-r from-primary-600 to-primary-700 text-white px-8 py-3.5 rounded-xl font-bold text-sm hover:shadow-lg hover:shadow-primary-500/30 transition-all disabled:opacity-60 flex-shrink-0 flex items-center justify-center gap-2">
-                    {subscribing ? <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" /> : 'Subscribe'}
-                  </button>
-                </form>
-              )}
-            </div>
-          </Anim>
-        </div>
-      </section>
+
 
       {/* ═══ FOOTER ═════════════════════════════════════════════════════════ */}
       <footer className="bg-gray-950 text-white pt-16 pb-8">
@@ -623,7 +595,7 @@ export default function DestinationPage() {
             <div>
               <Link to="/" className="flex items-center gap-3 mb-5 group">
                 <img src="/images/weddings/Logo.png" alt="Him Yatra Logo" className="w-11 h-11 rounded-xl object-contain" />
-                <div><p className="font-display text-xl font-bold">Him Yatra</p><p className="text-gray-400 text-xs">Holidays</p></div>
+                <div><p className="font-display text-xl font-bold">Him Yatra</p><p className="text-gray-400 text-xs">Holiday</p></div>
               </Link>
               <p className="text-gray-400 text-sm leading-relaxed">Crafting unforgettable adventures since 2018. 10,000+ happy travellers.</p>
             </div>
@@ -638,8 +610,8 @@ export default function DestinationPage() {
             <div>
               <h4 className="font-bold mb-4 text-sm uppercase tracking-wider text-gray-300">Contact</h4>
               <ul className="space-y-3">
-                <li className="flex items-center gap-3 text-gray-400 text-sm"><Phone className="w-4 h-4 text-primary-400" /> +91 98171 53799</li>
-                <li className="flex items-center gap-3 text-gray-400 text-sm"><Mail className="w-4 h-4 text-primary-400" /> info@himyatraholidays.com</li>
+                <li className="flex items-center gap-3 text-gray-400 text-sm"><Phone className="w-4 h-4 text-primary-400" /> +91 98171 53799 / +91 88945 33629</li>
+                <li className="flex items-center gap-3 text-gray-400 text-sm"><Mail className="w-4 h-4 text-primary-400" /> info@himyatraholiday.com</li>
                 <li className="flex items-center gap-3 text-gray-400 text-sm"><MapPin className="w-4 h-4 text-primary-400" /> Shimla, HP</li>
               </ul>
             </div>
@@ -652,7 +624,7 @@ export default function DestinationPage() {
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-            <p className="text-gray-500">{new Date().getFullYear()} Him Yatra Holidays. All rights reserved.</p>
+            <p className="text-gray-500">{new Date().getFullYear()} Him Yatra Holiday. All rights reserved.</p>
             <div className="flex gap-5">
               {['Privacy Policy', 'Terms of Service', 'Cancellation Policy'].map(l => (
                 <a key={l} href="#" className="text-gray-500 hover:text-white transition-colors">{l}</a>
